@@ -1,0 +1,24 @@
+{
+  "name": "innovera",
+  "version": "1.0.0",
+  "description": "Innovera WordPress Theme",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input/front-page.css -o ./src/css/front-page.css --watch --postcss",
+    "build": "tailwindcss -i ./src/input/front-page.css -o ./src/css/front-page.css --minify --postcss",
+    "dev": "npm run watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "swiper": "^11.2.10"
+  }
+}

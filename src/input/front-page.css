@@ -1,0 +1,35 @@
+@import 'swiper/swiper-bundle.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .swiper-slide {
+        transition-timing-function: ease-in-out !important;
+      }
+      .project-tab li{
+        @apply font-medium text-center flex-grow px-5 py-3 transition-all cursor-pointer opacity-60 hover:opacity-100;
+      }
+      .active-tab {
+        @apply bg-[#DD752D] text-white font-medium !opacity-100;
+      }
+      #filters li a{
+        @apply font-medium text-center flex-grow px-5 py-2 transition-all cursor-pointer opacity-60 hover:opacity-100 block;
+      }
+      #filters li a.selected{
+        @apply bg-[#DD752D] text-white font-medium rounded-md !opacity-100;
+      }
+      form label {
+        @apply block text-lg font-normal text-gray-700;
+      }
+      form input {
+        @apply w-full px-4 py-2 bg-secondary-50 border-b border-gray-300 rounded shadow-sm focus:outline-none focus:ring-1 focus:ring-secondary-500;
+      }
+      button.jet-form-builder__submit {
+        @apply bg-secondary-500 text-white font-medium px-5 py-3 rounded hover:bg-secondary-400 focus:border-none focus:outline-none ;
+      }
+      .jet-fb-form-block{
+        @apply w-full;
+      }   
+      
+}

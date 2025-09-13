@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Residem - Single Property Website Template</title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Residem" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <!-- Bootstrap removed - using Tailwind CSS -->
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" > -->
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- custom-css -->
+    <link href="css/swiper-custom-1.css" rel="stylesheet" type="text/css" >
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+
+    <!-- tailwind -->
+    <link href="css/tailwind.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+        
+
+        <header id="header" class="fixed w-full left-0 z-50 transition-transform duration-500">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+                    <div class="w-full">
+                        <div class="bg-white/95 shadow-lg rounded-xl mt-6 px-8 py-4 transition-all duration-300">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html" class="block">
+                                            <img class="h-10" src="images/logo-black.webp" alt="Logo" >
+                                            <img class="h-10 hidden" src="images/logo-black.webp" alt="Logo Scroll" >
+                                            <img class="h-10 hidden md:hidden" src="images/logo-black.webp" alt="Logo Mobile" >
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+
+                                <div class="hidden lg:block">
+                                    <nav>
+                                        <ul class="flex space-x-10">
+                                            <li class="relative group"><a class="text-gray-800 hover:text-[#B68C5A] transition-colors uppercase tracking-wide text-sm font-medium" href="#">Home</a></li>
+                                            <li><a class="text-gray-800 hover:text-primary-500 transition-colors font-medium" href="#section-overview">Overview</a></li>
+                                            <li><a class="text-gray-800 hover:text-primary-500 transition-colors font-medium" href="#section-rooms">Rooms</a></li>
+                                            <li><a class="text-gray-800 hover:text-primary-500 transition-colors font-medium" href="#section-gallery">Gallery</a></li>
+                                            <li><a class="text-gray-800 hover:text-primary-500 transition-colors font-medium" href="#section-floorplan">Floorplan</a></li>
+                                            <li><a class="text-gray-800 hover:text-primary-500 transition-colors font-medium" href="#section-contact">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="flex items-center space-x-4">
+                                    <a class="inline-block px-6 py-3 bg-[#B68C5A] text-white text-sm font-medium uppercase tracking-wide rounded hover:bg-[#96714A] transition-colors" href="#section-contact">
+                                        Schedule a Visit
+                                    </a>
+
+                                    <button class="lg:hidden text-gray-800 hover:text-primary-500 transition-colors">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="section-hero" class="relative min-h-screen text-white">
+            <!-- Hero Content -->
+            <div class="absolute inset-0 z-20 flex items-center justify-center">
+                <div class="container mx-auto px-4">
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h1 class="text-6xl md:text-7xl font-light mb-6 leading-tight">
+                            Elegant and Comfort<br />
+                            in a Modern Space
+                        </h1>
+                        <p class="text-xl text-white/90 mb-10">320 40th Street B4, New York, NY 10019</p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="#section-contact" class="px-10 py-4 bg-[#B68C5A] hover:bg-[#96714A] transition-all duration-300 text-white rounded-lg text-sm uppercase tracking-wider font-medium">
+                                Schedule a Visit
+                            </a>
+                            <a href="#section-overview" class="px-10 py-4 bg-black/20 hover:bg-black/30 backdrop-blur transition-all duration-300 text-white border border-white/20 rounded-lg text-sm uppercase tracking-wider font-medium">
+                                Explore Property
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Background -->
+            <div class="absolute inset-0 z-10">
+                <div class="relative h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/50"></div>
+                    <img src="images/slider/3.webp" class="w-full h-full object-cover" alt="Modern House">
+                </div>
+            </div>
+
+            <!-- Bottom Features -->
+            <div class="absolute bottom-0 left-0 right-0 z-20 pb-16">
+                <div class="container mx-auto px-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <h6 class="text-lg font-light tracking-wider uppercase opacity-90">Spacious Rooms</h6>
+                        </div>
+                        <div class="text-center">
+                            <h6 class="text-lg font-light tracking-wider uppercase opacity-90">Private Garden</h6>
+                        </div>
+                        <div class="text-center">
+                            <h6 class="text-lg font-light tracking-wider uppercase opacity-90">Walk-in Closets</h6>
+                        </div>
+                        <div class="text-center">
+                            <h6 class="text-lg font-light tracking-wider uppercase opacity-90">Swimming Pool</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add scroll behavior JavaScript -->
+        <script>
+            let lastScrollTop = 0;
+            const header = document.getElementById('header');
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                // Add background when scrolling down
+                if (scrollTop > 50) {
+                    header.querySelector('div > div > div').classList.add('bg-white/95');
+                    header.querySelector('div > div > div').classList.add('shadow-lg');
+                } else {
+                    header.querySelector('div > div > div').classList.remove('bg-white/95');
+                    header.querySelector('div > div > div').classList.remove('shadow-lg');
+                }
+                
+                // Hide/Show header based on scroll direction
+                if (scrollTop > lastScrollTop && scrollTop > 100) {
+                    // Scrolling down
+                    header.style.transform = 'translateY(-100%)';
+                } else {
+                    // Scrolling up
+                    header.style.transform = 'translateY(0)';
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+        </script>
+
+        <section id="section-overview" class="py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap gap-16 justify-between">
+                    <div class="lg:w-5/12">
+                        <div class="lg:pr-8">
+                            <span class="text-primary-500 font-medium uppercase tracking-wider mb-4 block">Home Overview</span>
+                            <h2 class="text-4xl font-semibold mb-6">Luxury living where comfort meets timeless style, effortlessly</h2>
+                            <p class="text-gray-600 mb-8">Experience the perfect blend of modern amenities and classic design in our thoughtfully crafted spaces, creating an environment where luxury meets everyday comfort.</p>
+                            <a class="inline-flex items-center px-8 py-4 bg-primary-500 text-white font-medium hover:bg-primary-600 transition-all rounded-lg" href="#section-contact">
+                                <span>Schedule a Visit</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/2">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-gray-50 p-8 rounded-xl">
+                                <img src="images/icons-color/1.png" class="w-16 h-16 mb-6" alt="">
+                                <h4 class="text-xl font-semibold mb-3">Smart Home System</h4>
+                                <p class="text-gray-600">Control your entire home with advanced automation and intelligent systems.</p>
+                            </div>
+
+                            <div class="bg-gray-50 p-8 rounded-xl">
+                                <img src="images/icons-color/2.png" class="w-16 h-16 mb-6" alt="">
+                                <h4 class="text-xl font-semibold mb-3">Solar Energy Panels</h4>
+                                <p class="text-gray-600">Sustainable living with efficient solar power integration and energy savings.</p>
+                            </div>
+
+                            <div class="bg-gray-50 p-8 rounded-xl">
+                                <img src="images/icons-color/3.png" class="w-16 h-16 mb-6" alt="">
+                                <h4 class="text-xl font-semibold mb-3">Central Air Conditioning</h4>
+                                <p class="text-gray-600">Premium climate control system for year-round comfort in every room.</p>
+                            </div>
+
+                            <div class="bg-gray-50 p-8 rounded-xl">
+                                <img src="images/icons-color/4.png" class="w-16 h-16 mb-6" alt="">
+                                <h4 class="text-xl font-semibold mb-3">Home Security System</h4>
+                                <p class="text-gray-600">Advanced security features ensuring peace of mind for your family.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-rooms" class="py-24 bg-[#003333] text-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-primary-500 font-medium uppercase tracking-wider mb-4 block">Room Details</span>
+                    <h2 class="text-4xl font-semibold mb-6">Discover Rooms</h2>
+                </div>
+                <div class="flex flex-wrap wow fadeInUp">
+                    <div class="w-full">
+                        <div class="de-tab pill">
+                            <ul class="d-tab-nav mb-4">
+                                <li class="active-tab">Living Room</li>
+                                <li>Dinning Room</li>
+                                <li>Kitchen</li>
+                                <li>Master Bedroom</li>
+                                <li>Bathroom</li>
+                            </ul>
+                            <ul class="d-tab-content pt-3">
+                                <li>
+                                    <div class="flex flex-wrap gap-4 justify-between">
+                                        <div class="lg:w-1/3">
+                                            <div class="relative bg-dark-2 rounded-1 h-100">
+                                                <h3 class="fs-32 mb-4 p-40">Living Room</h3>
+                                                <div class="abs p-sm-relative bottom-0 p-40 start-0 w-100">
+                                                    <p class="mb-0">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lg:w-2/3">
+                                            <div class="relative">
+                                                <div class="bg-blur abs p-2 bottom-0 rounded-2 px-4 m-4 text-white">
+                                                    <h4 class="mb-0">20 m²</h4>
+                                                </div>
+                                                <img src="images/discover-rooms/l1.webp" class="w-100 rounded-1" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            <li>
+                                <div class="flex flex-wrap gap-4 justify-between">
+                                    <div class="lg:w-1/3">
+                                        <div class="relative bg-dark-2 rounded-1 h-100">
+                                            <h3 class="fs-32 mb-4 p-40">Dinning Room</h3>
+                                            <div class="abs p-sm-relative bottom-0 p-40 start-0 w-100">
+                                                <p class="mb-0">A modern space for cooking and creativity. Equipped with appliances and a central island for easy meal prep.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:w-2/3">
+                                        <div class="relative">
+                                            <div class="bg-blur abs p-2 bottom-0 rounded-2 px-4 m-4 text-white">
+                                                <h4 class="mb-0">15 m²</h4>
+                                            </div>
+                                            <img src="images/discover-rooms/l2.webp" class="w-100 rounded-1" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex flex-wrap gap-4 justify-between">
+                                    <div class="lg:w-1/3">
+                                        <div class="relative bg-dark-2 rounded-1 h-100">
+                                            <h3 class="fs-32 mb-4 p-40">Kitchen</h3>
+                                            <div class="abs p-sm-relative bottom-0 p-40 start-0 w-100">
+                                                <p class="mb-0">A warm, inviting area to share meals and conversations. Positioned between the kitchen and living room.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:w-2/3">
+                                        <div class="relative">
+                                            <div class="bg-blur abs p-2 bottom-0 rounded-2 px-4 m-4 text-white">
+                                                <h4 class="mb-0">15 m²</h4>
+                                            </div>
+                                            <img src="images/discover-rooms/l3.webp" class="w-100 rounded-1" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex flex-wrap gap-4 justify-between">
+                                    <div class="lg:w-1/3">
+                                        <div class="relative bg-dark-2 rounded-1 h-100">
+                                            <h3 class="fs-32 mb-4 p-40">Master Bedroom</h3>
+                                            <div class="abs p-sm-relative bottom-0 p-40 start-0 w-100">
+                                                <p class="mb-0">The bedroom is your personal sanctuary—a calming space designed for deep rest and peaceful 
+                                            beginnings.</p>
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:w-2/3">
+                                        <div class="relative">
+                                            <div class="bg-blur abs p-2 bottom-0 rounded-2 px-4 m-4 text-white">
+                                                <h4 class="mb-0">16 m²</h4>
+                                            </div>
+                                            <img src="images/discover-rooms/l4.webp" class="w-100 rounded-1" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex flex-wrap gap-4 justify-between">
+                                    <div class="lg:w-1/3">
+                                        <div class="relative bg-dark-2 rounded-1 h-100">
+                                            <h3 class="fs-32 mb-4 p-40">Bathroom</h3>
+                                            <div class="abs p-sm-relative bottom-0 p-40 start-0 w-100">
+                                                <p class="mb-0">A compact wellness zone with spa-like touches. Features sleek fixtures and a relaxing ambiance.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:w-2/3">
+                                        <div class="relative">
+                                            <div class="bg-blur abs p-2 bottom-0 rounded-2 px-4 m-4 text-white">
+                                                <h4 class="mb-0">6 m²</h4>
+                                            </div>
+                                            <img src="images/discover-rooms/l5.webp" class="w-100 rounded-1" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>        
+
+        <section id="section-gallery" class="bg-color-op-1">
+            <div class="container">
+                <div class="flex flex-wrap justify-center">
+                    <div class="lg:w-1/2 text-center">
+                        <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Dicover Gallery</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Exterior &amp; Interior</h2>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap">
+                    <div class="w-full text-center">
+                        <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
+                            <li><a href="#" data-filter="*" class="selected">View All</a></li>
+                            <li><a href="#" data-filter=".exterior">Exterior</a></li>
+                            <li><a href="#" data-filter=".interior">Interior</a></li>
+                            <li><a href="#" data-filter=".facilities">Facilities</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="gallery" class="flex flex-wrap gap-3 wow fadeInUp" data-wow-delay=".3s">
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item interior">
+                    <a href="images/gallery/l1.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l1.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item interior">
+                    <a href="images/gallery/l2.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l2.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item interior">
+                    <a href="images/gallery/l3.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l3.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item interior">
+                    <a href="images/gallery/l4.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l4.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item interior">
+                    <a href="images/gallery/l5.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l5.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item exterior">
+                    <a href="images/gallery/l6.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l6.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item exterior">
+                    <a href="images/gallery/l7.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l7.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item exterior">
+                    <a href="images/gallery/l8.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l8.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item facilities">
+                    <a href="images/gallery/l9.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l9.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item facilities">
+                    <a href="images/gallery/l10.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l10.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item facilities">
+                    <a href="images/gallery/l11.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l11.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="md:w-1/3 sm:w-1/2 w-full item facilities">
+                    <a href="images/gallery/l12.webp" class="image-popup d-block hover">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                View
+                            </div>
+                            <div class="absolute start-0 w-100 h-100 overlay-dark-7 hover-op-1 z-2"></div>
+                            <img src="images/gallery/l12.webp" class="w-100 hover-scale-1-2" alt="">
+                        </div>
+                    </a>
+                </div>
+
+              </div>
+
+
+            </div>
+        </section>
+
+        <section id="section-floorplan" class="bg-dark section-dark text-light">
+            <div class="container">
+                <div class="flex flex-wrap gap-4 items-center">
+                    <div class="lg:w-1/3">
+                        <div class="pe-lg-3">
+                            <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Discover</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Home Floorplans</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Dolor ad consectetur dolore incididunt pariatur aliqua ut laborum aliquip eiusmod officia tempor ex commodo amet voluptate.</p>
+
+                            <div class="relative overflow-hidden">
+                                <div class="flex bg-dark-2 px-4 py-2">
+                                    <div class="w-60">Living Room</div>
+                                    <div class="w-40 fw-600">20 m²</div>
+                                </div>
+                                <div class="flex px-4 py-2">
+                                    <div class="w-60">Dinning Room</div>
+                                    <div class="w-40 fw-600">15 m²</div>
+                                </div>
+                                <div class="flex bg-dark-2 px-4 py-2">
+                                    <div class="w-60">Kitchen</div>
+                                    <div class="w-40 fw-600">15 m²</div>
+                                </div>
+                                <div class="flex px-4 py-2">
+                                    <div class="w-60">Master Bedroom</div>
+                                    <div class="w-40 fw-600">16 m²</div>
+                                </div>
+                                <div class="flex bg-dark-2 px-4 py-2">
+                                    <div class="w-60">Kids Bedroom 1</div>
+                                    <div class="w-40 fw-600">12 m²</div>
+                                </div>
+                                <div class="flex px-4 py-2">
+                                    <div class="w-60">Kids Bedroom 2</div>
+                                    <div class="w-40 fw-600">12 m²</div>
+                                </div>
+                                <div class="flex bg-dark-2 px-4 py-2">
+                                    <div class="w-60">Bath Room</div>
+                                    <div class="w-40 fw-600">6 m²</div>
+                                </div>
+                                <div class="flex px-4 py-2">
+                                    <div class="w-60">Garage</div>
+                                    <div class="w-40 fw-600">40 m²</div>
+                                </div>
+                                <div class="flex px-4 bg-dark-2 py-2">
+                                    <div class="w-60">Warehouse</div>
+                                    <div class="w-40 fw-600">4 m²</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-2/3">
+                        <div class="owl-carousel owl-theme owl-single-dots">
+                            <img src="images/misc/floorplan-2-color.webp" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
+                            <img src="images/misc/floorplan-2-color.webp" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacer-double"></div>
+
+                <div class="flex flex-wrap gap-3">
+                  <div class="md:w-1/4 w-1/2">
+                        <div class="bg-dark-2 py-4 rounded-1 text-center">
+                            <h4>Size</h4>
+                            <div class="flex justify-center items-center">
+                                <img src="images/svg/size.svg" class="w-40px me-3" alt="">
+                                <div class="">1665 sqft</div>
+                            </div>
+                        </div>
+                  </div>
+
+                    <div class="md:w-1/4 w-1/2">
+                          <div class="bg-dark-2 py-4 rounded-1 text-center">
+                              <h4>Beds</h4>
+                              <div class="flex justify-center items-center">
+                                  <img src="images/svg/bed.svg" class="w-40px me-3" alt="">
+                                  <div class="">5</div>
+                              </div>
+                          </div>
+                    </div>
+
+                    <div class="md:w-1/4 w-1/2">
+                          <div class="bg-dark-2 py-4 rounded-1 text-center">
+                              <h4>Baths</h4>
+                              <div class="flex justify-center items-center">
+                                  <img src="images/svg/bath.svg" class="w-40px me-3" alt="">
+                                  <div class="">5</div>
+                              </div>
+                          </div>
+                    </div>
+
+                    <div class="md:w-1/4 w-1/2">
+                          <div class="bg-dark-2 py-4 rounded-1 text-center">
+                              <h4>Parking Slots</h4>
+                              <div class="flex justify-center items-center">
+                                  <img src="images/svg/car.svg" class="w-40px me-3" alt="">
+                                  <div class="">5</div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section>
+            <div class="container relative z-2">
+                <div class="flex flex-wrap justify-center">
+                    <div class="lg:w-1/2 text-center">
+                        <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Near by Places</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Highlights Nearby</h2>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+                    <div class="lg:w-1/3 md:w-1/2">
+                        <div class="overflow-hidden relative rounded-1 text-light text-center wow zoomIn" data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <img src="images/facilities-nearby/1.webp" class="w-100" alt="">
+                            </div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="mb-0">Airport</h3>
+                                    <div>18 miles</div>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                  </div>
+
+                  <div class="lg:w-1/3 md:w-1/2">
+                      <div class="overflow-hidden relative rounded-1 text-light text-center wow zoomIn" data-wow-delay=".0s">
+                          <div class="wow scaleIn overflow-hidden">
+                              <img src="images/facilities-nearby/3.webp" class="w-100" alt="">
+                          </div>
+                          <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                              <div class="flex justify-between items-center">
+                                  <h3 class="mb-0">University</h3>
+                                  <div>10 miles</div>
+                              </div>
+                          </div>
+                          <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                      </div>
+                  </div>
+
+                  <div class="lg:w-1/3 md:w-1/2">
+                      <div class="overflow-hidden relative rounded-1 text-light text-center wow zoomIn" data-wow-delay=".0s">
+                          <div class="wow scaleIn overflow-hidden">
+                              <img src="images/facilities-nearby/4.webp" class="w-100" alt="">
+                          </div>
+                          <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                              <div class="flex justify-between items-center">
+                                  <h3 class="mb-0">Shopping Mall</h3>
+                                  <div>12 miles</div>
+                              </div>
+                          </div>
+                          <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                      </div>
+                  </div>
+                  
+
+              </div>
+
+            </div>
+        </section>
+
+        <section aria-label="section" class="p-0 section-dark">
+            <div class="container-fluid">
+                <div class="flex flex-wrap">
+                    <div class="w-full">
+                        <a class="d-block hover popup-youtube" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
+                            <div class="relative overflow-hidden">
+                                <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
+                                    <div class="player circle wow scaleIn"><span></span></div>
+                                </div> 
+                                <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
+                                <img src="images/background/2.webp" class="w-100 hover-scale-1-1" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-contact">
+            <div class="container">
+                <div class="flex flex-wrap justify-center">
+                    <div class="lg:w-1/2 text-center">
+                        <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Contact Us</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Schedule a Visit</h2>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap justify-center">
+                    <div class="md:w-1/4">
+                        <div class="text-center">
+                            <img src="images/agents/1.webp" class="w-100 rounded-1" alt="">
+
+                            <div class="mt-3">
+                                <h4 class="mb-0">Emily Rodriguez</h4>
+                                <div class="fw-500 id-color">(555) 234-5678</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-5/12">
+                        <form name="bookingForm" id="booking_form" method="post" action="booking.php">
+                            <div class="flex flex-wrap gap-4">
+                                <div class="md:w-1/2">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+
+                                <div class="md:w-1/2">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+
+                                <div class="md:w-1/2">
+                                    <div id="date" class="relative input-group date" data-date-format="mm-dd-yyyy">
+                                        <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-calendar"></i>
+                                        <input class="form-control" name="date" type="text" >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="md:w-1/2">
+                                    <div class="relative">
+                                        <select name="time" id="time" class="form-control">
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="17:00">17:00</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="20:00">20:00</option>
+                                    </select>
+                                    <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-simple-down"></i>
+                                </div>
+                            </div>
+
+                            <div class="w-full">
+                                <textarea name="message" id="message" class="form-control h-150px" placeholder="Submit Request" required></textarea>
+                            </div>
+
+                            <div class="w-full">
+                                <div class="text-start">
+                                    <div id='submit'>
+                                        <input type='submit' id='send_message' value='Send Message' class="btn-main">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                        <div id="success_message_col" class='success'>
+                            Your message has been sent successfully. Refresh this page if you want to send more messages.
+                        </div>
+                        <div id="error_message" class='error'>
+                            Sorry there was an error sending your form.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- footer begin -->
+    <footer class="section-dark">
+        <div class="container">
+            <div class="flex flex-wrap gap-x-5 justify-center">
+                <div class="lg:w-2/3">
+                    <div class="text-center">
+                        <img src="images/logo.webp" class="w-200px" alt="">
+                        <div class="spacer-single"></div>
+                        <div class="fs-16">
+                            712 Jefferson Ave, Brooklyn<br>
+                            New York 11221
+                        </div>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="spacer-double"></div>
+
+            <div class="flex flex-wrap gap-4">
+                <div class="lg:w-1/3 md:w-1/2 mb-sm-30">
+                    <div class="flex justify-center">
+                        <i class="fs-60 id-color icon_phone"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">Call Us</h4>
+                            <p>Call: +1 123 456 789</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/3 md:w-1/2 mb-sm-30">
+                    <div class="flex justify-center">
+                        <i class="fs-60 id-color icon_clock"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">Opening Hours</h4>
+                            <p>Mon to Sat 08:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/3 md:w-1/2 mb-sm-30">
+                    <div class="flex justify-center">
+                        <i class="fs-60 id-color icon_mail"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">Email Us</h4>
+                            <p>contact@residem.com</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="md:w-1/2">
+                        Copyright 2025 - Residem by Designesia
+                    </div>
+                    <div class="md:w-1/2 md:text-end">
+                        <div class="social-icons mb-sm-30 text-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/validation-booking.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-2.js"></script>
+
+    <!-- datepicker begin -->
+    <script>
+        $(function () {
+          $("#date").datepicker({ 
+                autoclose: true, 
+                todayHighlight: true
+          }).datepicker('update', new Date());
+        });
+
+    </script>
+    <!-- datepicker close -->
+
+</body>
+</html>
