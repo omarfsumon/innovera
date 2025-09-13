@@ -1176,6 +1176,10 @@ video {
   margin-top: auto;
 }
 
+.mr-3{
+  margin-right: 0.75rem;
+}
+
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -2596,6 +2600,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-secondary-50{
+  --tw-text-opacity: 1;
+  color: rgb(253 247 237 / var(--tw-text-opacity, 1));
+}
+
 .text-opacity-50{
   --tw-text-opacity: 0.5;
 }
@@ -3066,6 +3075,10 @@ button.jet-form-builder__submit:focus{
 
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
+  }
+
+  .lg\:justify-between{
+    justify-content: space-between;
   }
 
   .lg\:gap-20{
