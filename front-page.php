@@ -301,7 +301,8 @@
 
         <div class="flex w-full text-center justify-center items-center mb-12 mt-10">
             <ul id="filters" class=" fadeInUp animated flex flex-wrap justify-center lg:flex-row" data--delay="0s">
-                <li><a href="#" data-filter="*" class="selected">Joint Venture</a></li>
+                <!-- <li><a href="#" data-filter="*" class="selected">Joint Venture</a></li> -->
+                <li><a href="#" data-filter=".venture">Joint Venture</a></li>
                 <li><a href="#" data-filter=".buyers">Buyers</a></li>
                 <li><a href="#" data-filter=".interior">Interior</a></li>
                 <li><a href="#" data-filter=".facilities">Facilities</a></li>
@@ -309,62 +310,62 @@
         </div>
 
         <div id="gallery" class="grid grid-cols-2 lg:grid-cols-3 gap-3  fadeInUp animated" data--delay=".3s">
-            <div class="w-full item interior">
+            <div class="w-full item venture">
                 <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l1.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l1.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l1.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
-            <div class="w-full item interior">
+            <div class="w-full item venture">
                 <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l2.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l2.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l2.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
-            <div class="w-full item interior">
+            <div class="w-full item venture">
                 <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l3.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l3.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l3.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
-            <div class="w-full item interior">
+            <div class="w-full item venture">
                 <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l4.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l4.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l4.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
-            <div class="w-full item interior">
+            <div class="w-full item venture">
                 <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l5.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l5.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l5.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -376,7 +377,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l6.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l6.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -388,7 +389,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l7.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l7.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -400,7 +401,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l8.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l8.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -412,7 +413,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l9.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l9.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -424,7 +425,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l10.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l10.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -436,7 +437,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l11.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l11.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -448,7 +449,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l12.webp' ?>" alt="Gallery Image"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l12.webp' ?>" alt="What We Dd"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
