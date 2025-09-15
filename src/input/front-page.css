@@ -7,8 +7,11 @@
     .swiper-slide {
         transition-timing-function: ease-in-out !important;
       }
-      .project-tab li{
+      .project-tab li {
         @apply font-medium text-center flex-grow px-5 py-3 transition-all cursor-pointer opacity-60 hover:opacity-100;
+      }
+      .project-tab li a{
+        @apply block;
       }
       .active-tab {
         @apply bg-[#DD752D] text-white font-medium !opacity-100;

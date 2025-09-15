@@ -26,7 +26,7 @@ function innovera_scripts() {
 
     
     // Enqueue Scripts
-    //wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery');
     //wp_enqueue_script('innovera-designesia', INNOVERA_URI . '/src/js/designesia.js', array('jquery'), _S_VERSION, true);
     //wp_enqueue_script('innovera-validation', INNOVERA_URI . '/src/js/validation-booking.js', array('jquery'), _S_VERSION, true);
     //wp_enqueue_script('innovera-custom-marquee', INNOVERA_URI . '/src/js/custom-marquee.js', array('jquery'), _S_VERSION, true);

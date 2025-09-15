@@ -1,26 +1,26 @@
 <?php get_header(); ?>
 
-<!-- <section id="section-hero" class="relative min-h-screen flex ">
-    <div class="z-20 flex items-center justify-center">
+<section id="hero" class="relative min-h-screen flex ">
+    <div class="z-20 flex items-center justify-center container">
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row gap-8 items-center justify-between mt-12">
 
                 <div class="w-full lg:w-6/12">
                     <h1 class="mb-0 text-hero-heading font-semibold leading-tight text-white  fadeInUp animated">
-                        Elegant and Comfort in a Modern Space
+                        Trust - it's what we build.
                     </h1>
                 </div>
                 <div class="w-full lg:w-6/12 text-center">
                     <h4 class="text-lg font-light mb-4 text-white text-center  fadeInUp animated" data--delay=".4s">
-                       House – 1, Road – 9, Block – J, Dhaka, Bangladesh, 1212
+                        Ensuring customer satisfaction through delivery of true value in all our dealings
                     </h4>
                     <div class="flex flex-col sm:flex-row gap-4 place-content-center">
-                        <a href="#section-overview" data--delay=".4s"
+                        <a href="#contact" data--delay=".4s"
                         class=" fadeInUp animated inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
                             <span class="btn-text inline-block transition-transform duration-300">Schedule a Visit</span>
                         </a>
 
-                        <a href="#section-overview" data--delay=".6s"
+                        <a href="/projects/" data--delay=".6s"
                         class=" fadeInUp animated inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
                             <span class="btn-text inline-block transition-transform duration-300">Explore Property</span>
                         </a>
@@ -60,70 +60,9 @@
             </div>
         </div>
     </div>
-</section> -->
-
-<section id="section-hero" class="relative min-h-screen flex items-center justify-center">
-    <div class="hero-slider absolute z-10 w-full h-full top-0 left-0">
-        <div class="swiper w-full h-full">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide ">
-                    <div class="bg-cover bg-center w-full h-full sw-overlay bg-black/40" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        <div class="container z-20 flex items-center justify-center h-full">
-                            <div class="mx-auto px-4 flex flex-col items-center justify-center lg:flex-row gap-8">
-                                <!-- Left Content -->
-                                <div class="w-full lg:w-6/12">
-                                    <h2 class="mb-0 text-hero-heading font-semibold leading-tight text-white  fadeInUp animated">
-                                        Elegant and Comfort in a Modern Space
-                                    </h2>
-                                </div>
-
-                                <!-- Right Content -->
-                                <div class="w-full lg:w-6/12 text-center">
-                                    <h4 class="text-lg font-light mb-4 text-white text-center  fadeInUp animated" data--delay=".4s">
-                                        House – 1, Road – 9, Block – J, Dhaka, Bangladesh, 1212
-                                    </h4>
-                                    <div class="flex flex-col sm:flex-row gap-4 place-content-center">
-                                        <a href="#section-contact" data--delay=".4s" class="fadeInUp animated inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
-                                            Schedule a Visit
-                                        </a>
-
-                                        <a href="/projects/" data--delay=".6s" class=" fadeInUp animated inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
-                                            Explore Property
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        <div class="sw-overlay absolute inset-0 bg-black/40"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        <div class="sw-overlay absolute inset-0 bg-black/40"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/4.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        <div class="sw-overlay absolute inset-0 bg-black/40"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/5.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        <div class="sw-overlay absolute inset-0 bg-black/40"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
-
-
-<section id="section-overview" class="py-24 bg-white">
+<section id="our_journey" class="py-24 bg-white">
     <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-16 justify-between items-center">
         <div class="lg:w-5/12 lg:pr-8">
             <span class="text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-secondary-50  fadeInUp animated">Our journey</span>
@@ -174,10 +113,11 @@
         </div>
     </div>
 </section>
-<section id="section-rooms" class="py-24 bg-[#003333] text-white">
+
+<section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden">
     <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
-            <span class="text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645]">Room Details</span>
+            <span class="text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645]">Featured Projects</span>
             <h2 class="text-2nd-heading mb-6  fadeInUp animated text-white">Discover Our Projects</h2>
         </div>
         <div class="flex flex-wrap  fadeInUp animated">
@@ -186,26 +126,25 @@
                     <li class="active-tab" data-tab="tab1">Premium</li>
                     <li data-tab="tab2">Exlcusive</li>
                     <li data-tab="tab3">Standard</li>
-                    <li data-tab="tab4">Commercial</li>
-                    <li data-tab="tab5">All Projects</li>
+                    <li data-tab="tab4">Interior</li>
+                    <li><a class="hover:text-white" href="/projects/">All Projects</a></li>
                 </ul>
                 <ul id="tabContents" class="pt-3">
                     <li data-tab-content="tab1" class="block">
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
-                                <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
-                                    <h3 class="text-4xl text-white">Premium</h3>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-60">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
+                                <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-4xl text-white">Akashnila</h3>
+                                        <span>A Premium Landmark</span>
+                                    </div>
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80">
+                                        AKASHNILA is one of Innovera Holdings Ltd.’s signature Premium Category Projects, designed to redefine modern luxury living in Dhaka. Located in the prestigious Bashundhara Residential Area, Block – C, this project blends architectural excellence, cutting-edge amenities, and superior construction quality to create a residential experience that reflects elegance, comfort, and exclusivity.
+                                    </p>
                                 </div>
                             </div>
-
                             <div class="lg:w-2/3">
-                                <div class="relative">
-                                    <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
-                                        <h4 class="mb-0">20 m²</h4>
-                                    </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/discover-rooms/premium.webp'?>" class="w-100 rounded-2xl" alt="Premium">
-                                </div>
+                                <img src="<?php echo INNOVERA_URI . '/src/images/projects/premium.webp'?>" class="w-100 rounded-2xl" alt="Premium">
                             </div>
                         </div>
                     </li>
@@ -213,8 +152,13 @@
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
                                 <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
-                                    <h3 class="text-4xl text-white">Exlcusive</h3>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-60">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-3xl text-white">Nishorgo Kamal's Residence</h3>
+                                        <span>Where Comfort Meets Elegance</span>
+                                    </div>
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80">
+                                        This project is a distinguished Exclusive Category Project by Innovera Holdings Ltd., crafted to provide a harmonious balance between comfort, style, and affordability. Located in the well-connected Block H of Bashundhara Residential Area, the project caters to modern families and professionals seeking a high-quality lifestyle without compromising value.
+                                    </p>
                                 </div>
                             </div>
 
@@ -223,7 +167,7 @@
                                     <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
                                         <h4 class="mb-0">20 m²</h4>
                                     </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/discover-rooms/l2.webp'?>" class="w-100 rounded-2xl" alt="Premium">
+                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive.webp'?>" class="w-100 rounded-2xl" alt="Premium">
                                 </div>
                             </div>
                         </div>
@@ -232,8 +176,13 @@
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
                                 <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
-                                    <h3 class="text-4xl text-white">Standard</h3>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-60">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-4xl text-white">Chhayatoru</h3>
+                                        <span>Simple, Safe, and Affordable Living</span>
+                                    </div>
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80">
+                                        Chhayatoru is a thoughtfully designed Standard Category Project by Innovera Holdings Ltd., created for families and professionals who want to enjoy safe, functional, and affordable living in Dhaka’s growing residential hub, located in Savar DOHS. The project offers convenience, accessibility, and comfort at an attainable investment level.
+                                    </p>
                                 </div>
                             </div>
 
@@ -242,7 +191,7 @@
                                     <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
                                         <h4 class="mb-0">20 m²</h4>
                                     </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/discover-rooms/l3.webp'?>" class="w-100 rounded-2xl" alt="Premium">
+                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/standard.webp'?>" class="w-100 rounded-2xl" alt="Premium">
                                 </div>
                             </div>
                         </div>
@@ -251,36 +200,23 @@
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
                                 <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
-                                    <h3 class="text-4xl text-white">Commercial</h3>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-60">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-4xl text-white">Interior Solutions</h3>
+                                        <span>Transforming Spaces into Homes</span>
+                                    </div>
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80">
+                                        At <strong>Innovera Holdings Ltd.</strong>, we believe that interiors define the personality and comfort of a home. 
+                                        Our <strong>Interior Solutions</strong> are designed to blend <strong>functionality, style, and innovation</strong>, creating spaces that are as beautiful as they are practical.
+                                        <i class="mt-4 block text-white">“With Innovera, your interiors aren’t just beautiful—they’re functional, comfortable, and truly yours.”</i>
+                                    </p>
                                 </div>
                             </div>
-
                             <div class="lg:w-2/3">
                                 <div class="relative">
                                     <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
                                         <h4 class="mb-0">20 m²</h4>
                                     </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/discover-rooms/l4.webp'?>" class="w-100 rounded-2xl" alt="Premium">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li data-tab-content="tab5" class="hidden">
-                        <div class="flex flex-col lg:flex-row gap-4 justify-between">
-                            <div class="lg:w-1/3">
-                                <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
-                                    <h3 class="text-4xl text-white">All Projects</h3>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-60">A cozy, social hub with plush seating and entertainment. Ideal for relaxing, gatherings, and family time.</p>
-                                </div>
-                            </div>
-
-                            <div class="lg:w-2/3">
-                                <div class="relative">
-                                    <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
-                                        <h4 class="mb-0">20 m²</h4>
-                                    </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/discover-rooms/l5.webp'?>" class="w-100 rounded-2xl" alt="Premium">
+                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/interior.webp'?>" class="w-100 rounded-2xl" alt="Premium">
                                 </div>
                             </div>
                         </div>
@@ -290,11 +226,12 @@
         </div>
     </div>
 </section>
-<section id="section-gallery" class=" bg-secondary-50 py-24">
+
+<section id="what_we_do" class=" bg-secondary-50 py-24">
     <div class="container">
         <div class="flex flex-wrap justify-center">
             <div class="lg:w-1/2 text-center">
-                <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100  fadeInUp animated" data--delay=".0s">What We Dd</span>
+                <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100  fadeInUp animated" data--delay=".0s">What We Do</span>
                 <h2 class=" text-2nd-heading  fadeInUp animated" data--delay=".2s">Our Services</h2>
             </div>
         </div>
@@ -302,7 +239,7 @@
         <div class="flex w-full text-center justify-center items-center mb-12 mt-10">
             <ul id="filters" class=" fadeInUp animated flex flex-wrap justify-center lg:flex-row" data--delay="0s">
                 <!-- <li><a href="#" data-filter="*" class="selected">Joint Venture</a></li> -->
-                <li><a href="#" data-filter=".venture">Joint Venture</a></li>
+                <li><a href="#" data-filter=".venture" class="selected">Joint Venture</a></li>
                 <li><a href="#" data-filter=".buyers">Buyers</a></li>
                 <li><a href="#" data-filter=".interior">Interior</a></li>
                 <li><a href="#" data-filter=".facilities">Facilities</a></li>
@@ -311,145 +248,37 @@
 
         <div id="gallery" class="grid grid-cols-2 lg:grid-cols-3 gap-3  fadeInUp animated" data--delay=".3s">
             <div class="w-full item venture">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l1.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
+                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l1.webp' ?>" alt="What We Dd"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
             <div class="w-full item venture">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l2.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
+                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l2.webp' ?>" alt="What We Dd"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
             </div>
             <div class="w-full item venture">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l3.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
+                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
                     <div class="relative rounded-xl overflow-hidden">
                         <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l3.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item venture">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l4.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l4.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item venture">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l5.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l5.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item exterior">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l6.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l6.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item exterior">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l7.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l7.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item exterior">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l8.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l8.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item facilities">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l9.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l9.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item facilities">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l10.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l10.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item facilities">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l11.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l11.webp' ?>" alt="What We Dd"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item facilities">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/l12.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-secondary-200/60 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/l12.webp' ?>" alt="What We Dd"
+                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -457,7 +286,8 @@
         </div>
     </div>
 </section>
-<section id="why-innovera" class="bg-[#003333] py-24 text-white">
+
+<section id="why_innovera" class="bg-[#003333] py-24 text-white">
     <div class="container flex flex-col lg:flex-row gap-5 items-center justify-center lg:justify-between">
         <div class="w-full lg:w-1/2">
             <span class="subtitle  fadeInUp animated text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645] rounded" data--delay=".2s">Discover</span>
@@ -550,10 +380,11 @@
         </div>
     </div>
 </section>
-<section id="nearby" class="py-24">
+
+<section id="latest_update" class="py-24">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
-            <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100  fadeInUp animated rounded" data--delay=".0s">Ltest Update</div>
+            <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100  fadeInUp animated rounded" data--delay=".0s">Latest Update</div>
             <h2 class=" fadeInUp animated text-2nd-heading" data--delay=".2s">Media & Event</h2>
         </div>
 
@@ -593,7 +424,8 @@
         </div>
     </div>
 </section>
-<section id="section-video" class="p-0">
+
+<section id="video" class="p-0">
     <div class="flex items-center w-full">
         <a class="block popup-youtube group w-full" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
             <div class="relative overflow-hidden h-[70vh]">
@@ -610,7 +442,8 @@
         </a>
     </div>
 </section>
-<section id="section-contact" class="py-24">
+
+<section id="contact" class="py-24">
     <div class="container">
         <div class="flex justify-center mb-5">
             <div class="text-center">
@@ -619,17 +452,16 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap justify-center lg:gap-20 gap-10 px-5">
-            <div class="md:w-1/4">
-                <div class="text-center">
-                    <img src="<?php echo INNOVERA_URI . '/src/images/agents/1.webp' ?>" class="w-full rounded-lg  fadeIn animated" alt="">
-                    <div class="mt-3">
-                        <h4 class="text-xl font-normal text-black text-center fadeInUp animated" data--delay=".4s">Call us directly and schedule a meeting right now!</h4>
-                        <a class="text-lg font-medium text-black/50 fadeInUp animated" href="tel:+8801833156010">+88 01833156010</a>
-                    </div>
-                </div>
+        <div class="flex md:flex-row flex-col justify-center items-center lg:gap-20 gap-10 px-5 lg:px-0">
+            <div class="lg:w-6/12">
+                <h4 class="lg:text-4xl text-2xl font-normal text-black fadeInUp animated" data--delay=".4s">Call us directly and schedule a meeting right now!</h4>
+                <p class="lg:text-lg text-base font-normal text-black/50 fadeInUp animated">Our team is committed to honesty, professionalism, and delivering real value to our clients.</p>
+                <a class="flex items-center  gap-2 text-lg font-medium text-white hover:text-white px-3 py-2 mt-4 bg-secondary-500 hover:bg-secondary-600 rounded w-fit fadeInUp animated" href="tel:+8801833156010">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-white">
+                        <path d="M777.61-140q-113.07 0-227.19-52.58-114.11-52.58-209.69-148.34-95.57-95.77-148.15-209.7Q140-664.54 140-777.61q0-18.17 12-30.28T182-820h130.46q15.15 0 26.73 9.89 11.58 9.88 14.73 24.42L376.85-668q2.38 16.38-1 28.15-3.39 11.77-12.16 19.77l-92.38 89.93q22.3 40.84 50.96 77.27 28.65 36.42 62.04 69.57 32.92 32.93 70 61.16 37.08 28.23 80.08 52.54l89.76-90.54q9.39-9.77 22.74-13.7 13.34-3.92 27.73-1.92l111.07 22.62q15.15 4 24.73 15.46t9.58 26V-182q0 18-12.11 30t-30.28 12ZM242.92-586.92l71.39-68.31q1.92-1.54 2.5-4.23.58-2.69-.19-5l-17.39-89.39q-.77-3.07-2.69-4.61-1.92-1.54-5-1.54H206q-2.31 0-3.85 1.54-1.53 1.54-1.53 3.85 3.07 41 13.42 83.3 10.34 42.31 28.88 84.39Zm348 345.69q39.77 18.54 82.96 28.35 43.2 9.8 80.73 11.65 2.31 0 3.85-1.54t1.54-3.85v-84.15q0-3.08-1.54-5t-4.61-2.69l-84-17.08q-2.31-.77-4.04-.19-1.73.58-3.66 2.5l-71.23 72Zm-348-345.69Zm348 345.69Z"/>
+                    </svg> +88 01833156010</a>
             </div>
-            <div class="flex md:w-5/12 fadeIn animated" data--delay=".4s">
+            <div class="flex lg:w-6/12 w-full fadeIn animated" data--delay=".4s">
                 <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
             </div>
         </div>

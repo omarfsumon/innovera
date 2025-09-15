@@ -49,7 +49,7 @@
 
                 <!-- Mobile Menu Button and CTA -->
                 <div class="flex items-center space-x-4">
-                    <a class="hidden lg:inline-block btn-main" href="#section-contact">
+                    <a class="hidden lg:inline-block btn-main" href="#contact">
                         Schedule a Visit
                     </a>
                     <button id="mobile-menu-btn" class="lg:hidden text-gray-800 hover:text-primary p-2" aria-label="Toggle Menu">
@@ -74,7 +74,7 @@
                     ));
                     ?>
                     <div class="px-4 pb-4 pt-2">
-                        <a class="btn-main w-full text-center block" href="#section-contact">
+                        <a class="btn-main w-full text-center block" href="#contact">
                             Schedule a Visit
                         </a>
                     </div>
