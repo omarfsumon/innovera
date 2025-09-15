@@ -4,8 +4,8 @@
   "description": "Innovera WordPress Theme",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./src/input/front-page.css -o ./src/css/front-page.css --watch --postcss",
-    "build": "tailwindcss -i ./src/input/front-page.css -o ./src/css/front-page.css --minify --postcss",
+    "watch": "tailwindcss -i ./src/input/input.css -o ./src/css/global.css --watch --postcss",
+    "build": "tailwindcss -i ./src/input/input.css -o ./src/css/global.css --minify --postcss",
     "dev": "npm run watch"
   },
   "keywords": [],
