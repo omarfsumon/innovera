@@ -42,6 +42,11 @@ function innovera_scripts() {
         wp_enqueue_style('home-style', INNOVERA_URI . '/src/css/front-page.css', array(), _S_VERSION);
         wp_enqueue_script('innovera-front-page', INNOVERA_URI . '/src/js/front-page.js', array('innovera-swiper-JS'), '1.0', true);
     }
+    // About Page only
+    if (is_page('about-us')) {
+        wp_enqueue_style('about-us-style', INNOVERA_URI . '/src/css/about_page.css', array(), _S_VERSION);
+    }
+
 
 }
 add_action('wp_enqueue_scripts', 'innovera_scripts');

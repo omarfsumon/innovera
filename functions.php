@@ -56,3 +56,18 @@ function innovera_setup() {
     ));
 }
 add_action('after_setup_theme', 'innovera_setup');
+
+/**
+ * satup all pages puth location like "/page/page-about-us.php"
+ */
+function innovera_page_template($template) {
+    if (is_page()) {
+        $page_slug = get_post_field('post_name', get_queried_object_id());
+        $custom_template = locate_template('page/page-' . $page_slug . '.php');
+        if ($custom_template) {
+            return $custom_template;
+        }
+    }
+    return $template;
+}
+add_filter('template_include', 'innovera_page_template');    
