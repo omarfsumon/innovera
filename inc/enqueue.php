@@ -2,6 +2,15 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
+function innovera_dequeue_block_styles() {
+    wp_dequeue_style('wp-block-library');
+    wp_dequeue_style('wp-block-library-theme');
+    wp_dequeue_style('wp-block-site-logo');
+    wp_dequeue_style('wp-block-navigation');
+    wp_dequeue_style('classic-theme-styles');
+    wp_dequeue_style('global-styles');
+}
+add_action('wp_enqueue_scripts', 'innovera_dequeue_block_styles', 100);
 
 /**
  * Enqueue scripts and styles.

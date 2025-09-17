@@ -43,7 +43,9 @@
   /* .sub_parent {
     @apply flex flex-row justify-between gap-2;
   } */
-
+  /* .my-sticky-header.hide-header {
+    transform: translateY(-100%);
+  } */
   /* Navigation Components */
   .header_menu {
     font-size: 0.875rem;
