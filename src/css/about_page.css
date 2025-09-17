@@ -1322,6 +1322,14 @@ video {
   height: 100vh;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -2007,6 +2015,11 @@ video {
   background-color: rgb(255 255 255 / 0.05);
 }
 
+.bg-\[\#103c3b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 60 59 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2233,6 +2246,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-15 {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
 }
 
 .pb-0 {
@@ -2943,6 +2961,10 @@ video {
 @media (min-width: 768px) {
   .md\:order-first {
     order: -9999;
+  }
+
+  .md\:order-last {
+    order: 9999;
   }
 
   .md\:h-\[400px\] {
