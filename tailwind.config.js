@@ -49,6 +49,7 @@ module.exports = {
         '4xl': ['36px', '1.3'],
         '5xl': ['48px', '1.2'],
         '6xl': ['60px', '1.1'],
+        '4th-heading': 'clamp(1.375rem, 1.3138rem + 0.3061vw, 1.5625rem)',
         '3rd-heading': 'clamp(1.375rem, 1.2083rem + 0.8333vw, 1.875rem)',
         '2nd-heading': 'clamp(1.5625rem, 1.1801rem + 1.912vw, 2.8125rem)',
         'hero-heading': 'clamp(2.1875rem, 1.7708rem + 2.0833vw, 3.4375rem)',
