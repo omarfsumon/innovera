@@ -44,6 +44,64 @@
     list-style: none;
   }
 
+  /* Shared Styles */
+  .header_menu .menu-item-has-children {
+    position: relative;
+  }
+
+  .submenu-toggle {
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .submenu-toggle:hover {
+    background-color: #f3f4f6;
+  }
+
+  .submenu-toggle svg {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Header Components */
+  #header {
+    transition: all 0.5s ease-in-out;
+  }
+
+  #header.transparent {
+    background: transparent;
+  }
+
+  #header .header-inner {
+    transition: all 0.3s ease-in-out;
+  }
+
+  #header .container {
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+  }
+
+  /* Button Components */
+  .btn-main {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background-color: #e69339;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-main:hover {
+    background-color: #f2cc95;
+    color: #a3391a;
+  }
+
   /* Desktop Menu */
   @media (min-width: 1024px) {
     .header_menu > li {
@@ -217,186 +275,7 @@
     .header_menu .sub-menu a:hover {
       color: #e69339;
     }
-  }
 
-  /* Shared Styles */
-  .header_menu .menu-item-has-children {
-    position: relative;
-  }
-
-  .submenu-toggle {
-    padding: 0.5rem;
-    border-radius: 0.375rem;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .submenu-toggle:hover {
-    background-color: #f3f4f6;
-  }
-
-  .submenu-toggle svg {
-    width: 1rem;
-    height: 1rem;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  /* Header Components */
-  #header {
-    transition: all 0.5s ease-in-out;
-  }
-
-  #header.transparent {
-    background: transparent;
-  }
-
-  #header .header-inner {
-    transition: all 0.3s ease-in-out;
-  }
-
-  #header .container {
-    transition: all 0.3s ease-in-out;
-    box-shadow: none;
-  }
-
-  /* Button Components */
-  .btn-main {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background-color: #e69339;
-    color: white;
-    font-size: 0.875rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border-radius: 0.25rem;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .btn-main:hover {
-    background-color: #f2cc95;
-    color: #a3391a;
-  }
-}
-
-@layer components {
-  /* Mobile Menu */
-  @media (max-width: 1023px) {
-    .header_menu > li {
-      display: block;
-      width: 100%;
-      border-bottom: 1px solid #f3f4f6;
-    }
-    
-    .header_menu > li:last-child {
-      border-bottom: none;
-    }
-
-    .header_menu > li > div > a {
-      padding: 0.75rem 0;
-      display: block;
-      transition: color 0.2s ease-in-out;
-    }
-
-    .header_menu > li > div > a:hover {
-      color: #e69339;
-    }
-
-    .header_menu > li > div {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    /* Mobile Submenu */
-    .header_menu .sub-menu {
-      width: 100%;
-      background: rgba(249, 250, 251, 0.5);
-      max-height: 0;
-      overflow: hidden;
-      transition: all 0.3s ease-in-out;
-    }
-
-    .header_menu .sub-menu.show {
-      max-height: 500px;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    .header_menu .sub-menu li {
-      display: block;
-      width: 100%;
-    }
-
-    .header_menu .sub-menu a {
-      display: block;
-      width: 100%;
-      padding: 0.75rem 1rem;
-      font-size: 0.875rem;
-      color: #1f2937;
-      transition: color 0.2s ease-in-out;
-    }
-
-    .header_menu .sub-menu a:hover {
-      color: #e69339;
-    }
-  }
-
-  /* Shared Styles */
-  .header_menu .menu-item-has-children {
-    position: relative;
-  }
-
-  .submenu-toggle {
-    padding: 0.5rem;
-    border-radius: 0.375rem;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .submenu-toggle:hover {
-    background-color: #f3f4f6;
-  }
-
-  .submenu-toggle svg {
-    width: 1rem;
-    height: 1rem;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  /* Header Components */
-  #header {
-    transition: all 0.5s ease-in-out;
-  }
-
-  #header.transparent {
-    background: transparent;
-  }
-
-  #header .header-inner {
-    transition: all 0.3s ease-in-out;
-  }
-
-  #header .container {
-    transition: all 0.3s ease-in-out;
-    box-shadow: none;
-  }
-
-  /* Button Components */
-  .btn-main {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background-color: #e69339;
-    color: white;
-    font-size: 0.875rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border-radius: 0.25rem;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .btn-main:hover {
-    background-color: #f2cc95;
-    color: #a3391a;
   }
 }
 
