@@ -27,9 +27,8 @@ function innovera_scripts() {
     wp_enqueue_style('innovera-plugins', INNOVERA_URI . '/src/css/plugins.css', array(), _S_VERSION);
     wp_enqueue_style('innovera-swiper-CSS', INNOVERA_URI . '/src/css/swiper/swiper-bundle.min.css', array(), '11.2.10');
     wp_enqueue_style('innovera-glightbox-CSS', INNOVERA_URI . '/src/css/glightbox.min.css');
-
     wp_enqueue_style('innovera-global', INNOVERA_URI . '/src/css/global.css', array(), _S_VERSION);
-    wp_enqueue_style('innovera-smooth-scroll', INNOVERA_URI . '/src/css/smooth-scroll.css', array(), '1.0');
+    //wp_enqueue_style('innovera-smooth-scroll', INNOVERA_URI . '/src/css/smooth-scroll.css', array(), '1.0');
 
     
     // Enqueue Scripts
