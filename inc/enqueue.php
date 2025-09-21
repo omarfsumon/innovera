@@ -25,14 +25,13 @@ function innovera_scripts() {
     
     // Enqueue Theme CSS
     wp_enqueue_style('innovera-plugins', INNOVERA_URI . '/src/css/plugins.css', array(), _S_VERSION);
-    wp_enqueue_style('innovera-swiper-CSS', INNOVERA_URI . '/src/css/swiper/swiper-bundle.min.css', array(), '11.2.10');
-    wp_enqueue_style('innovera-glightbox-CSS', INNOVERA_URI . '/src/css/glightbox.min.css');
+    wp_enqueue_style('innovera-swiper', INNOVERA_URI . '/src/css/swiper/swiper-bundle.min.css', array(), '11.2.10');
+    wp_enqueue_style('innovera-glightbox', INNOVERA_URI . '/src/css/glightbox.min.css');
     wp_enqueue_style('innovera-global', INNOVERA_URI . '/src/css/global.css', array(), _S_VERSION);
     //wp_enqueue_style('innovera-smooth-scroll', INNOVERA_URI . '/src/css/smooth-scroll.css', array(), '1.0');
 
     
     // Enqueue Scripts
-    wp_enqueue_script('jquery');
     wp_enqueue_script('innovera-swiper-JS', INNOVERA_URI . '/src/js/swiper/swiper-bundle.min.js', array(), '11.2.10', true);
     wp_enqueue_script('innovera-glightbox-JS', INNOVERA_URI . '/src/js/glightbox.min.js', array(), null, true);
     wp_enqueue_script('innovera-header', INNOVERA_URI . '/src/js/header.js', array(), _S_VERSION, true);
@@ -47,9 +46,19 @@ function innovera_scripts() {
     if (is_page('about-us')) {
         wp_enqueue_style('about-us-style', INNOVERA_URI . '/src/css/about_page.css', array(), _S_VERSION);
     }
-
-
 }
 add_action('wp_enqueue_scripts', 'innovera_scripts');
+
+function load_jquery_in_footer() {
+    // Deregister default jQuery
+    wp_deregister_script('jquery');
+
+    // Register it again but load it in the footer (last param true)
+    wp_register_script('jquery', includes_url('/js/jquery/jquery.min.js'), array(), null, true );
+
+    // Enqueue it
+    wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts', 'load_jquery_in_footer', 1);
 ?>
 
