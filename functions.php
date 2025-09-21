@@ -71,3 +71,31 @@ function innovera_page_template($template) {
     return $template;
 }
 add_filter('template_include', 'innovera_page_template');    
+
+
+
+/*==================
+ACF Functions Start
+===================*/
+define( 'MY_ACF_PATH', get_stylesheet_directory() . '/inc/acf/' );
+define( 'MY_ACF_URL', get_stylesheet_directory_uri() . '/inc/acf/' );
+
+// Include the ACF plugin.
+include_once( MY_ACF_PATH . 'acf.php' );
+include_once( MY_ACF_PATH . 'secure-custom-fields.php' );
+
+// Customize the url setting to fix incorrect asset URLs.
+function my_acf_settings_url( $url ) {
+    return MY_ACF_URL;
+}
+add_filter('acf/settings/url', 'my_acf_settings_url');
+
+// (Optional) Hide the ACF admin menu item.
+//add_filter('acf/settings/show_admin', '__return_false');
+
+// When including the PRO plugin, hide the ACF Updates menu
+//add_filter('acf/settings/show_updates', '__return_false', 100);
+
+/*==================
+ACF Functions End
+===================*/
