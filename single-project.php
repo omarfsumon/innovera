@@ -160,12 +160,51 @@
                     <p class=" text-base font-normal leading-[1]"><?php echo esc_html($basement); ?></p>
                 </div>
             </div>
-
-            <p><strong>Car Parking:</strong> <?php echo esc_html($car_parking); ?></p>
-            <p><strong>Developer's Portion:</strong> <?php echo esc_html($developers_portion); ?></p>
-            <p><strong>Inauguration Date:</strong> <?php echo esc_html($date_of_inauguration); ?></p>
-            <p><strong>Construction Period:</strong> <?php echo esc_html($construction_period); ?></p>
-            <p><strong>Probable Handover:</strong> <?php echo esc_html($probable_handover_date); ?></p>
+            <div class="flex items-center gap-3">
+                <div class="p-2">
+                    <?php get_template_part('src/svg/parking'); ?>
+                </div>
+                <div class="flex flex-col gap-1 justify-center">
+                    <h5 class=" text-xl font-normal leading-none">Car Parking:</h5>
+                    <p class=" text-base font-normal leading-[1]"><?php echo esc_html($car_parking); ?></p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="p-2">
+                    <?php get_template_part('src/svg/portion'); ?>
+                </div>
+                <div class="flex flex-col gap-1 justify-center">
+                    <h5 class=" text-xl font-normal leading-none">Developer's Portion:</h5>
+                    <p class=" text-base font-normal leading-[1]"><?php echo esc_html($developers_portion); ?></p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="p-2">
+                    <?php get_template_part('src/svg/date'); ?>
+                </div>
+                <div class="flex flex-col gap-1 justify-center">
+                    <h5 class=" text-xl font-normal leading-none">Inauguration Date:</h5>
+                    <p class=" text-base font-normal leading-[1]"><?php echo esc_html($date_of_inauguration); ?></p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="p-2">
+                    <?php get_template_part('src/svg/period'); ?>
+                </div>
+                <div class="flex flex-col gap-1 justify-center">
+                    <h5 class=" text-xl font-normal leading-none">Construction Period:</h5>
+                    <p class=" text-base font-normal leading-[1]"><?php echo esc_html($construction_period); ?></p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="p-2">
+                    <?php get_template_part('src/svg/handover'); ?>
+                </div>
+                <div class="flex flex-col gap-1 justify-center">
+                    <h5 class=" text-xl font-normal leading-none">Probable Handover:</h5>
+                    <p class=" text-base font-normal leading-[1]"><?php echo esc_html($probable_handover_date); ?></p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
