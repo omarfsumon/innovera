@@ -14,12 +14,12 @@
                 <p>Trust it's what we build</p>          
             </div>
             <div id="footer_address" class="flex flex-col items-start mb-2 md:order-first">
-                <h4 class="mb-0 text-left text-xl font-bold text-black border-b border-secondary-200 pb-1 mb-1">Address</h4>
+                <h4 class="mb-0 text-left text-xl font-bold text-black pb-1 mb-1">Address</h4>
                 <p><strong class="text-black">Innovera Holdings Limited</strong><br>
                 House - 1, Road - 9, Block - J,<br> Baridhara, Dhaka-1212,<br> Bangladesh.</p>
             </div>
             <div id="footer_link" class="flex flex-col items-start mb-2 lg:pr-15 ">
-                <h4 class="text-left text-xl font-bold text-black border-b border-secondary-200 pb-1 mb-1">Quick Links</h4>
+                <h4 class="text-left text-xl font-bold text-black pb-1 mb-1">Quick Links</h4>
                 <ul class="flex flex-col">
                     <li><a class="hover:underline" href="#">Home Loan Support</a></li>
                     <li><a class="hover:underline" href="#">Property Management</a></li>
