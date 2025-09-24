@@ -22,10 +22,10 @@
                    
             ?>
 
-            <a href="<?php the_permalink(); ?>" class="relative group overflow-hidden rounded-xl shadow-md transition hover:shadow-xl">
+            <a href="<?php the_permalink(); ?>" class="relative group overflow-hidden rounded-xl shadow-md transition hover:shadow-xl aspect-[4/5]">
                 <div class="relative">
                     <?php if ($project_image): ?>
-                        <img src="<?php echo esc_url($project_image); ?>" alt="<?php the_title_attribute(); ?>" class="w-full h-auto object-cover hover:scale-105 transition duration-500">
+                        <img src="<?php echo esc_url($project_image); ?>" alt="<?php the_title_attribute(); ?>" class="aspect-[4/5] w-full h-auto object-cover hover:scale-105 transition duration-500">
                     <?php endif; ?>
                     <div class="absolute bottom-10 left-0 right-0 bg-black/60 text-white px-4 py-3">
                         <h3 class="text-base font-semibold text-white"><?php the_title(); ?></h3>

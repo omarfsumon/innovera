@@ -24,19 +24,19 @@ function innovera_scripts() {
     wp_enqueue_style('innovera-style', get_stylesheet_uri(), array(), _S_VERSION);
     
     // Enqueue Theme CSS
-    wp_enqueue_style('innovera-aos', INNOVERA_URI . '/src/css/aos.css', array(), '2.3.1');
     wp_enqueue_style('innovera-swiper', INNOVERA_URI . '/src/css/swiper/swiper-bundle.min.css', array(), '11.2.10');
     wp_enqueue_style('innovera-glightbox', INNOVERA_URI . '/src/css/glightbox.min.css');
     wp_enqueue_style('innovera-global', INNOVERA_URI . '/src/css/global.css', array(), _S_VERSION);
-
+    wp_enqueue_style('aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css', array(), '2.3.1');
     
     // Enqueue Scripts
-    wp_enqueue_script('innovera-aos-JS', INNOVERA_URI . '/src/js/aos.js', array(), '2.3.1', true);
     wp_enqueue_script('innovera-swiper-JS', INNOVERA_URI . '/src/js/swiper/swiper-bundle.min.js', array(), '11.2.10', true);
     wp_enqueue_script('innovera-glightbox-JS', INNOVERA_URI . '/src/js/glightbox.min.js', array(), null, true);
     wp_enqueue_script('innovera-header', INNOVERA_URI . '/src/js/header.js', array(), _S_VERSION, true);
     wp_enqueue_script('innovera-mobile-menu', INNOVERA_URI . '/src/js/mobile-menu.js', array(), _S_VERSION, true);
     wp_enqueue_script('innovera-global', INNOVERA_URI . '/src/js/global.js', array('innovera-swiper-JS'), '1.0', true);
+    wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js', array(), '2.3.1', true);
+    wp_add_inline_script('aos-js', 'AOS.init();');
 
     // Homepage only
     if (is_front_page()) {
