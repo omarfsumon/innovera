@@ -10,8 +10,7 @@
     color: #666666;
     line-height: 1.75;
     padding: 0;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
 
   a {

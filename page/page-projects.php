@@ -22,7 +22,7 @@
                    
             ?>
 
-            <a href="<?php the_permalink(); ?>" class="relative group overflow-hidden rounded-xl shadow-md transition hover:shadow-xl aspect-[4/5]">
+            <a href="<?php the_permalink(); ?>" class="relative group overflow-hidden rounded-xl shadow-md transition hover:shadow-xl aspect-[4/5]" data-aos="fade-in" data-aos-duration="1000">
                 <div class="relative">
                     <?php if ($project_image): ?>
                         <img src="<?php echo esc_url($project_image); ?>" alt="<?php the_title_attribute(); ?>" class="aspect-[4/5] w-full h-auto object-cover hover:scale-105 transition duration-500">

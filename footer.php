@@ -1,7 +1,7 @@
 <footer class="bg-secondary-50 pt-10 pb-4">
     <div class="container">
         <div class="flex flex-col md:flex-row md:justify-between gap-5">
-            <div id="footer_logo" class="flex flex-col items-center">
+            <div id="footer_logo" class="flex flex-col items-center" data-aos="fade-in" data-aos-duration="1000">
                 <?php
                     $custom_logo_id = get_theme_mod('custom_logo');
                     $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
@@ -13,12 +13,12 @@
                 ?>
                 <p>Trust it's what we build</p>          
             </div>
-            <div id="footer_address" class="flex flex-col items-start mb-2 md:order-first">
+            <div id="footer_address" class="flex flex-col items-start mb-2 md:order-first" data-aos="fade-in" data-aos-duration="1000">
                 <h4 class="mb-0 text-left text-xl font-bold text-black pb-1 mb-1">Address</h4>
                 <p><strong class="text-black">Innovera Holdings Limited</strong><br>
                 House - 1, Road - 9, Block - J,<br> Baridhara, Dhaka-1212,<br> Bangladesh.</p>
             </div>
-            <div id="footer_link" class="flex flex-col items-start mb-2 lg:pr-15 ">
+            <div id="footer_link" class="flex flex-col items-start mb-2 lg:pr-15 " data-aos="fade-in" data-aos-duration="1000">
                 <h4 class="text-left text-xl font-bold text-black pb-1 mb-1">Quick Links</h4>
                 <ul class="flex flex-col">
                     <li><a class="hover:underline" href="#">Home Loan Support</a></li>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:gap-5 gap-2">
-            <div class="flex flex-col items-start mb-2">
+            <div class="flex flex-col items-start mb-2" data-aos="fade-in" data-aos-duration="1000">
                 <a href="tel:+880222298965">
                     <div class="flex justify-center mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#e8b061"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"/></svg>
@@ -40,7 +40,7 @@
                     </div>
                 </a>
             </div>
-            <div class="flex flex-col lg:items-center items-start mb-2 text-center">
+            <div class="flex flex-col lg:items-center items-start mb-2 text-center" data-aos="fade-in" data-aos-duration="1000">
                 <div class="flex justify-center mt-5">
                     <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#e8b061"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-.22-13h-.06c-.4 0-.72.32-.72.72v4.72c0 .35.18.68.49.86l4.15 2.49c.34.2.78.1.98-.24.21-.34.1-.79-.25-.99l-3.87-2.3V7.72c0-.4-.32-.72-.72-.72z"/></svg>
                     <div class="ms-3">
@@ -49,7 +49,7 @@
                     </div>
                 </div>         
             </div>
-            <div class="flex flex-col items-start mb-2">
+            <div class="flex flex-col items-start mb-2" data-aos="fade-in" data-aos-duration="1000">
                 <a href="mailto:info@innovera.com.bd">
                     <div class="flex justify-center mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#e8b061"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 14H5c-.55 0-1-.45-1-1V8l6.94 4.34c.65.41 1.47.41 2.12 0L20 8v9c0 .55-.45 1-1 1zm-7-7L4 6h16l-8 5z"/></svg>
