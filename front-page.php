@@ -61,7 +61,7 @@
 </section>
 
 <section id="our_journey" class="py-24 bg-white">
-    <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-16 justify-between items-center">
+    <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-5 justify-between items-center">
         <div class="lg:w-5/12 lg:pr-8">
             <span class="text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-secondary-50" data-aos="fade-up" data-aos-delay="100">Our journey</span>
             <h2 class="text-2nd-heading leading-[3.5rem] mb-5 mt-5" data-aos="flip-up" data-aos-delay="100">
@@ -453,7 +453,7 @@
         </div>
 
         <div class="flex md:flex-row flex-col justify-center items-center lg:gap-20 gap-10 px-5 lg:px-0">
-            <div class="flex lg:w-6/12 w-full" data-aos="fade-in" data-aos-duration="1000">
+            <div id="home_form" class="flex lg:w-6/12 w-full" data-aos="fade-in" data-aos-duration="1000">
                 <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
             </div>
             <div class="lg:w-6/12 md:order-first">

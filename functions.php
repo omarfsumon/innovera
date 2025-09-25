@@ -18,6 +18,7 @@ define('INNOVERA_URI', get_template_directory_uri());
 require_once INNOVERA_PATH . '/inc/enqueue.php';
 require_once INNOVERA_PATH . '/inc/custom_sub_menu.php';
 require_once INNOVERA_PATH . '/inc/smtp.php';
+require_once INNOVERA_PATH . '/inc/login.php';
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.

@@ -37,15 +37,6 @@ function innovera_scripts() {
     wp_enqueue_script('innovera-global', INNOVERA_URI . '/src/js/global.js', array('innovera-swiper-JS'), '1.0', true);
     wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js', array(), '2.3.1', true);
     wp_add_inline_script('aos-js', 'AOS.init();');
-
-    // Homepage only
-    if (is_front_page()) {
-        wp_enqueue_style('home-style', INNOVERA_URI . '/src/css/front-page.css', array(), _S_VERSION);
-    }
-    // About Page only
-    if (is_page('about-us')) {
-        wp_enqueue_style('about-us-style', INNOVERA_URI . '/src/css/about_page.css', array(), _S_VERSION);
-    }
 }
 add_action('wp_enqueue_scripts', 'innovera_scripts');
 
