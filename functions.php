@@ -19,6 +19,7 @@ require_once INNOVERA_PATH . '/inc/enqueue.php';
 require_once INNOVERA_PATH . '/inc/custom_sub_menu.php';
 require_once INNOVERA_PATH . '/inc/smtp.php';
 require_once INNOVERA_PATH . '/inc/login.php';
+require_once INNOVERA_PATH . '/inc/ajax.php';
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.

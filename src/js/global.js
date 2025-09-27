@@ -90,3 +90,25 @@ const videoLightbox = GLightbox({
   source: 'youtube',
   autoplayVideos: true,
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('project-filters');
+
+    form.addEventListener('change', function () {
+        const formData = new FormData(form);
+
+        fetch('<?php echo admin_url('admin-ajax.php'); ?>', {
+            method: 'POST',
+            body: new URLSearchParams({
+                action: 'filter_projects',
+                occupancy_type: formData.get('occupancy_type'),
+                project_location: formData.get('project_location'),
+            })
+        })
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById('filtered-projects').innerHTML = data;
+        });
+    });
+});

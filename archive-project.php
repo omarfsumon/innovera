@@ -2,11 +2,58 @@
 <section class="page-banner h-[400px] lg:h-[600px]" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container pt-10">
-            <h1 class="text-2nd-heading font-normal text-center text-white"><?php the_title(); ?></h1>
+            <h1 class="text-2nd-heading font-normal text-center text-white">
+                <?php post_type_archive_title(); ?>
+            </h1>
         </div>
     </div>
 </section>
-<section class="py-20">
+
+<section class="container my-5">
+    <form id="project-filters" class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Taxonomy Filter (occupancy-type) -->
+        <select name="occupancy_type" class="form-select px-4 py-2 border border-gray-300 rounded-md">
+            <option value="">All Occupancy Types</option>
+            <?php
+            $terms = get_terms('occupancy-type');
+            foreach ($terms as $term) {
+                echo '<option value="' . esc_attr($term->slug) . '">' . esc_html($term->name) . '</option>';
+            }
+            ?>
+        </select>
+
+        <!-- ACF Filter (project_location) -->
+        <select name="project_location" class="form-select px-4 py-2 border border-gray-300 rounded-md">
+            <option value="">All Locations</option>
+            <?php
+            $locations = get_posts(array(
+                'post_type' => 'project',
+                'posts_per_page' => -1,
+                'meta_key' => 'project_location',
+                'fields' => 'ids',
+            ));
+
+            $location_values = [];
+
+            foreach ($locations as $project_id) {
+                $location = get_field('project_location', $project_id);
+                if (!empty($location)) {
+                    $location_values[] = $location;
+                }
+            }
+
+            $unique_locations = array_unique($location_values);
+            foreach ($unique_locations as $loc) {
+                echo '<option value="' . esc_attr($loc) . '">' . esc_html($loc) . '</option>';
+            }
+            ?>
+        </select>
+    </form>
+    <!-- Results Container -->
+    <div id="filtered-projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+</section>
+
+<section class="pt-0 pb-16">
     <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <?php
@@ -19,7 +66,6 @@
                 while ($projects->have_posts()): $projects->the_post();
                     $project_image = get_the_post_thumbnail_url(get_the_ID(), 'large');
                     $location = get_field('project_location');
-                   
             ?>
 
             <a href="<?php the_permalink(); ?>" class="relative group overflow-hidden rounded-xl shadow-md transition hover:shadow-xl aspect-[4/5]" data-aos="fade-in" data-aos-duration="1000">
@@ -41,4 +87,5 @@
         </div>
     </div>
 </section>
+
 <?php get_footer(); ?>
