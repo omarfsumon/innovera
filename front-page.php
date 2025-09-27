@@ -1,58 +1,89 @@
 <?php get_header(); ?>
-<section id="hero" class="relative lg:min-h-screen min-h-[75vh] flex ">
-    <div class="z-20 flex items-center justify-center container">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col lg:flex-row gap-8 items-center justify-between mt-12">
-                <div class="w-full lg:w-6/12">
-                    <h1 class="mb-0 text-hero-heading font-semibold leading-tight text-white  ">
-                        Trust - it's what we build.
-                    </h1>
-                </div>
-                <div class="w-full lg:w-6/12 text-center">
-                    <h4 class="text-lg font-light mb-4 text-white text-center">
-                        Ensuring customer satisfaction through delivery of true value in all our dealings
-                    </h4>
-                    <div class="flex flex-col sm:flex-row gap-4 place-content-center">
-                        <a href="#contact"
-                        class="  inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
-                            <span class="btn-text inline-block transition-transform duration-300">Schedule a Visit</span>
-                        </a>
-
-                        <a href="/projects/"
-                        class="  inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md overflow-hidden border border-white/50">
-                            <span class="btn-text inline-block transition-transform duration-300">Explore Property</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section id="hero" class="relative lg:min-h-screen min-h-[75vh] flex items-center justify-center z-0">
     <div class="hero-slider absolute z-10 w-full h-full top-0 left-0">
         <div class="swiper w-full h-full">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="sw-overlay absolute inset-0 bg-black/40"></div>
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide relative">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp');"></div>
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
+                        <div class="text-center">
+                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">Trust - it's what we build.</h1>
+                            <p class="text-lg font-light mb-4 text-white text-center" data-aos="fade-up" data-aos-delay="200">Ensuring customer satisfaction through delivery of true value in all our dealings.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                                <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Schedule a Visit
+                                </a>
+                                <a href="/project/" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Explore Property
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="sw-overlay absolute inset-0 bg-black/40"></div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide relative">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp');"></div>
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">Always deliver more than expected</h1>
+                            <p class="text-lg font-light mb-6" data-aos="fade-up" data-aos-delay="200">We lead by serving you to the best of our ability.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                                <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Schedule a Visit
+                                </a>
+                                <a href="/project/" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Explore Property
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="sw-overlay absolute inset-0 bg-black/40"></div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide relative">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp');"></div>
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">Elegant and Comfort in a Modern Space</h1>
+                            <p class="text-lg font-light mb-6" data-aos="fade-up" data-aos-delay="200">
+                                Conducting each activity in the business in the most fair and just manner.
+                            </p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                                <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Schedule a Visit
+                                </a>
+                                <a href="/project/" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Explore Property
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/4.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="sw-overlay absolute inset-0 bg-black/40"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-cover bg-center w-full h-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/5.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="sw-overlay absolute inset-0 bg-black/40"></div>
+                <!-- Slide ৪ -->
+                <div class="swiper-slide relative">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/4.webp');"></div>
+                    <div class="absolute inset-0 bg-black/40"></div>
+                    <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">
+                                Delivering what is promised, on time, every time</h1>
+                            <p class="text-lg font-light mb-6" data-aos="fade-up" data-aos-delay="200">
+                                We ensure optimum satisfaction of customers with maintain of proper handover deadline.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                                <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Schedule a Visit
+                                </a>
+                                <a href="/project/" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
+                                    Explore Property
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,7 +91,7 @@
     </div>
 </section>
 
-<section id="our_journey" class="py-24 bg-white">
+<section id="our_journey" class="py-24 bg-white z-0">
     <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-5 justify-between items-center">
         <div class="lg:w-5/12 lg:pr-8">
             <span class="text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-secondary-50" data-aos="fade-up" data-aos-delay="100">Our journey</span>
@@ -113,7 +144,7 @@
     </div>
 </section>
 
-<section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden">
+<section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden z-0">
     <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <span class="text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645]">Featured Projects</span>
@@ -126,7 +157,7 @@
                     <li data-tab="tab2">Exlcusive</li>
                     <li data-tab="tab3">Standard</li>
                     <li data-tab="tab4">Interior</li>
-                    <li><a class="hover:text-white" href="/projects/">All Projects</a></li>
+                    <li><a class="hover:text-white" href="/project/">All Projects</a></li>
                 </ul>
                 <ul id="tabContents" class="pt-3">
                     <li data-tab-content="tab1" class="block">
@@ -226,7 +257,7 @@
     </div>
 </section>
 
-<section id="what_we_do" class=" bg-secondary-50 py-24">
+<section id="what_we_do" class=" bg-secondary-50 py-24 z-0">
     <div class="container">
         <div class="flex flex-wrap justify-center">
             <div class="lg:w-1/2 text-center">
@@ -284,7 +315,7 @@
     </div>
 </section>
 
-<section id="why_innovera" class="bg-[#003333] py-24 text-white">
+<section id="why_innovera" class="bg-[#003333] py-24 text-white z-0">
     <div class="container flex flex-col lg:flex-row gap-5 items-center justify-center lg:justify-between">
         <div class="w-full lg:w-1/2">
             <span class="subtitle   text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645] rounded" data-aos="fade-up">Discover</span>
@@ -381,7 +412,7 @@
     </div>
 </section>
 
-<section id="latest_update" class="py-24">
+<section id="latest_update" class="py-24 z-0">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
             <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded" data-aos="fade-up">Latest Update</div>
@@ -391,7 +422,7 @@
             <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="100">
                 <div class="overflow-hidden relative rounded-1 text-light text-center">
                     <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/facilities-nearby/1.webp' ?>" class="w-full" alt="">
+                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/1.webp' ?>" class="w-full" alt="">
                     </div>
                     <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
                         <h3 class="text-2xl text-white text-start">REHAB Fair 2024</h3>
@@ -401,7 +432,7 @@
             <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="200">
                 <div class="overflow-hidden relative rounded-1 text-light text-center">
                     <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/facilities-nearby/3.webp' ?>" class="w-full" alt="">
+                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/3.webp' ?>" class="w-full" alt="">
                     </div>
                     <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
                         <h3 class="text-2xl text-white text-start">Inauguration Program</h3>
@@ -411,7 +442,7 @@
             <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="300">
                 <div class="overflow-hidden relative rounded-1 text-light text-center">
                     <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/facilities-nearby/4.webp' ?>" class="w-full" alt="">
+                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/4.webp' ?>" class="w-full" alt="">
                     </div>
                     <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
                         <h3 class="text-2xl text-white text-start">Signing Ceremony</h3>
@@ -422,7 +453,7 @@
     </div>
 </section>
 
-<section id="video" class="p-0">
+<section id="video" class="p-0 z-0">
     <div class="flex items-center w-full">
         <a class="block popup-youtube group w-full" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
             <div class="relative overflow-hidden h-[50vh] lg:h-[70vh]">
@@ -434,13 +465,13 @@
                     </div>
                 </div>
                 <div class="absolute w-full h-full top-0 bg-black/40 group-hover:bg-black/50 transition-all duration-500 z-0"></div>
-                <img src="<?php echo INNOVERA_URI . '/src/images/misc/l3.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="">
+                <img src="<?php echo INNOVERA_URI . '/src/images/background/2.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="">
             </div>
         </a>
     </div>
 </section>
 
-<section id="contact" class="py-24">
+<section id="contact" class="py-24 z-0">
     <div class="container">
         <div class="flex justify-center mb-5">
             <div class="text-center">

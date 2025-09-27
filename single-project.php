@@ -315,7 +315,7 @@
 
     if ($video && $video_banner):
 ?>
-<section class="relative bg-gradient-to-t from-white from-50% to-gray-200 to-50% md:py-40 py-5 z-10 ">
+<section class="relative bg-gradient-to-t from-white from-50% to-gray-200 to-50% md:py-40 py-5 z-0 ">
     <div class="md:max-w-4xl max-w-[320px] mx-auto px-4">
         <div class="flex justify-center items-center">
             <a href="<?php echo esc_url($video); ?>" data-aos="zoom-in-down" data-aos-duration="1000"

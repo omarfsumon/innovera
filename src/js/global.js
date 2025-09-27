@@ -91,24 +91,24 @@ const videoLightbox = GLightbox({
   autoplayVideos: true,
 });
 
+// Back to Top Button
+  document.addEventListener('DOMContentLoaded', function () {
+      const backToTopBtn = document.getElementById('back_to_top');
 
-document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('project-filters');
+      // Scroll show/hide logic
+      window.addEventListener('scroll', function () {
+          if (window.scrollY > 200) {
+              backToTopBtn.classList.remove('hidden');
+              backToTopBtn.classList.add('opacity-100');
+          } else {
+              backToTopBtn.classList.add('hidden');
+              backToTopBtn.classList.remove('opacity-100');
+          }
+      });
 
-    form.addEventListener('change', function () {
-        const formData = new FormData(form);
-
-        fetch('<?php echo admin_url('admin-ajax.php'); ?>', {
-            method: 'POST',
-            body: new URLSearchParams({
-                action: 'filter_projects',
-                occupancy_type: formData.get('occupancy_type'),
-                project_location: formData.get('project_location'),
-            })
-        })
-        .then(res => res.text())
-        .then(data => {
-            document.getElementById('filtered-projects').innerHTML = data;
-        });
-    });
-});
+      // Smooth scroll to top
+      backToTopBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+  });

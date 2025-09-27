@@ -9,51 +9,7 @@
     </div>
 </section>
 
-<section class="container my-5">
-    <form id="project-filters" class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <!-- Taxonomy Filter (occupancy-type) -->
-        <select name="occupancy_type" class="form-select px-4 py-2 border border-gray-300 rounded-md">
-            <option value="">All Occupancy Types</option>
-            <?php
-            $terms = get_terms('occupancy-type');
-            foreach ($terms as $term) {
-                echo '<option value="' . esc_attr($term->slug) . '">' . esc_html($term->name) . '</option>';
-            }
-            ?>
-        </select>
-
-        <!-- ACF Filter (project_location) -->
-        <select name="project_location" class="form-select px-4 py-2 border border-gray-300 rounded-md">
-            <option value="">All Locations</option>
-            <?php
-            $locations = get_posts(array(
-                'post_type' => 'project',
-                'posts_per_page' => -1,
-                'meta_key' => 'project_location',
-                'fields' => 'ids',
-            ));
-
-            $location_values = [];
-
-            foreach ($locations as $project_id) {
-                $location = get_field('project_location', $project_id);
-                if (!empty($location)) {
-                    $location_values[] = $location;
-                }
-            }
-
-            $unique_locations = array_unique($location_values);
-            foreach ($unique_locations as $loc) {
-                echo '<option value="' . esc_attr($loc) . '">' . esc_html($loc) . '</option>';
-            }
-            ?>
-        </select>
-    </form>
-    <!-- Results Container -->
-    <div id="filtered-projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-</section>
-
-<section class="pt-0 pb-16">
+<section class="py-15 z-0">
     <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <?php
