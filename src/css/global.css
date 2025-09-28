@@ -1598,6 +1598,10 @@ h1, h2, h3, h4, h5, h6 {
   aspect-ratio: 16 / 9;
 }
 
+.aspect-\[3\/2\] {
+  aspect-ratio: 3/2;
+}
+
 .size-3 {
   width: 0.75rem;
   height: 0.75rem;
@@ -1811,6 +1815,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
 }
 
 .max-w-\[320px\] {
@@ -3930,8 +3938,28 @@ button.jet-form-builder__submit:focus {
     max-width: 56rem;
   }
 
+  .md\:max-w-\[50\%\] {
+    max-width: 50%;
+  }
+
   .md\:max-w-\[600px\] {
     max-width: 600px;
+  }
+
+  .md\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
+  .md\:max-w-\[70\%\] {
+    max-width: 70%;
+  }
+
+  .md\:max-w-\[35\%\] {
+    max-width: 35%;
+  }
+
+  .md\:max-w-\[65\%\] {
+    max-width: 65%;
   }
 
   .md\:grid-cols-2 {
@@ -4069,6 +4097,10 @@ button.jet-form-builder__submit:focus {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
