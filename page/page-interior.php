@@ -8,6 +8,7 @@
             With Innovera, your interiors aren’t just beautiful—they’re functional, comfortable, and truly yours.
         </p>
 </section>
+
 <section class="md:py-16 py-4 bg-[#fefefc]">
     <div class="container flex md:flex-row flex-col items-center gap-10">
         <div class="md:w-[45%] w-full md:order-last">
