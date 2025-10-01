@@ -102,7 +102,7 @@
                 With a vision to combine innovation, quality, and reliability, we aim to transform the landscape of urban living with modern architecture, 
                 premium construction, and sustainable real estate solutions across Dhaka and beyond.
             </p>
-            <a class="inline-flex items-center px-8 py-2 bg-secondary-400 text-white hover:text-secondary-600 font-medium hover:bg-secondary-100 transition-all rounded  " href="/about-us/">
+            <a class="inline-flex items-center px-8 py-2 bg-secondary-400 text-white hover:text-secondary-600 font-medium hover:bg-secondary-100 transition-all rounded" href="/about-us/">
                 Explore More
             </a>
         </div>
@@ -418,37 +418,39 @@
             <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded" data-aos="fade-up">Latest Update</div>
             <h2 class="  text-2nd-heading" data-aos="flip-up" data-aos-delay="100">Media & Event</h2>
         </div>
-        <div class="flex flex-wrap md:flex-nowrap lg:flex-nowrap gap-4">
-            <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="100">
-                <div class="overflow-hidden relative rounded-1 text-light text-center">
-                    <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/1.webp' ?>" class="w-full" alt="">
-                    </div>
-                    <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
-                        <h3 class="text-2xl text-white text-start">REHAB Fair 2024</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="200">
-                <div class="overflow-hidden relative rounded-1 text-light text-center">
-                    <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/3.webp' ?>" class="w-full" alt="">
-                    </div>
-                    <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
-                        <h3 class="text-2xl text-white text-start">Inauguration Program</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-1/3 md:w-1/2" data-aos="zoom-in-down" data-aos-delay="300">
-                <div class="overflow-hidden relative rounded-1 text-light text-center">
-                    <div class="overflow-hidden rounded-lg">
-                        <img src="<?php echo INNOVERA_URI . '/src/images/media_&_event/4.webp' ?>" class="w-full" alt="">
-                    </div>
-                    <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
-                        <h3 class="text-2xl text-white text-start">Signing Ceremony</h3>
-                    </div>
-                </div>
-            </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <?php
+                $events = new WP_Query([
+                    'post_type'      => 'events',
+                    'posts_per_page' => 3,
+                    'orderby'        => 'date',
+                    'order'          => 'DESC',
+                    'status'         => 'publish',
+                ]);
+
+                if ($events->have_posts()) :
+                    while ($events->have_posts()) : $events->the_post(); ?>
+                    
+                    <a href="<?php the_permalink(); ?>" data-aos="zoom-in-down" data-aos-delay="100">
+                        <div class="overflow-hidden relative rounded-1 text-light text-center">
+                            <div class="overflow-hidden rounded-xl">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <img src="<?php the_post_thumbnail_url('full'); ?>" class="w-full aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>">
+                                <?php endif; ?>
+                            </div>
+                            <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
+                                <h3 class="text-2xl text-white text-start"><?php the_title(); ?></h3>
+                            </div>
+                        </div>
+                    </a>
+
+                    <?php endwhile;
+                    wp_reset_postdata();
+                endif;
+            ?>
+        </div>
+        <div class="text-center mt-5" data-aos="fade-in" data-aos-delay="100">
+            <a href="/events" class="inline-flex items-center px-8 py-2 bg-secondary-400 text-white hover:text-secondary-600 font-medium hover:bg-secondary-100 transition-all rounded">View All Events</a>
         </div>
     </div>
 </section>
