@@ -75,6 +75,8 @@
                 <li>Regular inspections and preventive maintenance to ensure smooth operation.</li>
             </ul>
         </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8 mt-8">
         <div class="service-item p-5 rounded-xl bg-white/5" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="flex items-center mb-3 gap-3">
                 <span class="text-primary-500 block">
@@ -104,27 +106,27 @@
   </div>
 </section>
 
-<section class="md:py-16 py-10 bg-white overflow-hidden">
+<section class="md:py-16 py-10 bg-secondary-50 overflow-hidden">
     <div class="container">
         <h2 class="text-3rd-heading leading-[1.2] mb-2 font-[400] text-center" data-aos="flip-up" data-aos-duration="1000">
         Why Choose Innovera’s After Handover Service?</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-5">
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
                 <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
                 <h4 class="leading-[1.2] text-xl">Peace of Mind</h4>
                 <p>We take care of your property so you can enjoy your home stress-free.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
                 <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
                 <h4 class="text-xl leading-[1.2]">Trusted Experts</h4>
                 <p>Experienced teams handle all maintenance, legal, and operational tasks.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
                 <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
                 <h4 class="text-xl leading-[1.2]">Quick & Transparent</h4>
                 <p>Requests and complaints are resolved efficiently with clear communication.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
                 <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
                 <h4 class="text-xl leading-[1.2]">Long-Term Support</h4>
                 <p>Our commitment extends beyond handover to ensure your investment grows.</p>
@@ -133,7 +135,7 @@
     </div>
 </section>
 
-<section class=" py-5 md:py-15 px-4 overflow-hidden">
+<section class=" py-5 md:py-20 px-4 overflow-hidden">
     <div class="container flex flex-col md:flex-row items-center justify-between md:gap-20 gap-5">
         <div class="max-w-[100%] md:max-w-[50%]">
             <img src="<?php echo get_template_directory_uri(); ?>/src/images/service/property_management.webp" alt="NRB Corner" class="w-full rounded-lg" data-aos="fade-right" data-aos-delay="400">
@@ -224,4 +226,65 @@
     </div>
   </div>
 </section>
+
+<section class="md:py-16 py-10 bg-secondary-50 overflow-hidden">
+    <div class="container">
+        <h2 class="text-3rd-heading leading-[1.2] mb-2 font-[400] text-center" data-aos="flip-up" data-aos-duration="1000">
+        Why Choose Innovera Property Management?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="leading-[1.2] text-xl">One-Stop Solution</h4>
+                <p>From minor repairs to full facility operations, we manage it all.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Professional Expertise</h4>
+                <p>Experienced managers and technical teams.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Trust & Transparency</h4>
+                <p>Clear communication and honest reporting.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Time-Saving</h4>
+                <p>We handle the hassles so you can focus on your life or business.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Long-Term Value</h4>
+                <p>Well-maintained properties retain higher resale and rental values.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="md:py-16 py-10 overflow-hidden">
+    <div class="container">
+        <h2 class="text-3rd-heading leading-[1.2] mb-2 font-[400] text-center" data-aos="flip-up" data-aos-duration="1000">
+            For Whom?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-5">
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="leading-[1.2] text-xl">Apartment Owners (living abroad or busy with work)</h4>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Landlords who rent out units</h4>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Housing Societies & Commercial Complex Owners</h4>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
+                <h4 class="text-xl leading-[1.2]">Investors who want hassle-free returns</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <?php get_footer();?>
