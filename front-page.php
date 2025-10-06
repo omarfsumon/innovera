@@ -90,7 +90,6 @@
         </div>
     </div>
 </section>
-
 <section id="our_journey" class="py-24 bg-white z-0">
     <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-5 justify-between items-center">
         <div class="lg:w-5/12 lg:pr-8">
@@ -143,7 +142,6 @@
         </div>
     </div>
 </section>
-
 <section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden z-0">
     <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
@@ -256,7 +254,6 @@
         </div>
     </div>
 </section>
-
 <section id="what_we_do" class=" bg-secondary-50 py-24 z-0">
     <div class="container">
         <div class="flex flex-wrap justify-center">
@@ -314,7 +311,6 @@
         </div>
     </div>
 </section>
-
 <section id="why_innovera" class="bg-[#003333] py-24 text-white z-0">
     <div class="container flex flex-col lg:flex-row gap-5 items-center justify-center lg:justify-between">
         <div class="w-full lg:w-1/2">
@@ -411,7 +407,6 @@
         </div>
     </div>
 </section>
-
 <section id="latest_update" class="py-24 z-0">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
@@ -454,7 +449,6 @@
         </div>
     </div>
 </section>
-
 <section id="video" class="p-0 z-0">
     <div class="flex items-center w-full">
         <a class="block popup-youtube group w-full" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
@@ -472,7 +466,6 @@
         </a>
     </div>
 </section>
-
 <section id="contact" class="py-24 z-0">
     <div class="container">
         <div class="flex justify-center mb-5">
@@ -490,7 +483,7 @@
                 <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
             </div>
             <div class="lg:w-6/12 md:order-first">
-                <h4 class="lg:text-4xl text-2xl font-normal text-black" data-aos="fade-in" data-aos-duration="1000">Call us directly and schedule a meeting right now!</h4>
+                <h4 class="text-xl font-normal text-black" data-aos="fade-in" data-aos-duration="1000">Call us directly and schedule a meeting right now!</h4>
                 <p class="lg:text-lg text-base font-normal text-black/50" data-aos="fade-in" data-aos-duration="1500">Our team is committed to honesty, professionalism, and delivering real value to our clients.</p>
                 <a class="flex items-center  gap-2 text-lg font-medium text-white hover:text-white px-3 py-2 mt-4 bg-secondary-500 hover:bg-secondary-600 rounded w-fit " href="tel:+8801833156010" data-aos="fade-in" data-aos-duration="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-white">

@@ -17,11 +17,11 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-    <header id="header" class="absolute top-0 w-full z-50 transition-all duration-500 transparent" data-aos="fade-in" data-aos-duration="1000">
-        <div class="header-inner transition-all duration-300">
-            <div class="container flex justify-between items-center w-full py-3 px-4 transition-all duration-300 lg:rounded-xl lg:mt-10 bg-white">
+    <header id="header" class="my-sticky-header sticky top-6 -mb-24 w-full z-50 transparent" data-aos="fade-in" data-aos-duration="1000">
+        <!-- <div class="header-inner transition-all duration-300"> -->
+            <div class="container flex justify-between items-center w-full py-4 px-5 lg:rounded-xl lg:mt-6 bg-white shadow-md">
                 <!-- Logo -->
-                <div id="logo">
+                <div id="logo" class="logo">
                     <?php
                         $custom_logo_id = get_theme_mod('custom_logo');
                         $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
@@ -49,7 +49,7 @@
 
                 <!-- Mobile Menu Button and CTA -->
                 <div class="flex items-center space-x-4">
-                    <a class="hidden lg:inline-block btn-main" href="#contact">
+                    <a class="Schedule hidden lg:inline-block btn-main" href="#contact">
                         Schedule a Visit
                     </a>
                     <button id="mobile-menu-btn" class="lg:hidden text-gray-800 hover:text-primary p-2" aria-label="Toggle Menu">
@@ -80,5 +80,5 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        <!-- </div> -->
     </header>

@@ -30,6 +30,7 @@
     font-weight: 400;
     color: #1B1B1B;
   }
+
 }
 
 @layer components {
@@ -81,7 +82,26 @@
 
   #header .container {
     transition: all 0.3s ease-in-out;
-    box-shadow: none;
+  }
+  .my-sticky-header {
+      transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      background-color: transparent;
+  }
+
+  .my-sticky-header.scrolled-down {
+      background-color: white;
+  }
+  .hide-header {
+      transform: translateY(-110px);
+      transition: transform 0.3s ease-in-out;
+  }
+  .hide-header .logo {
+      transform: translateX(-10px);
+      transition: transform 0.3s ease-in-out;
+  }
+    .hide-header .Schedule {
+      transform: translateX(10px);
+      transition: transform 0.3s ease-in-out;
   }
 
   /* Button Components */
