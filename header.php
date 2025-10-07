@@ -4,7 +4,6 @@
  *
  * @package Innovera
  */
-
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -14,12 +13,11 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-    <header id="header" class="my-sticky-header sticky top-6 -mb-24 w-full z-50 transparent" data-aos="fade-in" data-aos-duration="1000">
+    <header id="header" class="my-sticky-header sticky top-0 lg:top-6 -mb-[100px] w-full z-50 transparent" data-aos="fade-in" data-aos-duration="1000">
         <!-- <div class="header-inner transition-all duration-300"> -->
-            <div class="container flex justify-between items-center w-full py-4 px-5 lg:rounded-xl lg:mt-6 bg-white shadow-md">
+            <div class="container flex justify-between items-center w-full px-5 h-20 lg:rounded-lg lg:mt-5 bg-white shadow-md">
                 <!-- Logo -->
                 <div id="logo" class="logo">
                     <?php
@@ -33,7 +31,6 @@
                         }
                     ?>
                 </div>
-
                 <!-- Desktop Navigation -->
                 <nav id="desktop-nav" class="hidden lg:block">
                     <?php
@@ -46,7 +43,6 @@
                     ));
                     ?>
                 </nav>
-
                 <!-- Mobile Menu Button and CTA -->
                 <div class="flex items-center space-x-4">
                     <a class="Schedule hidden lg:inline-block btn-main" href="#contact">
@@ -60,7 +56,6 @@
                     </button>
                 </div>
             </div>
-
             <!-- Mobile Navigation -->
             <nav id="mobile-nav" class="lg:hidden">
                 <div class="mobile-menu-container hidden bg-white backdrop-blur-sm absolute left-0 w-full border-t border-gray-100">

@@ -672,13 +672,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 
-.my-sticky-header.scrolled-down {
-  background-color: white;
-}
-
 .hide-header {
   transform: translateY(-110px);
   transition: transform 0.3s ease-in-out;
+  background-color: white !important;
 }
 
 .hide-header .logo {
@@ -696,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-main {
   display: inline-block;
   padding: 0.5rem 1.25rem;
-  background-color: #e69339;
+  background-color: #d67220;
   color: white;
   font-size: 0.875rem;
   font-weight: 400;
@@ -707,8 +704,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-main:hover {
-  background-color: #f2cc95;
-  color: #a3391a;
+  background-color: #f6deb2;
+  color: #3e1d0c;
 }
 
 /* Desktop Menu */
@@ -1588,6 +1585,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.-mb-\[100px\] {
+  margin-bottom: -100px;
 }
 
 .line-clamp-2 {
@@ -3732,24 +3733,24 @@ h1, h2, h3, h4, h5, h6 {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.header-float {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  z-index: 1001;
-  background: #1B1B1B;
-  margin: 0;
-}
+/* .header-float {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 1001;
+    background: #1B1B1B;
+    margin: 0;
+  }
+  
+  .header-float .header-inner {
+    background: #1B1B1B;
+    margin: 2.5rem;
+    border-radius: 0.5rem;
+  }
 
-.header-float .header-inner {
-  background: #1B1B1B;
-  margin: 2.5rem;
-  border-radius: 0.5rem;
-}
-
-.header-light .header-inner {
-  background: white;
-}
+  .header-light .header-inner {
+    background: white;
+  } */
 
 .logo-main {
   max-width: 180px;
@@ -4102,12 +4103,28 @@ button.jet-form-builder__submit:focus {
 }
 
 @media (min-width: 768px) {
+  .md\:top-6 {
+    top: 1.5rem;
+  }
+
   .md\:order-first {
     order: -9999;
   }
 
   .md\:order-last {
     order: 9999;
+  }
+
+  .md\:-mb-\[100px\] {
+    margin-bottom: -100px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-\[400px\] {
@@ -4251,16 +4268,20 @@ button.jet-form-builder__submit:focus {
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-6 {
+    top: 1.5rem;
+  }
+
+  .lg\:-mb-\[100px\] {
+    margin-bottom: -100px;
+  }
+
   .lg\:ml-2 {
     margin-left: 0.5rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .lg\:mt-6 {
-    margin-top: 1.5rem;
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .lg\:block {
@@ -4354,6 +4375,10 @@ button.jet-form-builder__submit:focus {
 
   .lg\:rounded-xl {
     border-radius: 0.75rem;
+  }
+
+  .lg\:rounded-lg {
+    border-radius: 0.5rem;
   }
 
   .lg\:p-10 {

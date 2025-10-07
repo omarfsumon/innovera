@@ -71,15 +71,12 @@
   #header {
     transition: all 0.5s ease-in-out;
   }
-
   #header.transparent {
     background: transparent;
   }
-
   #header .header-inner {
     transition: all 0.3s ease-in-out;
   }
-
   #header .container {
     transition: all 0.3s ease-in-out;
   }
@@ -87,28 +84,25 @@
       transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
       background-color: transparent;
   }
-
-  .my-sticky-header.scrolled-down {
-      background-color: white;
-  }
   .hide-header {
       transform: translateY(-110px);
       transition: transform 0.3s ease-in-out;
+      background-color: white !important;
   }
   .hide-header .logo {
       transform: translateX(-10px);
       transition: transform 0.3s ease-in-out;
   }
-    .hide-header .Schedule {
-      transform: translateX(10px);
-      transition: transform 0.3s ease-in-out;
+  .hide-header .Schedule {
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in-out;
   }
 
   /* Button Components */
   .btn-main {
     display: inline-block;
     padding: 0.5rem 1.25rem;
-    background-color: #e69339;
+    background-color: #d67220;
     color: white;
     font-size: 0.875rem;
     font-weight: 400;
@@ -119,8 +113,8 @@
   }
 
   .btn-main:hover {
-    background-color: #f2cc95;
-    color: #a3391a;
+    background-color: #f6deb2;
+    color: #3e1d0c;
   }
 
   /* Desktop Menu */
@@ -310,7 +304,7 @@
 }
 
 @layer utilities {
-  .header-float {
+  /* .header-float {
     position: absolute;
     width: 100%;
     left: 0;
@@ -327,7 +321,7 @@
 
   .header-light .header-inner {
     background: white;
-  }
+  } */
 
   .logo-main {
     max-width: 180px;
