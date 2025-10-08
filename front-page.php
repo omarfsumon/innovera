@@ -1,9 +1,9 @@
 <?php get_header(); ?>
+
 <section id="hero" class="relative lg:min-h-screen min-h-[75vh] flex items-center justify-center z-0">
     <div class="hero-slider absolute z-10 w-full h-full top-0 left-0">
         <div class="swiper w-full h-full">
             <div class="swiper-wrapper">
-
                 <!-- Slide 1 -->
                 <div class="swiper-slide relative">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp');"></div>
@@ -23,7 +23,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Slide 2 -->
                 <div class="swiper-slide relative">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp');"></div>
@@ -43,14 +42,13 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Slide 3 -->
                 <div class="swiper-slide relative">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp');"></div>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white">
-                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">Elegant and Comfort in a Modern Space</h1>
+                            <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4" data-aos="fade-up" data-aos-delay="100">Elegant and comfort in a modern Space</h1>
                             <p class="text-lg font-light mb-6" data-aos="fade-up" data-aos-delay="200">
                                 Conducting each activity in the business in the most fair and just manner.
                             </p>
@@ -90,11 +88,13 @@
         </div>
     </div>
 </section>
-<section id="our_journey" class="py-24 bg-white z-0">
-    <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-5 justify-between items-center">
-        <div class="lg:w-5/12 lg:pr-8">
+
+
+<section id="our_journey" class="py-12 md:py-20 bg-white z-0">
+    <div class="container flex flex-col lg:flex-row gap-5 justify-between items-center">
+        <div class="lg:w-[40%] lg:pr-8">
             <span class="text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-secondary-50" data-aos="fade-up" data-aos-delay="100">Our journey</span>
-            <h2 class="text-2nd-heading leading-[3.5rem] mb-5 mt-5" data-aos="flip-up" data-aos-delay="100">
+            <h2 class="text-2nd-heading leading-[1.3] mb-5 mt-5" data-aos="flip-up" data-aos-delay="100">
                 Luxury living where comfort meets timeless style, effortlessly</h2>
             <p class="text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="100">
                 Innovera Holdings Ltd. is a forward-thinking real estate developer company dedicated to creating sustainable communities and iconic properties in Bangladesh. 
@@ -105,44 +105,42 @@
                 Explore More
             </a>
         </div>
-        <div class="lg:w-1/2">
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-gray-50 p-8 rounded-xl" data-aos="zoom-in" data-aos-delay="100">
-                    <h4 class="text-xl font-semibold mb-3 mt-2">About the Logo</h4>
-                    <p class="text-gray-600">
-                        The logo reflects the company’s identity as an innovative and forward-thinking developer. 
-                        The tagline reinforces the company is committed to building trust, relationships, and long-term value with every client.
-                    </p>
-                </div>
+        <div class="lg:w-[60%] grid md:grid-cols-2 gap-5">
+            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="100">
+                <h4 class="text-xl font-normal mb-3 mt-2">About the Logo</h4>
+                <p class="text-gray-600">
+                    The logo reflects the company’s identity as an innovative and forward-thinking developer. 
+                    The tagline reinforces the company is committed to building trust, relationships, and long-term value with every client.
+                </p>
+            </div>
 
-                <div class="bg-gray-50 p-8 rounded-xl" data-aos="zoom-in" data-aos-delay="200">
-                    <h4 class="text-xl font-semibold mb-3 mt-2">Color Significance</h4>
-                    <p class="text-gray-600">
-                        The orange hue conveys energy, creativity, and optimism, highlighting the company’s dynamic approach to real estate development. 
-                        It also reflects warmth and trust, aligning with the brand promise.
-                    </p>
-                </div>
+            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="200">
+                <h4 class="text-xl font-normal mb-3 mt-2">Color Significance</h4>
+                <p class="text-gray-600">
+                    The orange hue conveys energy, creativity, and optimism, highlighting the company’s dynamic approach to real estate development. 
+                    It also reflects warmth and trust, aligning with the brand promise.
+                </p>
+            </div>
 
-                <div class="bg-gray-50 p-8 rounded-xl" data-aos="zoom-in" data-aos-delay="300">
-                    <h4 class="text-xl font-semibold mb-3 mt-2">Design Concept</h4>
-                    <p class="text-gray-600">
-                        The logo features a stylized building made of vibrant orange blocks, symbolizing strength, structure, 
-                        and modern architecture. It visually represents growth, progress, and a strong foundation.
-                    </p>
-                </div>
+            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="300">
+                <h4 class="text-xl font-normal mb-3 mt-2">Design Concept</h4>
+                <p class="text-gray-600">
+                    The logo features a stylized building made of vibrant orange blocks, symbolizing strength, structure, 
+                    and modern architecture. It visually represents growth, progress, and a strong foundation.
+                </p>
+            </div>
 
-                <div class="bg-gray-50 p-8 rounded-xl" data-aos="zoom-in" data-aos-delay="400">
-                    <h4 class="text-xl font-semibold mb-3 mt-2">Brand Message</h4>
-                    <p class="text-gray-600">
-                        Together, the elements of the logo convey that Innovera Holdings Ltd. is not just a builder of properties, 
-                        but a creator of trust, quality, and innovation in the real estate industry of Bangladesh.
-                    </p>
-                </div>
+            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="400">
+                <h4 class="text-xl font-normal mb-3 mt-2">Brand Message</h4>
+                <p class="text-gray-600">
+                    Together, the elements of the logo convey that Innovera Holdings Ltd. is not just a builder of properties, 
+                    but a creator of trust, quality, and innovation in the real estate industry of Bangladesh.
+                </p>
             </div>
         </div>
     </div>
 </section>
-<section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden z-0">
+<section id="featured_projects" class="py-24 bg-[#003333] text-white overflow-hidden z-0 rounded-3xl">
     <div class="container mx-auto px-4">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <span class="text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645]">Featured Projects</span>
@@ -172,14 +170,17 @@
                                 </div>
                             </div>
                             <div class="lg:w-2/3">
-                                <img src="<?php echo INNOVERA_URI . '/src/images/projects/premium.webp'?>" class="w-100 rounded-2xl" alt="Premium" data-aos="fade-up" data-aos-delay="200">
+                                <picture>
+                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/premium_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/premium_d.webp'?>" class="w-100 rounded-2xl" alt="Premium" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                </picture>
                             </div>
                         </div>
                     </li>
                     <li data-tab-content="tab2" class="hidden">
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
-                                <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
+                                <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
                                     <div class="flex flex-col gap-1">
                                         <h3 class="text-3xl text-white" data-aos="fade-up" data-aos-delay="100">Nishorgo Kamal's Residence</h3>
                                         <span class="text-white" data-aos="fade-up" data-aos-delay="200">Where Comfort Meets Elegance</span>
@@ -189,21 +190,18 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="lg:w-2/3">
-                                <div class="relative">
-                                    <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
-                                        <h4 class="mb-0">20 m²</h4>
-                                    </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive.webp'?>" class="w-100 rounded-2xl" alt="Premium" data-aos="fade-up" data-aos-delay="200">
-                                </div>
+                                <picture>
+                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_d.webp'?>" class="w-100 rounded-2xl" alt="Exclusive" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                </picture>
                             </div>
                         </div>
                     </li>
                     <li data-tab-content="tab3" class="hidden">
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
-                                <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
+                                <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
                                     <div class="flex flex-col gap-1">
                                         <h3 class="text-4xl text-white">Chhayatoru</h3>
                                         <span>Simple, Safe, and Affordable Living</span>
@@ -215,19 +213,17 @@
                             </div>
 
                             <div class="lg:w-2/3">
-                                <div class="relative">
-                                    <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
-                                        <h4 class="mb-0">20 m²</h4>
-                                    </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/standard.webp'?>" class="w-100 rounded-2xl" alt="Premium">
-                                </div>
+                                <picture>
+                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/standard_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/standard_d.webp'?>" class="w-100 rounded-2xl" alt="Standard" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                </picture>
                             </div>
                         </div>
                     </li>
                     <li data-tab-content="tab4" class="hidden">
                         <div class="flex flex-col lg:flex-row gap-4 justify-between">
                             <div class="lg:w-1/3">
-                                <div class="bg-[#1E4645] rounded-2xl h-full p-10 flex flex-col justify-between">
+                                <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
                                     <div class="flex flex-col gap-1">
                                         <h3 class="text-4xl text-white">Interior Solutions</h3>
                                         <span>Transforming Spaces into Homes</span>
@@ -241,10 +237,10 @@
                             </div>
                             <div class="lg:w-2/3">
                                 <div class="relative">
-                                    <div class="bg-blur absolute p-2 bottom-0 rounded px-4 m-4 text-white">
-                                        <h4 class="mb-0">20 m²</h4>
-                                    </div>
-                                    <img src="<?php echo INNOVERA_URI . '/src/images/projects/interior.webp'?>" class="w-100 rounded-2xl" alt="Premium">
+                                    <picture>
+                                        <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/interior_p.webp'?>" loading="lazy" decoding="async">
+                                        <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/interior_d.webp'?>" class="w-100 rounded-2xl" alt="interior" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
@@ -254,11 +250,11 @@
         </div>
     </div>
 </section>
-<section id="what_we_do" class=" bg-secondary-50 py-24 z-0">
+<section id="what_we_do" class="py-24 z-0">
     <div class="container">
         <div class="flex flex-wrap justify-center">
             <div class="lg:w-1/2 text-center">
-                <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100" data-aos="fade-up" data-aos-delay="100">What We Do</span>
+                <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50" data-aos="fade-up" data-aos-delay="100">What We Do</span>
                 <h2 class="text-2nd-heading" data-aos="flip-up" data-aos-delay="100">Our Services</h2>
             </div>
         </div>
@@ -279,7 +275,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" alt="What We Do"
+                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -291,7 +287,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" alt="What We Do"
+                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -303,7 +299,7 @@
                         <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
                             View
                         </div>
-                        <img src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" alt="What We Do"
+                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" alt="What We Do"
                             class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
                     </div>
                 </a>
@@ -311,15 +307,23 @@
         </div>
     </div>
 </section>
-<section id="why_innovera" class="bg-[#003333] py-24 text-white z-0">
-    <div class="container flex flex-col lg:flex-row gap-5 items-center justify-center lg:justify-between">
-        <div class="w-full lg:w-1/2">
-            <span class="subtitle   text-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645] rounded" data-aos="fade-up">Discover</span>
-            <h2 class="  text-2nd-heading text-white" data-aos="flip-up" data-aos-delay="100">Why Choose Innovera?</h2>
-            <p class=" " data-aos="fade-up" data-aos-delay="100">
-                At Innovera Holdings Ltd., we don’t just build apartments—we create lasting value and lifestyles. Here’s why customers and landowners trust us with their biggest investments:
+<section id="why_innovera" class="bg-[#003333] text-white md:py-24 py-12 z-0 rounded-3xl">
+    <div class="container flex flex-col gap-10 items-center justify-center lg:justify-between">
+        <div class="w-full flex flex-col items-center text-center">
+            <span class="subtitletext-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645] rounded" data-aos="fade-up">Discover</span>
+            <h2 class="text-2nd-heading text-white leading-[1.3]" data-aos="flip-up" data-aos-delay="100">Why Choose Innovera?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+                At <strong>Innovera Holdings Ltd.</strong>, we don’t just build apartments—we create lasting value and lifestyles. <br>Here’s why customers and landowners trust us with their biggest investments:
             </p>
-            <div class="icon-list mt-3">
+        </div>
+        <div class="flex flex-col lg:flex-row gap-5">
+            <div class="w-full lg:w-1/2 lg:order-last">
+                <picture class="flex flex-col items-center">
+                    <source media="(max-width: 768px)" width="400px" height="auto" class="self-center" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/why_innovera_p.webp' ?>" type="image/webp">
+                    <img width="650px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/apartment/why_innovera_d.webp'?>" class="object-cover rounded-2xl" alt="Discover" loading="lazy" decoding="async" data-aos="fade-up" data-aos-delay="100">
+                </picture>
+            </div>
+            <div class="icon-list w-full lg:w-1/2">
                 <div class="flex items-start mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="mr-3">
                         <i><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fdf6ef">
@@ -399,18 +403,12 @@
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/2">
-            <img width="720px" height="auto" 
-            src="<?php echo INNOVERA_URI . '/src/images/apartment/why_innovera.webp'?>" 
-            class="object-cover rounded-2xl" alt="Discover" loading="lazy" decoding="async"
-            data-aos="fade-up" data-aos-delay="100">
-        </div>
     </div>
 </section>
 <section id="latest_update" class="py-24 z-0">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
-            <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded" data-aos="fade-up">Latest Update</div>
+            <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 rounded" data-aos="fade-up">Latest Update</div>
             <h2 class="  text-2nd-heading" data-aos="flip-up" data-aos-delay="100">Media & Event</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -430,7 +428,7 @@
                         <div class="overflow-hidden relative rounded-1 text-light text-center">
                             <div class="overflow-hidden rounded-xl">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <img src="<?php the_post_thumbnail_url('full'); ?>" class="w-full aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>">
+                                    <img width="400px" height="auto" src="<?php the_post_thumbnail_url('full'); ?>" class="aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>" loading="lazy" decoding="async">
                                 <?php endif; ?>
                             </div>
                             <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
@@ -461,36 +459,51 @@
                     </div>
                 </div>
                 <div class="absolute w-full h-full top-0 bg-black/40 group-hover:bg-black/50 transition-all duration-500 z-0"></div>
-                <img src="<?php echo INNOVERA_URI . '/src/images/background/2.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="">
+                <img src="<?php echo INNOVERA_URI . '/src/images/background/2.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="" loading="lazy" decoding="async">
             </div>
         </a>
     </div>
 </section>
-<section id="contact" class="py-24 z-0">
-    <div class="container">
-        <div class="flex flex-col justify-center mb-5 text-center">
-            <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded"
-            data-aos="fade-up" data-aos-delay="100">Schedule a Meeting</span>
-            <h2 class="text-2nd-heading" data-aos="flip-up" data-aos-delay="200">Your Dreem Home is Just a Visit Away</h2>
-        </div>
-        <div class="flex md:flex-row flex-col justify-center items-center lg:gap-20 gap-10 px-5 lg:px-0">
+<section id="contact" class="container md:py-24 py-12 z-0">
+    <div class="flex flex-col justify-center mb-5 text-center gap-2">
+        <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 rounded"
+        data-aos="fade-up" data-aos-delay="100">Schedule a Meeting</span>
+        <h2 class="text-2nd-heading md:leading-1 leading-none" data-aos="flip-up" data-aos-delay="200">Your Dreem Home is Just a Visit Away</h2>
+        <p class="lg:text-lg text-base font-normal text-black/50 leading-[1.2] text-center" data-aos="fade-in" data-aos-duration="1500">
+                Our team is committed to honesty, professionalism, and delivering real value to our clients.
+        </p>
+    </div>
+    <div class="flex md:flex-row flex-col justify-center items-center lg:gap-10 gap-5 px-5 lg:px-0">
         <div class="lg:w-6/12 md:order-first">
             <picture>
-                <source class="w-full h-full object-covern md:block" width="600px" height="600px" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_d.webp' ?>" type="image/webp">
-                <source class="w-full h-full object-covern md:hidden" width="360px" height="360px" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" type="image/webp">
-                <img width="500px" height="500px" class="rounded-xl" src="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" alt="Phone" loading="lazy" decoding="async">
+                <source media="(max-width: 768px)" class="object-cover" width="350px" height="350px" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" type="image/webp">
+                <img width="650px" height="650px" class="rounded-xl" src="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_d.webp' ?>" alt="Phone" loading="lazy" decoding="async">
             </picture>
         </div>
         <div id="home_form" class="flex flex-col lg:w-6/12 w-full" data-aos="fade-in" data-aos-duration="1000">
-                <p class="lg:text-lg text-base font-normal text-black/50" data-aos="fade-in" data-aos-duration="1500">
-                    Call us directly and schedule a meeting right now!<br>Our team is committed to honesty, professionalism, and delivering real value to our clients.</p>
-                <a class="flex items-center  gap-2 text-lg font-medium text-white hover:text-white px-3 py-2 mt-4 bg-secondary-500 hover:bg-secondary-600 rounded w-fit " href="tel:+8801833156010" data-aos="fade-in" data-aos-duration="2000">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-white">
-                    <path d="M777.61-140q-113.07 0-227.19-52.58-114.11-52.58-209.69-148.34-95.57-95.77-148.15-209.7Q140-664.54 140-777.61q0-18.17 12-30.28T182-820h130.46q15.15 0 26.73 9.89 11.58 9.88 14.73 24.42L376.85-668q2.38 16.38-1 28.15-3.39 11.77-12.16 19.77l-92.38 89.93q22.3 40.84 50.96 77.27 28.65 36.42 62.04 69.57 32.92 32.93 70 61.16 37.08 28.23 80.08 52.54l89.76-90.54q9.39-9.77 22.74-13.7 13.34-3.92 27.73-1.92l111.07 22.62q15.15 4 24.73 15.46t9.58 26V-182q0 18-12.11 30t-30.28 12ZM242.92-586.92l71.39-68.31q1.92-1.54 2.5-4.23.58-2.69-.19-5l-17.39-89.39q-.77-3.07-2.69-4.61-1.92-1.54-5-1.54H206q-2.31 0-3.85 1.54-1.53 1.54-1.53 3.85 3.07 41 13.42 83.3 10.34 42.31 28.88 84.39Zm348 345.69q39.77 18.54 82.96 28.35 43.2 9.8 80.73 11.65 2.31 0 3.85-1.54t1.54-3.85v-84.15q0-3.08-1.54-5t-4.61-2.69l-84-17.08q-2.31-.77-4.04-.19-1.73.58-3.66 2.5l-71.23 72Zm-348-345.69Zm348 345.69Z"/>
-                </svg> +88 01833156010</a>
-                <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
-            </div>
-
+            <a class="flex items-center  gap-2 text-lg font-medium px-3 py-2 mt-4 rounded border border-dashed border-secondary-100 " href="tel:+8801833156010" data-aos="fade-in" data-aos-duration="2000">
+                <div class="flex items-center justify-center p-3 rounded-full bg-secondary-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="28px" width="28px" viewBox="0 -960 960 960" class="fill-secondary-500">
+                        <path d="M777.61-140q-113.07 0-227.19-52.58-114.11-52.58-209.69-148.34-95.57-95.77-148.15-209.7Q140-664.54 140-777.61q0-18.17 12-30.28T182-820h130.46q15.15 0 26.73 9.89 11.58 9.88 14.73 24.42L376.85-668q2.38 16.38-1 28.15-3.39 11.77-12.16 19.77l-92.38 89.93q22.3 40.84 50.96 77.27 28.65 36.42 62.04 69.57 32.92 32.93 70 61.16 37.08 28.23 80.08 52.54l89.76-90.54q9.39-9.77 22.74-13.7 13.34-3.92 27.73-1.92l111.07 22.62q15.15 4 24.73 15.46t9.58 26V-182q0 18-12.11 30t-30.28 12ZM242.92-586.92l71.39-68.31q1.92-1.54 2.5-4.23.58-2.69-.19-5l-17.39-89.39q-.77-3.07-2.69-4.61-1.92-1.54-5-1.54H206q-2.31 0-3.85 1.54-1.53 1.54-1.53 3.85 3.07 41 13.42 83.3 10.34 42.31 28.88 84.39Zm348 345.69q39.77 18.54 82.96 28.35 43.2 9.8 80.73 11.65 2.31 0 3.85-1.54t1.54-3.85v-84.15q0-3.08-1.54-5t-4.61-2.69l-84-17.08q-2.31-.77-4.04-.19-1.73.58-3.66 2.5l-71.23 72Zm-348-345.69Zm348 345.69Z"/>
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <h6>Call now to book a meeting!</h6>
+                    <p class="lg:text-lg text-base font-normal text-black/50" data-aos="fade-in" data-aos-duration="1500">+88 01833156010</p>
+                </div>
+            </a>
+            <a class="flex items-center  gap-2 text-lg font-medium px-3 py-2 mt-4 rounded border border-dashed border-secondary-100 " href="tel:+8802226617206" data-aos="fade-in" data-aos-duration="2000">
+                <div class="flex items-center justify-center p-3 rounded-full bg-secondary-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="28px" width="28px" viewBox="0 -960 960 960" class="fill-secondary-500">
+                        <path d="M682.69-197.69h59.23q5.39 0 8.85-3.46 3.46-3.47 3.46-8.85v-535.38q0-5.39-3.46-8.85t-8.85-3.46h-59.23q-5.38 0-8.84 3.46-3.47 3.46-3.47 8.85V-210q0 5.38 3.47 8.85 3.46 3.46 8.84 3.46Zm-394.63-207.7q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96Zm0 120q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96ZM253.46-530h309.23v-140H253.46v140Zm154.6 124.61q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96Zm0 120q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96Zm120-120q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96Zm0 120q14.71 0 24.67-9.94 9.96-9.95 9.96-24.66 0-14.7-9.95-24.66-9.94-9.96-24.65-9.96-14.7 0-24.67 9.94-9.96 9.95-9.96 24.66 0 14.7 9.95 24.66t24.65 9.96Zm82.33 47.7v-480H218.08q-5.39 0-8.85 3.46t-3.46 8.85V-250q0 5.38 3.46 8.85 3.46 3.46 8.85 3.46h392.31Zm72.3 100q-21.93 0-38.62-11.2-16.68-11.19-25.76-28.8H218.08q-29.83 0-51.07-21.24-21.24-21.24-21.24-51.07v-455.38q0-29.83 21.24-51.07 21.24-21.24 51.07-21.24h400.23q9.08-17.62 25.76-28.81 16.69-11.19 38.62-11.19h59.23q29.83 0 51.07 21.24 21.24 21.24 21.24 51.07V-210q0 29.83-21.24 51.07-21.24 21.24-51.07 21.24h-59.23Zm-476.92-100v-480 480Z"/>
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <h6>BTCL</h6>
+                    <p class="lg:text-lg text-base font-normal text-black/50" data-aos="fade-in" data-aos-duration="1500">+88 02226617206</p>
+                </div>
+            </a>
+            <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
         </div>
     </div>
 </section>

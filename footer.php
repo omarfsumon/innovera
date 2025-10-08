@@ -75,13 +75,12 @@
         </div>
     </div>
     <div id="back_to_top" class="fixed right-10 bottom-10 hidden rounded-full transition-opacity duration-300 overflow-hidden">
-        <a href="#" class="bg-secondary-200 p-4 shadow-lg z-50 block">
-            <svg class="fill-secondary-600 hover:fill-secondary-800" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+        <a href="#" class="bg-secondary-400/20 backdrop-blur-md p-4 shadow-lg z-50 block">
+            <svg class="fill-black" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
                 <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
             </svg>
         </a>
     </div>
-
 </footer>
     <?php wp_footer(); ?>
 </body>

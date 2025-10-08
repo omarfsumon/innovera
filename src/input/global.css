@@ -81,21 +81,25 @@
     transition: all 0.3s ease-in-out;
   }
   .my-sticky-header {
-      transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
       background-color: transparent;
   }
   .hide-header {
       transform: translateY(-110px);
-      transition: transform 0.3s ease-in-out;
+      transition: transform 0.5s ease-in-out;
       background-color: white !important;
+  }
+  .hide-header .inner-header {
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out;
   }
   .hide-header .logo {
       transform: translateX(-10px);
-      transition: transform 0.3s ease-in-out;
+      transition: transform 0.5s ease-in-out;
   }
   .hide-header .Schedule {
     transform: translateX(10px);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
 
   /* Button Components */
