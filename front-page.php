@@ -94,19 +94,19 @@
     <div class="container flex flex-col lg:flex-row gap-5 justify-between items-center">
         <div class="lg:w-[40%] lg:pr-8">
             <span class="text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-secondary-50" data-aos="fade-up" data-aos-delay="100">Our journey</span>
-            <h2 class="text-2nd-heading leading-[1.3] mb-5 mt-5" data-aos="flip-up" data-aos-delay="100">
+            <h2 class="text-2nd-heading leading-[1.3] mb-5 mt-5" data-aos="fade-in" data-aos-delay="100">
                 Luxury living where comfort meets timeless style, effortlessly</h2>
-            <p class="text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="100">
+            <p class="text-gray-600 mb-8" data-aos="fade-in" data-aos-delay="100">
                 Innovera Holdings Ltd. is a forward-thinking real estate developer company dedicated to creating sustainable communities and iconic properties in Bangladesh. 
                 With a vision to combine innovation, quality, and reliability, we aim to transform the landscape of urban living with modern architecture, 
                 premium construction, and sustainable real estate solutions across Dhaka and beyond.
             </p>
-            <a class="inline-flex items-center px-8 py-2 bg-secondary-400 text-white hover:text-secondary-600 font-medium hover:bg-secondary-100 transition-all rounded" href="/about-us/">
+            <a class="btn-main" href="/about-us/">
                 Explore More
             </a>
         </div>
         <div class="lg:w-[60%] grid md:grid-cols-2 gap-5">
-            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="100">
+            <div class=" bg-gray-100 p-5 rounded-xl" data-aos="fade-in" data-aos-delay="100">
                 <h4 class="text-xl font-normal mb-3 mt-2">About the Logo</h4>
                 <p class="text-gray-600">
                     The logo reflects the company’s identity as an innovative and forward-thinking developer. 
@@ -114,7 +114,7 @@
                 </p>
             </div>
 
-            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="200">
+            <div class=" bg-gray-100 p-5 rounded-xl" data-aos="fade-in" data-aos-delay="200">
                 <h4 class="text-xl font-normal mb-3 mt-2">Color Significance</h4>
                 <p class="text-gray-600">
                     The orange hue conveys energy, creativity, and optimism, highlighting the company’s dynamic approach to real estate development. 
@@ -122,7 +122,7 @@
                 </p>
             </div>
 
-            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="300">
+            <div class=" bg-gray-100 p-5 rounded-xl" data-aos="fade-in" data-aos-delay="300">
                 <h4 class="text-xl font-normal mb-3 mt-2">Design Concept</h4>
                 <p class="text-gray-600">
                     The logo features a stylized building made of vibrant orange blocks, symbolizing strength, structure, 
@@ -130,7 +130,7 @@
                 </p>
             </div>
 
-            <div class="bg-gray-100 p-5 rounded-xl" data-aos="zoom-in" data-aos-delay="400">
+            <div class=" bg-gray-100 p-5 rounded-xl" data-aos="fade-in" data-aos-delay="400">
                 <h4 class="text-xl font-normal mb-3 mt-2">Brand Message</h4>
                 <p class="text-gray-600">
                     Together, the elements of the logo convey that Innovera Holdings Ltd. is not just a builder of properties, 
@@ -161,10 +161,10 @@
                             <div class="lg:w-1/3">
                                 <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-4xl text-white" data-aos="fade-up" data-aos-delay="100">Akashnila</h3>
-                                        <span class="text-white" data-aos="fade-up" data-aos-delay="200">A Premium Landmark</span>
+                                        <h3 class="text-4xl text-white" data-aos="fade-in" data-aos-delay="100">Akashnila</h3>
+                                        <span class="text-white" data-aos="fade-in" data-aos-delay="200">A Premium Landmark</span>
                                     </div>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80" data-aos="fade-up" data-aos-delay="200">
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80" data-aos="fade-in" data-aos-delay="200">
                                         AKASHNILA is one of Innovera Holdings Ltd.’s signature Premium Category Projects, designed to redefine modern luxury living in Dhaka. Located in the prestigious Bashundhara Residential Area, Block – C, this project blends architectural excellence, cutting-edge amenities, and superior construction quality to create a residential experience that reflects elegance, comfort, and exclusivity.
                                     </p>
                                 </div>
@@ -172,7 +172,7 @@
                             <div class="lg:w-2/3">
                                 <picture>
                                     <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/premium_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/premium_d.webp'?>" class="w-100 rounded-2xl" alt="Premium" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/premium_d.webp'?>" class="w-100 rounded-2xl" alt="Premium" data-aos="fade-in" data-aos-delay="200" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -182,10 +182,10 @@
                             <div class="lg:w-1/3">
                                 <div class="bg-[#1E4645] rounded-2xl h-full lg:p-10 p-5 flex flex-col justify-between">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-3xl text-white" data-aos="fade-up" data-aos-delay="100">Nishorgo Kamal's Residence</h3>
-                                        <span class="text-white" data-aos="fade-up" data-aos-delay="200">Where Comfort Meets Elegance</span>
+                                        <h3 class="text-3xl text-white" data-aos="fade-in" data-aos-delay="100">Nishorgo Kamal's Residence</h3>
+                                        <span class="text-white" data-aos="fade-in" data-aos-delay="200">Where Comfort Meets Elegance</span>
                                     </div>
-                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80" data-aos="fade-up" data-aos-delay="200">
+                                    <p class="mb-0 p-sm-relative bottom-0 w-full opacity-80" data-aos="fade-in" data-aos-delay="200">
                                         This project is a distinguished Exclusive Category Project by Innovera Holdings Ltd., crafted to provide a harmonious balance between comfort, style, and affordability. Located in the well-connected Block H of Bashundhara Residential Area, the project caters to modern families and professionals seeking a high-quality lifestyle without compromising value.
                                     </p>
                                 </div>
@@ -193,7 +193,7 @@
                             <div class="lg:w-2/3">
                                 <picture>
                                     <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_d.webp'?>" class="w-100 rounded-2xl" alt="Exclusive" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_d.webp'?>" class="w-100 rounded-2xl" alt="Exclusive" data-aos="fade-in" data-aos-delay="200" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                             <div class="lg:w-2/3">
                                 <picture>
                                     <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/standard_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/standard_d.webp'?>" class="w-100 rounded-2xl" alt="Standard" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/standard_d.webp'?>" class="w-100 rounded-2xl" alt="Standard" data-aos="fade-in" data-aos-delay="200" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                                 <div class="relative">
                                     <picture>
                                         <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/interior_p.webp'?>" loading="lazy" decoding="async">
-                                        <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/interior_d.webp'?>" class="w-100 rounded-2xl" alt="interior" data-aos="fade-up" data-aos-delay="200" loading="lazy" decoding="async">
+                                        <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/interior_d.webp'?>" class="w-100 rounded-2xl" alt="interior" data-aos="fade-in" data-aos-delay="200" loading="lazy" decoding="async">
                                     </picture>
                                 </div>
                             </div>
@@ -476,8 +476,8 @@
     <div class="flex md:flex-row flex-col justify-center items-center lg:gap-10 gap-5 px-5 lg:px-0">
         <div class="lg:w-6/12 md:order-first">
             <picture>
-                <source media="(max-width: 768px)" class="object-cover" width="350px" height="350px" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" type="image/webp">
-                <img width="650px" height="650px" class="rounded-xl" src="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_d.webp' ?>" alt="Phone" loading="lazy" decoding="async">
+                <source media="(max-width: 768px)" width="350" height="350" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" type="image/webp">
+                <img width="650" height="650" class="rounded-xl" src="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_d.webp' ?>" alt="Phone" loading="lazy" decoding="async">
             </picture>
         </div>
         <div id="home_form" class="flex flex-col lg:w-6/12 w-full" data-aos="fade-in" data-aos-duration="1000">

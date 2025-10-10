@@ -55,8 +55,8 @@ function globalizer_login_styles() {
             flex-direction: column;
             justify-content: center;
             padding: 40px !important;
-            background-color: #ffffff;
-            backdrop-filter: blur(5px) !important;
+            background-color: #ffffff9e;
+            backdrop-filter: blur(10px) !important;
         }
 
 
@@ -94,11 +94,11 @@ function globalizer_login_styles() {
         /* Input fields */
         #loginform input[type="text"],
         #loginform input[type="password"] {
-            background: #fff !important;
+            background: #fdf7ed !important;
             position: relative;
             border: 1px solid #ddd !important;
             border-radius: 4px !important;
-            padding: 10px !important;
+            padding: 13px !important;
             height: auto !important;
             font-size: 15px !important;
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) !important;
@@ -107,7 +107,7 @@ function globalizer_login_styles() {
         /* Submit button */
         #loginform .submit .button {
             width: 100% !important;
-            background: #2563eb !important;
+            background: #df7628 !important;
             border: none !important;
             padding: 5px 25px !important;
             height: auto !important;
@@ -118,7 +118,7 @@ function globalizer_login_styles() {
         }
 
         #loginform .submit .button:hover {
-            background: #1d4ed8 !important;
+            background: #c4541b !important;
             transform: translateY(-1px);
         }
 

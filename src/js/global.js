@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
 //Tab Functionality
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll('#tabButtons li');

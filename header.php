@@ -15,20 +15,11 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-    <header id="header" class="my-sticky-header sticky top-0 lg:top-6 -mb-[100px] w-full z-50 transparent" data-aos="fade-in" data-aos-duration="1000">
+    <header id="header" class="my-sticky-header sticky top-0 lg:top-6 -mb-[100px] w-full z-50 transparent">
         <div class="inner-header container flex justify-between items-center w-full px-5 h-20 lg:rounded-lg lg:mt-5 bg-white shadow-md">
             <!-- Logo -->
             <div id="logo" class="logo">
-                <?php
-                    $custom_logo_id = get_theme_mod('custom_logo');
-                    $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
-
-                    if ($logo_url) {
-                        echo '<a href="' . esc_url(home_url('/')) . '"><img src="' . esc_url($logo_url) . '" alt="Site Logo" class="h-12 w-auto" /></a>';
-                    } else {
-                        echo '<a href="' . esc_url(home_url('/')) . '" class="text-2xl font-bold">' . get_bloginfo('name') . '</a>';
-                    }
-                ?>
+                <?php get_template_part('template-parts/logo'); ?>
             </div>
             <!-- Desktop Navigation -->
             <nav id="desktop-nav" class="hidden lg:block">
@@ -44,7 +35,7 @@
             </nav>
             <!-- Mobile Menu Button and CTA -->
             <div class="flex items-center space-x-4">
-                <a class="Schedule hidden lg:inline-block btn-main" href="#contact">
+                <a class="Schedule hidden lg:inline-block btn-main !uppercase !text-sm" href="/#contact">
                     Schedule a Visit
                 </a>
                 <button id="mobile-menu-btn" class="lg:hidden text-gray-800 hover:text-primary p-2" aria-label="Toggle Menu">
@@ -68,7 +59,7 @@
                 ));
                 ?>
                 <div class="px-4 pb-4 pt-2">
-                    <a class="btn-main w-full text-center block" href="#contact">
+                    <a class="btn-main w-full text-center block" href="/#contact">
                         Schedule a Visit
                     </a>
                 </div>

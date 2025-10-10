@@ -2,15 +2,7 @@
     <div class="container">
         <div class="flex flex-col md:flex-row md:justify-between gap-5">
             <div id="footer_logo" class="flex flex-col items-center" data-aos="fade-in" data-aos-duration="1000">
-                <?php
-                    $custom_logo_id = get_theme_mod('custom_logo');
-                    $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
-                    if ($logo_url) {
-                        echo '<a href="' . esc_url(home_url('/')) . '"><img src="' . esc_url($logo_url) . '" alt="Site Logo" class="h-20 w-auto" /></a>';
-                    } else {
-                        echo '<a href="' . esc_url(home_url('/')) . '" class="text-2xl font-bold">' . get_bloginfo('name') . '</a>';
-                    }
-                ?>
+                <?php get_template_part('template-parts/logo'); ?>
                 <p>Trust it's what we build</p>          
             </div>
             <div id="footer_address" class="flex flex-col items-start mb-2 md:order-first" data-aos="fade-in" data-aos-duration="1000">
