@@ -1,21 +1,18 @@
 <?php get_header();?>
 <?php get_template_part('template-parts/banner'); ?>
-
-
 <section class="bg-secondary-50 py-10 md:py-20">
     <div class="container">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6" data-aos="flip-up" data-aos-duration="1000">About <?php the_title(); ?> Event</h2>
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 animate__animated animate__fadeInUp">About <?php the_title(); ?> Event</h2>
         <?php if (get_field('about_event')): ?>
-                <div class="p-6 prose prose-sm max-w-none text-gray-700" data-aos="fade-in" data-aos-duration="1000">
-                        <?php echo wp_kses_post(get_field('about_event')); ?>
-                </div>
-            <?php endif; ?>
+            <div class="prose prose-sm max-w-none text-gray-700 text-center animate__animated animate__fadeInUp">
+                    <?php echo wp_kses_post(get_field('about_event')); ?>
+            </div>
+        <?php endif; ?>
     </div>
 </section>
-
 <section id="event_gallery" class=" bg-white py-10 md:py-20">
     <div class="container">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6" data-aos="flip-up" data-aos-duration="1000">Event Gallery</h2>
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 animate__animated animate__fadeInUp">Event Gallery</h2>
         <?php $event_gallery = get_field('event_gallery');
             if ($event_gallery): ?>
                 <div id="gallery-masonry" class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
@@ -28,9 +25,8 @@
                                 <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition duration-300 z-20">
                                     View
                                 </div>
-                                <img src="<?php echo esc_url($image['url']); ?>"
-                                    alt="<?php echo esc_attr($image['alt']); ?>"
-                                    class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl" data-aos="zoom-in" data-aos-duration="1000" />
+                                <img src="<?php echo esc_url($image['url']);?>" alt="<?php echo esc_attr($image['alt']);?>"
+                                    class="w-full h-auto object-cover group-hover:scale-110 transition duration-300 rounded-xl"/>
                             </a>
                         </div>
                     <?php endforeach; ?>
