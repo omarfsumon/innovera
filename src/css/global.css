@@ -593,6 +593,76 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(27 27 27 / var(--tw-text-opacity, 1));
 }
 
+@font-face {
+  font-family: 'Jost';
+
+  src: url('../fonts/jost/Jost-Regular.woff2') format('woff2');
+
+  font-weight: 400;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+
+  src: url('../fonts/jost/Jost-Medium.woff2') format('woff2');
+
+  font-weight: 500;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+
+  src: url('../fonts/jost/Jost-SemiBold.woff2') format('woff2');
+
+  font-weight: 600;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+
+  src: url('../fonts/jost/Jost-Bold.woff2') format('woff2');
+
+  font-weight: 700;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+
+  src: url('../fonts/dm-sans/DMSans-Regular.woff2') format('woff2');
+
+  font-weight: 400;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+
+  src: url('../fonts/dm-sans/DMSans-Medium.woff2') format('woff2');
+
+  font-weight: 500;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+
+  src: url('../fonts/dm-sans/DMSans-SemiBold.woff2') format('woff2');
+
+  font-weight: 600;
+
+  font-display: swap;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -934,15 +1004,10 @@ h1, h2, h3, h4, h5, h6 {
   .header_menu .sub-menu {
     width: 100%;
     overflow: hidden;
-<<<<<<< HEAD
     background-color: #f9fafb80;
     transition-property: all;
+    transition-duration: 300ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-=======
-    transition: all 0.3s ease-in-out;
-    /* trigger: appended by script to test watcher */
->>>>>>> 6042270 (WIP: local changes before pulling)
   }
 
   .header_menu .sub-menu.show {
@@ -4610,5 +4675,3 @@ button.jet-form-builder__submit:focus {
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
   }
 }
-
-

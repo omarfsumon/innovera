@@ -15,6 +15,48 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-jost text-[#1B1B1B];
   }
+  @font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans/DMSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans/DMSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans/DMSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+  }
 }
 
 @layer components {
@@ -57,7 +99,7 @@
       transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
       background-color: transparent;
   }
-  .hide-header {;
+  .hide-header {
       transform: translateY(-110px);
       transition: transform 0.5s ease-in-out;
       background-color: white !important;
@@ -158,17 +200,7 @@
 
     /* Mobile Submenu */
     .header_menu .sub-menu {
-<<<<<<< HEAD
-      @apply w-full bg-[#f9fafb80] overflow-hidden transition-all;
-=======
-      width: 100%;
-      background: rgba(249, 250, 251, 0.5);
-      max-height: 0;
-      overflow: hidden;
-      transition: all 0.3s ease-in-out;
-
-  /* trigger: appended by script to test watcher */
->>>>>>> 6042270 (WIP: local changes before pulling)
+      @apply w-full bg-[#f9fafb80] overflow-hidden transition-all duration-300 ease-in-out;
     }
 
     .header_menu .sub-menu.show {
@@ -240,5 +272,3 @@
     @apply w-full px-4 py-2 bg-secondary-50 border-b border-gray-300 rounded shadow-sm focus:outline-none focus:ring-1 focus:ring-secondary-500;
   }
 }
-
-
