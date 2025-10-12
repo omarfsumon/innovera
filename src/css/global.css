@@ -934,10 +934,15 @@ h1, h2, h3, h4, h5, h6 {
   .header_menu .sub-menu {
     width: 100%;
     overflow: hidden;
+<<<<<<< HEAD
     background-color: #f9fafb80;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
+=======
+    transition: all 0.3s ease-in-out;
+    /* trigger: appended by script to test watcher */
+>>>>>>> 6042270 (WIP: local changes before pulling)
   }
 
   .header_menu .sub-menu.show {

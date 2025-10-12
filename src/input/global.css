@@ -158,7 +158,17 @@
 
     /* Mobile Submenu */
     .header_menu .sub-menu {
+<<<<<<< HEAD
       @apply w-full bg-[#f9fafb80] overflow-hidden transition-all;
+=======
+      width: 100%;
+      background: rgba(249, 250, 251, 0.5);
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+
+  /* trigger: appended by script to test watcher */
+>>>>>>> 6042270 (WIP: local changes before pulling)
     }
 
     .header_menu .sub-menu.show {
