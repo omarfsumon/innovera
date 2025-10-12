@@ -111,3 +111,19 @@ const videoLightbox = GLightbox({
           window.scrollTo({ top: 0, behavior: 'smooth' });
       });
   });
+
+// Scroll Fade In Up Animation
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = document.querySelectorAll('.scroll_fadeInUp');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  elements.forEach(el => observer.observe(el));
+});
