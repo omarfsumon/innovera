@@ -590,7 +590,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: Jost, sans-serif;
   --tw-text-opacity: 1;
-  color: rgb(27 27 27 / var(--tw-text-opacity, 1));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 @font-face {
@@ -3663,11 +3663,6 @@ h1, h2, h3, h4, h5, h6 {
 .\!text-\[\#e69339\] {
   --tw-text-opacity: 1 !important;
   color: rgb(230 147 57 / var(--tw-text-opacity, 1)) !important;
-}
-
-.text-\[\#1B1B1B\] {
-  --tw-text-opacity: 1;
-  color: rgb(27 27 27 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#1f2937\] {

@@ -4,7 +4,7 @@
   "description": "Innovera WordPress Theme",
   "main": "index.js",
   "scripts": {
-    "watch": "cross-env CHOKIDAR_USEPOLLING=true tailwindcss -i ./src/input/global.css -o ./src/css/global.css --watch --postcss",
+    "watch": "tailwindcss -i ./src/input/global.css -o ./src/css/global.css --watch --postcss",
     "build": "tailwindcss -i ./src/input/global.css -o ./src/css/global.css --minify --postcss",
     "dev": "npm run watch"
   },
