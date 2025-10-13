@@ -38,7 +38,7 @@
                 }
             ?>
             <h1 class="text-hero-heading leading-[1.5] font-normal text-center text-white animate__animated animate__fadeInUp"><?php the_title(); ?></h1>
-            <address class="text-white text-center animate__animated animate__fadeInUp animate__slow 1s" ><?php echo esc_html($plot_address); ?></address>
+            <address class="text-white text-center animate__animated animate__fadeInUp" style="animation-delay: 0.3s"><?php echo esc_html($plot_address); ?></address>
         </div>
     </div>
 </section>

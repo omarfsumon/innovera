@@ -114,12 +114,13 @@ const videoLightbox = GLightbox({
 
 // Scroll Fade In Up Animation
 document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.scroll_fadeInUp');
+  const elements = document.querySelectorAll('.scroll_animate');
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+        const animationClass = entry.target.dataset.animate || 'animate__fadeInUp';
+        entry.target.classList.add('animate__animated', animationClass);
         observer.unobserve(entry.target);
       }
     });
