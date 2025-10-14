@@ -1708,12 +1708,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mt-3 {
@@ -1750,14 +1758,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .line-clamp-2 {
@@ -2759,6 +2759,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(0 0 0 / 0.4);
 }
 
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
 .bg-black\/55 {
   background-color: rgb(0 0 0 / 0.55);
 }
@@ -2846,10 +2850,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(242 204 149 / var(--tw-bg-opacity, 1));
 }
 
-.bg-secondary-200\/60 {
-  background-color: rgb(242 204 149 / 0.6);
-}
-
 .bg-secondary-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(235 173 94 / var(--tw-bg-opacity, 1));
@@ -2915,16 +2915,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(255 255 255 / 0.05);
 }
 
-.bg-secondary-100\/60 {
-  background-color: rgb(249 231 204 / 0.6);
-}
-
-.bg-secondary-50\/60 {
-  background-color: rgb(253 247 237 / 0.6);
-}
-
-.bg-black\/50 {
-  background-color: rgb(0 0 0 / 0.5);
+.bg-black\/65 {
+  background-color: rgb(0 0 0 / 0.65);
 }
 
 .bg-opacity-70 {
@@ -3374,6 +3366,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 2.5rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-15 {
+  padding-top: 3.75rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -3404,14 +3404,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt-80 {
   padding-top: 20rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pt-15 {
-  padding-top: 3.75rem;
 }
 
 .text-left {
@@ -4371,10 +4363,6 @@ button.jet-form-builder__submit:focus {
     margin-bottom: 2rem;
   }
 
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
   .md\:mt-5 {
     margin-top: 1.25rem;
   }
@@ -4501,14 +4489,14 @@ button.jet-form-builder__submit:focus {
     text-align: left;
   }
 
-  .md\:text-xl {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
   .md\:text-lg {
     font-size: 18px;
     line-height: 1.6;
+  }
+
+  .md\:text-xl {
+    font-size: 20px;
+    line-height: 1.5;
   }
 
   .md\:font-medium {

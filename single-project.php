@@ -5,8 +5,8 @@
     } else {
         $banner_image = INNOVERA_URI . '/src/images/slider/breadcrumb.webp';
     }
-    $progress = get_field('project_progress');
-    $progress = is_numeric($progress) ? intval($progress) : 0;
+    // $progress = get_field('project_progress');
+    // $progress = is_numeric($progress) ? intval($progress) : 0;
     $plot_address = get_field('plot_address');
     $rajuk_approval_no = get_field('rajuk_approval_no');
     $area_of_land = get_field('area_of_land');
@@ -33,24 +33,24 @@
                 $terms = get_the_terms(get_the_ID(), 'occupancy-type');
                 if ($terms && !is_wp_error($terms)) {
                     foreach ($terms as $term) {
-                        echo '<p class="text-white text-xl uppercase font-[200] text-center animate__animated animate__fadeInUp">' . esc_html($term->name) . '</p>';
+                        echo '<p class="text-white text-xl uppercase font-[200] text-center scroll_animate">' . esc_html($term->name) . '</p>';
                     }
                 }
             ?>
-            <h1 class="text-hero-heading leading-[1.5] font-normal text-center text-white animate__animated animate__fadeInUp"><?php the_title(); ?></h1>
-            <address class="text-white text-center animate__animated animate__fadeInUp" style="animation-delay: 0.3s"><?php echo esc_html($plot_address); ?></address>
+            <h1 class="text-hero-heading leading-[1.5] font-normal text-center text-white scroll_animate"><?php the_title(); ?></h1>
+            <address class="text-white text-center scroll_animate" style="animation-delay: 0.3s"><?php echo esc_html($plot_address); ?></address>
         </div>
     </div>
 </section>
 <section id="project-details" class="py-5 md:py-20 overflow-hidden">
     <div class="container flex flex-col md:flex-row gap-2 lg:gap-20">
         <div class="feature-image w-full md:w-[50%]">
-            <img src="<?php echo esc_url(get_the_post_thumbnail_url()); ?>" alt="" class="w-auto h-full object-cover rounded-lg animate__animated animate__fadeIn">
+            <img src="<?php echo esc_url(get_the_post_thumbnail_url()); ?>" alt="" class="w-auto h-full object-cover rounded-lg scroll_animate" data-animate="animate__fadeIn" />
         </div>
         <div class="w-full md:w-[50%]">
-            <h3 class="text-2nd-heading leading-[1] font-normal mt-2 mb-2 animate__animated animate__fadeInUp">At a Glance</h3>
+            <h3 class="text-2nd-heading leading-[1] font-normal mt-2 mb-2 scroll_animate">At a Glance</h3>
             <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/address'); ?>
                     </div>
@@ -59,7 +59,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($plot_address); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/approval'); ?>
                     </div>
@@ -68,7 +68,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($rajuk_approval_no); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/area'); ?>
                     </div>
@@ -77,7 +77,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($area_of_land); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/type'); ?>
                     </div>
@@ -86,7 +86,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($land_type); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/level'); ?>
                     </div>
@@ -95,7 +95,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($level); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/units'); ?>
                     </div>
@@ -104,7 +104,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($total_units); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/apartment_type'); ?>
                     </div>
@@ -113,7 +113,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($apartment_type); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/apartment_size'); ?>
                     </div>
@@ -122,7 +122,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($apartment_size); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/basement'); ?>
                     </div>
@@ -131,7 +131,7 @@
                         <p class=" text-base font-normal leading-[1]"><?php echo esc_html($basement); ?></p>
                     </div>
                 </div>
-                <div class="flex items-center gap-3 p-4 animate__animated animate__flipInX">
+                <div class="flex items-center gap-3 p-4 scroll_animate" data-animate="animate__flipInX">
                     <div class="p-2">
                         <?php get_template_part('src/svg/parking'); ?>
                     </div>
@@ -144,7 +144,7 @@
         </div>
     </div>
 </section>
-<section id="project-progress" class="bg-[#003333] text-white py-10 md:py-15">
+<!-- <section id="project-progress" class="bg-[#003333] text-white py-10 md:py-15">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
       <div class="w-full md:w-1/3 text-center md:text-left">
         <h2 class="text-2nd-heading text-white font-normal leading-tight" data-aos="flip-up" data-aos-duration="1000">Project Progress</h2>
@@ -165,40 +165,38 @@
           </div>
       </div>
     </div>
-</section>
-<section id="project-amenities" class="py-5 md:py-20">
+</section> -->
+<section id="project-amenities" class="bg-secondary-50 py-5 md:py-20">
     <div class="container">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6" data-aos="flip-up" data-aos-duration="1000">Project Amenities</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 aspect-[4/3] border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6">Project Amenities</h2>
+        <div class="flex flex-wrap gap-5">
+            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-13.33px)] scroll_animate" data-animate="animate__fadeInUp">
                 <?php get_template_part('src/svg/lift'); ?>
                 <h3 class=" text-3rd-heading font-normal leading-[1.5]">Lift</h3>
                 <p class="text-base font-normal text-center"><?php echo esc_html($lift); ?></p>
             </div>
-            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 aspect-[4/3] border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-13.33px)] scroll_animate" data-animate="animate__fadeInUp">
                 <?php get_template_part('src/svg/generator'); ?>
                 <h3 class=" text-3rd-heading font-normal leading-[1.5]">Generator</h3>
                 <p class="text-base font-normal text-center"><?php echo esc_html($generator); ?></p>
             </div>
-            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 aspect-[4/3] border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] lg:w-[calc(33.333%-13.33px)] scroll_animate" data-animate="animate__fadeInUp">
                 <?php get_template_part('src/svg/gas_supply'); ?>
                 <h3 class=" text-3rd-heading font-normal leading-[1.5]">Gas Supply</h3>
                 <p class="text-base font-normal text-center"><?php echo esc_html($gas_supply); ?></p>
             </div>
-            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 aspect-[4/3] border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] scroll_animate" data-animate="animate__fadeInUp">
                 <?php get_template_part('src/svg/cables'); ?>
                 <h3 class=" text-3rd-heading font-normal leading-[1.5]">Electric Cables</h3>
                 <p class="text-base font-normal text-center"><?php echo esc_html($electric_cables); ?></p>
             </div>
-            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 aspect-[4/3] border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="amenities flex flex-col gap-3 items-center justify-center px-3 py-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] scroll_animate" data-animate="animate__fadeInUp">
                 <?php get_template_part('src/svg/tiles'); ?>
                 <h3 class=" text-3rd-heading font-normal leading-[1.5]">Floor Tiles</h3>
                 <p class="text-base font-normal text-center"><?php echo esc_html($floor_tiles); ?></p>
             </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
             <?php if (get_field('door')): ?>
-                <div class="p-6 border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up-right" data-aos-duration="1000">
+                <div class="p-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] scroll_animate" data-animate="animate__fadeInUp">
                     <div class="flex flex-row items-center gap-3 mb-3">
                         <?php get_template_part('src/svg/door'); ?>
                         <h3 class="text-3rd-heading font-normal">Door</h3>
@@ -209,7 +207,7 @@
                 </div>
             <?php endif; ?>
             <?php if (get_field('structural_materials')): ?>
-                <div class="p-6 border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300" data-aos="fade-up-left" data-aos-duration="1000">
+                <div class="p-6 bg-white border border-[#e9e9e9] rounded-lg shadow hover:shadow-lg transition duration-300 w-full md:w-[calc(50%-10px)] scroll_animate" data-animate="animate__fadeInUp">
                     <div class="flex flex-row items-center gap-3 mb-3">
                         <?php get_template_part('src/svg/materials'); ?>
                         <h3 class="text-3rd-heading font-normal">Structural Materials</h3>
@@ -222,9 +220,10 @@
         </div>
     </div>
 </section>
-<section id="project_gallery" class=" bg-secondary-50 py-10 md:py-20">
+
+<section id="project_gallery" class="py-10 md:py-20">
     <div class="container">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6" data-aos="flip-up" data-aos-duration="1000">Project gallery</h2>
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 scroll_animate">Project gallery</h2>
         <?php $gallery = get_field('gallery');
             if ($gallery): ?>
                 <div id="gallery-masonry" class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
@@ -239,7 +238,7 @@
                                 </div>
                                 <img src="<?php echo esc_url($image['url']); ?>"
                                     alt="<?php echo esc_attr($image['alt']); ?>"
-                                    class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl" data-aos="zoom-in" data-aos-duration="1000" />
+                                    class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl scroll_animate" data-animate="animate__fadeIn"/>
                             </a>
                         </div>
                     <?php endforeach; ?>
@@ -249,8 +248,8 @@
 </section>
 
 <section class="py-5 md:py-20 bg-[#003333]">
-    <div class="container md:max-w-[600px]" data-aos="fade-in" data-aos-duration="1000">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 text-white" data-aos="flip-up" data-aos-duration="1000">Connect & Explore</h2>
+    <div class="container md:max-w-[600px]">
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 text-white scroll_animate">Contact us</h2>
         <?php echo do_shortcode('[jet_fb_form form_id="155" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
     </div>
 </section>

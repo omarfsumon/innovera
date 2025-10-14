@@ -1,42 +1,44 @@
 <?php get_header(); ?>
-<?php get_template_part('template-parts/banner'); ?>
-<section class="container md:py-16 py-4 bg-white">
-        <h2 class="text-3rd-heading text-center italic" data-aos="flip-up" data-aos-duration="1000">
-            Your Land, Our Expertise – A Partnership for the Future
-        </h2>
-        <p class="text-center text-lg mt-4 italic" data-aos="fade-in" data-aos-duration="1000">
-            At Innovera Holdings Ltd., our goal is not just to develop land but to build lifelong partnerships with landowners. 
-            Together, we create landmarks that stand the test of time.
-        </p>
-</section>
-<section class="md:py-16 py-4 bg-[#fefefc]">
-    <div class="container flex md:flex-row flex-col items-center gap-10">
-        <div class="md:w-[45%] w-full md:order-last">
-            <img src="<?php echo INNOVERA_URI . '/src/images/landowner/landowner2.webp' ?>" alt="Landowner" class="w-full h-auto rounded-xl" data-aos="fade-left" data-aos-duration="1000">
-        </div>
-        <div class="md:w-[55%] w-full">
-            <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400]" data-aos="fade-right" data-aos-duration="1000">Joint Venture Development</h2>
-            <h6 class="text-4th-heading mb-4 leading-none" data-aos="fade-right" data-aos-duration="1000">Partner With Innovera – Build Your Land’s True Value</h6>
-            <p class="mb-2" data-aos="fade-right" data-aos-duration="1000">At <strong>Innovera Holdings Ltd.</strong>, we believe land is more than just property—it’s a 
-                powerful asset that can create long-term value for you and your family. Through our Joint Venture Development program, we partner with landowners 
-                to transform their plots into modern, high-value residential and commercial spaces.</p>
-            <p data-aos="fade-right" data-aos-duration="1000">Instead of selling your land for a one-time price, we help you maximize its true potential by developing it into a profitable project—while you retain ownership benefits.</p>
+<section class="page-banner h-[250px] md:h-[400px] lg:h-[600px]" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="bg-black/65 h-full w-full flex flex-col justify-center py-5 md:py-10">
+        <div class="container pt-10">
+            <h1 class="text-2nd-heading font-normal text-center text-white pt-10 scroll_animate">Your Land, Our Expertise – A Partnership for the Future</h1>
+            <p class="text-center text-lg mt-4 italic text-white scroll_animate" >
+                At Innovera Holdings Ltd., our goal is not just to develop land but to build lifelong partnerships with landowners. 
+                Together, we create landmarks that stand the test of time.</p>
         </div>
     </div>
 </section>
+
+<section class="md:py-16 py-4 bg-[#fefefc]">
+    <div class="container flex md:flex-row flex-col items-center gap-10">
+        <div class="md:w-[45%] w-full md:order-last">
+            <img src="<?php echo INNOVERA_URI . '/src/images/landowner/landowner2.webp' ?>" alt="Landowner" class="w-full h-auto rounded-xl scroll_animate" data-animate="animate__fadeIn">
+        </div>
+        <div class="md:w-[55%] w-full">
+            <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] scroll_animate" data-animate="animate__fadeInLeft" style="animation-delay: 0.1s;">Joint Venture Development</h2>
+            <h6 class="text-4th-heading mb-4 leading-none scroll_animate" data-animate="animate__fadeInLeft" style="animation-delay: 0.2s;">Partner With Innovera – Build Your Land’s True Value</h6>
+            <p class="mb-2 scroll_animate" data-animate="animate__fadeInLeft" style="animation-delay: 0.3s;">At <strong>Innovera Holdings Ltd.</strong>, we believe land is more than just property—it’s a 
+                powerful asset that can create long-term value for you and your family. Through our Joint Venture Development program, we partner with landowners 
+                to transform their plots into modern, high-value residential and commercial spaces.</p>
+            <p class="scroll_animate" data-animate="animate__fadeInLeft" style="animation-delay: 0.4s;">Instead of selling your land for a one-time price, we help you maximize its true potential by developing it into a profitable project—while you retain ownership benefits.</p>
+        </div>
+    </div>
+</section>
+
 <section class="md:py-16 py-10 bg-secondary-50">
     <div class="container">
-        <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center" data-aos="flip-up" data-aos-duration="1000">
+        <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center scroll_animate" data-animate="animate__flipInX" style="animation-delay: 0.1s;">
             Why Choose Joint Venture With Innovera?</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
-            <div class="flex flex-col bg-white p-5 rounded-lg gap-2" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col bg-white p-5 rounded-lg gap-2 scroll_animate" data-aos="zoom-in" data-aos-duration="1000">
                 <svg class="fill-secondary-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" viewBox="0 -960 960 960" width="30px">
                     <path d="m10,18c0,1.022.199,1.995.548,2.894l-7.881-5.894H0v-2h3.333l6.668,4.986s0,.009,0,.014ZM21.236,2l-2.949-1.475c-1.83-.914-4.154-.571-5.639.829l-.618.582-.7-.638c-.918-.837-2.109-1.298-3.39-1.298-.768,0-1.538.182-2.227.525l-2.949,1.475H0v2h3.236l3.37-1.686c1.028-.514,2.458-.374,3.376.462l.586.534-2.647,2.492c-1.072,1.072-1.244,2.765-.398,3.939.52.722,1.323,1.177,2.201,1.249.082.006.163.01.244.01.793,0,1.554-.312,2.104-.863l1.005-.962,1.896,1.422c.799-.327,1.665-.522,2.569-.573l-3-2.25,1.688-1.616-1.383-1.445-4.174,3.995c-.207.208-.496.317-.788.29-.297-.024-.56-.174-.739-.423-.274-.381-.19-.976.168-1.335l4.705-4.429c.888-.836,2.28-1.042,3.374-.495l3.371,1.686h3.236v-2h-2.764Zm2.764,16c0,3.309-2.691,6-6,6s-6-2.691-6-6,2.691-6,6-6,6,2.691,6,6Zm-2,0c0-2.206-1.794-4-4-4s-4,1.794-4,4,1.794,4,4,4,4-1.794,4-4Zm-4.562.323l-1.242-1.203-1.392,1.436,1.535,1.486c.293.296.684.458,1.1.458h0c.416,0,.807-.162,1.094-.449l2.661-2.612-1.401-1.428-2.355,2.312Z"/>
                 </svg>
                 <h4 class="text-xl leading-[1.2]">Expertise You Can Trust</h4>
                 <p class="text-base leading-[1.5]">Our team of architects, engineers, and planners bring world-class design and construction standards.</p>
             </div>
-            <div class="flex flex-col bg-white p-5 rounded-lg gap-2" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex flex-col bg-white p-5 rounded-lg gap-2 scroll_animate" data-aos="zoom-in" data-aos-duration="1000">
                 <svg class="fill-secondary-500" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" height="30px" viewBox="0 -960 960 960" width="30px">
                     <path d="m24,2v4c0,.552-.447,1-1,1s-1-.448-1-1v-2.586l-4.063,4.062c-1.344,1.344-3.531,1.345-4.875,0l-2.539-2.538c-.565-.565-1.483-.563-2.047,0L1.707,11.707c-.195.195-.451.293-.707.293s-.512-.098-.707-.293c-.391-.391-.391-1.023,0-1.414L7.062,3.524c1.344-1.344,3.531-1.345,4.875,0l2.539,2.538c.565.566,1.483.563,2.047,0l4.062-4.062h-2.586c-.553,0-1-.448-1-1s.447-1,1-1h4c1.103,0,2,.897,2,2Zm-2.315,14.267l-3.04-.506c-.374-.062-.645-.382-.645-.761,0-.552.448-1,1-1h2.268c.356,0,.688.191.867.501.274.478.885.643,1.366.364.478-.276.642-.888.364-1.366-.534-.924-1.53-1.499-2.598-1.499h-.268v-1c0-.552-.447-1-1-1s-1,.448-1,1v1c-1.654,0-3,1.346-3,3,0,1.359.974,2.51,2.315,2.733l3.04.506c.374.062.645.382.645.761,0,.552-.448,1-1,1h-2.268c-.356,0-.688-.191-.867-.501-.275-.479-.888-.645-1.366-.364-.478.276-.642.888-.364,1.366.534.925,1.53,1.499,2.598,1.499h.268v1c0,.553.447,1,1,1s1-.447,1-1v-1c1.654,0,3-1.346,3-3,0-1.359-.974-2.51-2.315-2.733ZM2,14c-.553,0-1,.447-1,1v8c0,.553.447,1,1,1s1-.447,1-1v-8c0-.553-.447-1-1-1Zm5-4.5c-.553,0-1,.448-1,1v12.5c0,.553.447,1,1,1s1-.447,1-1v-12.5c0-.552-.447-1-1-1Zm5,0c-.553,0-1,.448-1,1v12.5c0,.553.447,1,1,1s1-.447,1-1v-12.5c0-.552-.447-1-1-1Z"/>
                 </svg>
@@ -67,6 +69,7 @@
         </div>
     </div>
 </section>
+
 <section class="md:py-16 py-10 bg-white">
     <div class="container">
         <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center" data-aos="flip-up" data-aos-duration="1000">How Our Joint Venture Works</h2>
