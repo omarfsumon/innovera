@@ -80,8 +80,8 @@
 </section>
 <section class="bg-[#F5F5F5] md:py-20 py-10 overflow-hidden">
     <div class="container flex flex-col gap-2 justify-center">
-        <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded">Services</span>
-        <h2 class="text-2nd-heading text-black text-center mb-5">Our Services</h2>
+        <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded scroll_animate">Services</span>
+        <h2 class="text-2nd-heading text-black text-center mb-5 scroll_animate" data-animate="animate__flipInX">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.1s;">
                 <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/residential_development.webp" alt="Residential Development" class="mb-2 w-full object-cover rounded-lg">

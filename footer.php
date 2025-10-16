@@ -1,4 +1,4 @@
-<footer class="bg-secondary-50 pt-10 pb-4">
+<footer class="bg-secondary-50 pt-10 pb-4 overflow-hidden">
     <div class="container">
         <div class="flex flex-col md:flex-row md:justify-between gap-5">
             <div id="footer_logo" class="flex flex-col items-center">

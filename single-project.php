@@ -42,6 +42,7 @@
         </div>
     </div>
 </section>
+
 <section id="project-details" class="py-5 md:py-20 overflow-hidden">
     <div class="container flex flex-col md:flex-row gap-2 lg:gap-20">
         <div class="feature-image w-full md:w-[50%]">
@@ -144,6 +145,7 @@
         </div>
     </div>
 </section>
+
 <!-- <section id="project-progress" class="bg-[#003333] text-white py-10 md:py-15">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
       <div class="w-full md:w-1/3 text-center md:text-left">
@@ -166,6 +168,7 @@
       </div>
     </div>
 </section> -->
+
 <section id="project-amenities" class="bg-secondary-50 py-5 md:py-20">
     <div class="container">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6">Project Amenities</h2>

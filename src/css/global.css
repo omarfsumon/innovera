@@ -1760,6 +1760,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: auto;
 }
 
+.mb-15 {
+  margin-bottom: 3.75rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1813,10 +1817,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .aspect-\[3\/2\] {
   aspect-ratio: 3/2;
-}
-
-.aspect-\[4\/3\] {
-  aspect-ratio: 4/3;
 }
 
 .aspect-\[4\/5\] {
@@ -2081,6 +2081,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-1 {
@@ -2771,6 +2775,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(0 0 0 / 0.6);
 }
 
+.bg-black\/65 {
+  background-color: rgb(0 0 0 / 0.65);
+}
+
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
@@ -2913,10 +2921,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-white\/5 {
   background-color: rgb(255 255 255 / 0.05);
-}
-
-.bg-black\/65 {
-  background-color: rgb(0 0 0 / 0.65);
 }
 
 .bg-opacity-70 {
@@ -3644,6 +3648,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
+.leading-\[1\.6\] {
+  line-height: 1.6;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -3799,6 +3815,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-white\/80 {
   color: rgb(255 255 255 / 0.8);
+}
+
+.text-white\/30 {
+  color: rgb(255 255 255 / 0.3);
+}
+
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
+}
+
+.text-white\/90 {
+  color: rgb(255 255 255 / 0.9);
 }
 
 .text-opacity-50 {
@@ -4431,6 +4459,10 @@ button.jet-form-builder__submit:focus {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -4497,6 +4529,16 @@ button.jet-form-builder__submit:focus {
   .md\:text-xl {
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  .md\:text-2xl {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .md\:text-1xl {
+    font-size: 22px;
+    line-height: 1.2;
   }
 
   .md\:font-medium {
