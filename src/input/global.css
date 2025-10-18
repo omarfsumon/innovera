@@ -15,6 +15,13 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-jost text-black;
   }
+  .policy_page h1, .policy_page h2, .policy_page h3, .policy_page h4, .policy_page h5, .policy_page h6 {
+    @apply text-black;
+  }
+  .policy_page ul{
+    @apply text-gray-700 list-disc list-inside mb-4;
+  }
+
   @font-face {
     font-family: 'Jost';
     src: url('../fonts/jost/Jost-Regular.woff2') format('woff2');

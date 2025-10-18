@@ -16,7 +16,7 @@
                     <li><a class="hover:underline" href="#">Home Loan Support</a></li>
                     <li><a class="hover:underline" href="#">Property Management</a></li>
                     <li><a class="hover:underline" href="#">After Sales Service</a></li>
-                    <li><a class="hover:underline" href="#">Privacy Policy</a></li>
+                    <li><a class="hover:underline" href="/privacy-policy/">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
