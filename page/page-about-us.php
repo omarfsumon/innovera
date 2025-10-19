@@ -21,7 +21,7 @@
             <p class="scroll_animate" data-animate="animate__fadeInUp">At <strong>Innovera Holdings Ltd.</strong>, we believe a home is more than just four walls—it’s a foundation for dreams, 
                 growth, and generations to come. As a forward-looking real estate development company in Bangladesh, 
                 we are dedicated to building homes and communities that combine <strong>modern architecture, reliable construction, and sustainable design.</strong></p>
-            <p class="scroll_animate" data-animate="animate__fadeInUp">With projects across <strong>Old Dhaka, Bashundhara, Savar, Narayangonj, and Uttara,</strong> 
+            <p class="scroll_animate" data-animate="animate__fadeInUp">With projects across <strong>Dhaka & beyond Dhaka</strong> 
                 Innovera is shaping the future of urban living by delivering spaces that are not only functional, but inspiring.</p>
         </div>
     </div>

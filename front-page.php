@@ -412,7 +412,7 @@
 </section>
 <section id="video" class="p-0 z-0">
     <div class="flex items-center w-full">
-        <a class="block popup-youtube group w-full" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
+        <a class="block popup-youtube group w-full" href="https://youtu.be/LwLt4BT0w6o?si=82fUPRPcXvUz3iVh">
             <div class="relative overflow-hidden h-[300px] md:h-[400px] lg:h-[600px]">
                 <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                     <div class="w-20 h-20 rounded-full bg-white/5 hover:bg-orange-500 transition-all duration-300 flex items-center justify-center">
