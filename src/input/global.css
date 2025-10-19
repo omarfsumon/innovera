@@ -22,69 +22,59 @@
     @apply text-gray-700 list-disc list-inside mb-4;
   }
 
-  /* Theme base style with higher specificity */
-  .prose.single-post h1,
-  .prose.single-post h2,
-  .prose.single-post h3,
-  .prose.single-post h4,
-  .prose.single-post h5,
-  .prose.single-post h6 {
-      scroll-margin-top: 120px;
-  }
-  
-  .prose.single-post h1 { @apply text-4xl font-semibold my-6; }
-  .prose.single-post h2 { @apply text-3xl font-medium my-5; }
-  .prose.single-post h3 { @apply text-xl font-medium my-4; }
-  .prose.single-post h4 { @apply text-xl font-medium my-3; }
-  .prose.single-post h5 { @apply text-base font-medium my-2; }
-  .prose.single-post h6 { @apply text-sm font-medium my-2 uppercase; }
-  .prose.single-post p { @apply mb-4 leading-relaxed; }
+  .policy_page h1 { @apply text-3xl font-semibold my-6; }
+  .policy_page h2 { @apply text-2xl font-medium my-5; }
+  .policy_page h3 { @apply text-xl font-medium my-4; }
+  .policy_page h4 { @apply text-xl font-medium my-3; }
+  .policy_page h5 { @apply text-base font-medium my-2; }
+  .policy_page h6 { @apply text-sm font-medium my-2 uppercase; }
+  .policy_page p { @apply mb-4 leading-relaxed; }
 
-  .prose.single-post ul { @apply list-disc ml-8 my-4; }
-  .prose.single-post ol { @apply list-decimal ml-6 my-4; }
-  .prose.single-post li { @apply mb-2 ml-4 leading-relaxed; }
+  .policy_page ul { @apply list-disc ml-8 my-4; }
+  .policy_page ol { @apply list-decimal ml-6 my-4; }
+  .policy_page li { @apply mb-2 ml-4 leading-relaxed; }
 
-  .prose.single-post blockquote { @apply border-l-4 border-gray-300 pl-4 my-6 py-6 rounded-xl italic text-gray-600 bg-gray-50; }
+  .policy_page blockquote { @apply border-l-4 border-gray-300 pl-4 my-6 py-6 rounded-xl italic text-gray-600 bg-gray-50; }
 
   @font-face {
     font-family: 'Jost';
-    src: url('../fonts/jost/Jost-Regular.woff2') format('woff2');
+    src: url('../fonts/Jost-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
     font-family: 'Jost';
-    src: url('../fonts/jost/Jost-Medium.woff2') format('woff2');
+    src: url('../fonts/Jost-Medium.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
   }
   @font-face {
     font-family: 'Jost';
-    src: url('../fonts/jost/Jost-SemiBold.woff2') format('woff2');
+    src: url('../fonts/Jost-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
   }
   @font-face {
     font-family: 'Jost';
-    src: url('../fonts/jost/Jost-Bold.woff2') format('woff2');
+    src: url('../fonts/Jost-Bold.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;
   }
   @font-face {
     font-family: 'DM Sans';
-    src: url('../fonts/dm-sans/DMSans-Regular.woff2') format('woff2');
+    src: url('../fonts/DMSans-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
     font-family: 'DM Sans';
-    src: url('../fonts/dm-sans/DMSans-Medium.woff2') format('woff2');
+    src: url('../fonts/DMSans-Medium.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
   }
   @font-face {
     font-family: 'DM Sans';
-    src: url('../fonts/dm-sans/DMSans-SemiBold.woff2') format('woff2');
+    src: url('../fonts/DMSans-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
   }

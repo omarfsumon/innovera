@@ -53,7 +53,7 @@ module.exports = {
         '4th-heading': 'clamp(1.375rem, 1.3138rem + 0.3061vw, 1.5625rem)',
         '3rd-heading': 'clamp(1.375rem, 1.2083rem + 0.8333vw, 1.875rem)',
         '2nd-heading': 'clamp(1.5625rem, 1.1801rem + 1.912vw, 2.8125rem)',
-        'hero-heading': 'clamp(2.1875rem, 1.5753rem + 3.0612vw, 4.0625rem)',
+        'hero-heading': 'clamp(1.875rem, 1.2019rem + 3.3654vw, 4.0625rem)',
       },
       spacing: {
         '15': '3.75rem',

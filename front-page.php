@@ -1,16 +1,19 @@
 <?php get_header(); ?>
-<section id="hero" class="relative lg:min-h-screen min-h-[75vh] flex items-center justify-center z-0">
+<section id="hero" class="relative h-[580px] lg:min-h-screen flex items-center justify-center z-0 overflow-hidden">
     <div class="hero-slider absolute z-10 w-full h-full top-0 left-0">
         <div class="swiper w-full h-full">
             <div class="swiper-wrapper">
-                <!-- Slide 1 -->
-                <div class="swiper-slide relative">
+                <div class="swiper-slide relative overflow-hidden">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp');"></div>
+                    <picture>
+                        <source media="(max-width: 768px)" width="400px" height="auto" class="self-center" srcset="<?php echo INNOVERA_URI . '/src/images/slider/1_m.webp' ?>" type="image/webp">
+                        <img width="1920px" height="1080px" src="<?php echo INNOVERA_URI . '/src/images/slider/1_d.webp'?>" class="absolute inset-0 w-full h-full object-cover hidden md:block" alt="Hero Image" loading="lazy" decoding="async">
+                    </picture>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center mt-16 md:mt-5">
                             <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4 scroll_animate">Trust - it's what we build.</h1>
-                            <p class="text-lg font-light mb-4 text-white text-center scroll_animate">Ensuring customer satisfaction through delivery of true value in all our dealings.</p>
+                            <p class="text-base md:text-lg leading-relaxed font-light mb-4 text-white text-center scroll_animate">Ensuring customer satisfaction through delivery of true value in all our dealings.</p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center scroll_animate">
                                 <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
                                     Schedule a Visit
@@ -22,14 +25,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide relative">
+                <div class="swiper-slide relative overflow-hidden">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp');"></div>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
                             <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4 scroll_animate">Always deliver more than expected</h1>
-                            <p class="text-lg font-light mb-6 scroll_animate">We lead by serving you to the best of our ability.</p>
+                            <p class="text-base md:text-lg leading-relaxed font-light mb-6 scroll_animate">We lead by serving you to the best of our ability.</p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center scroll_animate">
                                 <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
                                     Schedule a Visit
@@ -41,14 +43,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide relative">
+                <div class="swiper-slide relative overflow-hidden">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp');"></div>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
                             <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4 scroll_animate">Elegant and comfort in a modern Space</h1>
-                            <p class="text-lg font-light mb-6 scroll_animate">
+                            <p class="text-base md:text-lg leading-relaxed font-light mb-6 scroll_animate">
                                 Conducting each activity in the business in the most fair and just manner.
                             </p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center scroll_animate">
@@ -62,14 +63,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- Slide ৪ -->
-                <div class="swiper-slide relative">
+                <div class="swiper-slide relative overflow-hidden">
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/4.webp');"></div>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
                             <h1 class="text-hero-heading leading-tight text-white font-semibold mb-4 scroll_animate">Delivering what is promised, on time, every time</h1>
-                            <p class="text-lg font-light mb-6 scroll_animate">
+                            <p class="text-base md:text-lg leading-relaxed font-light mb-6 scroll_animate">
                                 We ensure optimum satisfaction of customers with maintain of proper handover deadline.</p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center scroll_animate">
                                 <a href="#contact" class="inline-block px-6 py-2 text-white hover:text-secondary-100 font-medium rounded-md backdrop-blur-md border border-white/50">
@@ -248,57 +248,17 @@
 </section>
 <section id="what_we_do" class=" py-8 md:py-24 z-0 overflow-hidden">
     <div class="container">
-        <div class="flex flex-wrap justify-center">
-            <div class="lg:w-1/2 text-center">
-                <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 scroll_animate">What We Do</span>
-                <h2 class="text-2nd-heading scroll_animate">Our Services</h2>
-            </div>
+        <div class="flex flex-col items-center mb-5">
+            <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 scroll_animate">What We Do</span>
+            <h2 class="text-2nd-heading scroll_animate" data-animate="animate__flipInX">Our Services</h2>
         </div>
-        <div class="flex w-full text-center justify-center items-center my-5">
-            <ul id="filters" class="  flex flex-wrap justify-center lg:flex-row scroll_animate">
-                <li><a href="#" data-filter=".venture" class="selected">Joint Venture</a></li>
-                <li><a href="#" data-filter=".buyers">Buyers</a></li>
-                <li><a href="#" data-filter=".interior">Interior</a></li>
-                <li><a href="#" data-filter=".facilities">Facilities</a></li>
-            </ul>
-        </div>
-        <div id="gallery" class="grid grid-cols-2 lg:grid-cols-3 gap-3">
-            <div class="w-full item venture scroll_animate" data-animate="animate__fadeIn">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do1.webp' ?>" alt="What We Do"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item venture scroll_animate" data-animate="animate__fadeIn">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do2.webp' ?>" alt="What We Do"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
-            <div class="w-full item venture scroll_animate" data-animate="animate__fadeIn">
-                <a href="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" class="image-popup block rounded-xl overflow-hidden group">
-                    <div class="relative rounded-xl overflow-hidden">
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-                            View
-                        </div>
-                        <img width="410px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do3.webp' ?>" alt="What We Do"
-                            class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl">
-                    </div>
-                </a>
-            </div>
+        <div id="gallery" class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
+            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_1.webp' ?>" alt="What We Do"
+                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
+            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_2.webp' ?>" alt="What We Do"
+                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.2s;">
+            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_3.webp' ?>" alt="What We Do"
+                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.3s;">
         </div>
     </div>
 </section>

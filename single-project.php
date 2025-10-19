@@ -25,7 +25,7 @@
     $door = get_field('door');
     $structural_materials = get_field('structural_materials');
 ?>
-<section id="project-banner" class="h-[400px] lg:h-screen"
+<section id="project-banner" class="h-[400px] lg:h-screen overflow-hidden"
     style="background-image: url('<?php echo esc_url($banner_image); ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container px-3 md:px-5 lg:px-10">
@@ -169,7 +169,7 @@
     </div>
 </section> -->
 
-<section id="project-amenities" class="bg-secondary-50 py-5 md:py-20">
+<section id="project-amenities" class="bg-secondary-50 py-5 md:py-20 overflow-hidden">
     <div class="container">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6">Project Amenities</h2>
         <div class="flex flex-wrap gap-5">
@@ -224,9 +224,9 @@
     </div>
 </section>
 
-<section id="project_gallery" class="py-10 md:py-20">
+<section id="project_gallery" class="py-10 md:py-20 overflow-hidden">
     <div class="container">
-        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 scroll_animate">Project gallery</h2>
+        <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 scroll_animate">Project Gallery</h2>
         <?php $gallery = get_field('gallery');
             if ($gallery): ?>
                 <div id="gallery-masonry" class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
@@ -250,7 +250,7 @@
     </div>
 </section>
 
-<section class="py-5 md:py-20 bg-[#003333]">
+<section class="py-5 md:py-20 bg-[#003333] overflow-hidden">
     <div class="container md:max-w-[600px]">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 text-white scroll_animate">Contact us</h2>
         <?php echo do_shortcode('[jet_fb_form form_id="155" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
