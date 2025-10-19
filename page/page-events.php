@@ -23,7 +23,7 @@
                         <div class="overflow-hidden relative rounded-1 text-light text-center">
                             <div class="overflow-hidden rounded-xl">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <img src="<?php the_post_thumbnail_url('full'); ?>" class="w-full aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>">
+                                    <img fetchpriority="high" loading="lazy" decoding="async" src="<?php the_post_thumbnail_url('full'); ?>" class="w-full aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>">
                                 <?php endif; ?>
                             </div>
                             <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">

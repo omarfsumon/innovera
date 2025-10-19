@@ -10,3 +10,5 @@ const videoLightbox=GLightbox({selector:".popup-youtube",width:"50%",type:"video
 document.addEventListener("DOMContentLoaded",function(){let t=document.getElementById("back_to_top");window.addEventListener("scroll",function(){window.scrollY>200?(t.classList.remove("hidden"),t.classList.add("opacity-100")):(t.classList.add("hidden"),t.classList.remove("opacity-100"))}),t.addEventListener("click",function(t){t.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})})});
 // Scroll Fade In Up Animation
 document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".scroll_animate"),t=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){let a=e.target.dataset.animate||"animate__fadeInUp";e.target.classList.add("animate__animated",a),t.unobserve(e.target)}})});e.forEach(e=>t.observe(e))});
+// Preloader
+document.addEventListener("DOMContentLoaded",function(){let e=document.getElementById("preloader");window.addEventListener("load",function(){e&&(e.classList.add("hide"),setTimeout(()=>e.remove(),600))}),setTimeout(()=>{e&&!e.classList.contains("hide")&&(e.classList.add("hide"),setTimeout(()=>e.remove(),600))},5e3)});

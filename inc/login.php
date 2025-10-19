@@ -23,7 +23,7 @@ function globalizer_login_styles() {
     <style type="text/css">
         /* Main background */
         body.login {
-            background-image: url('<?php echo get_theme_file_uri('src/images/slider/3.webp'); ?>');
+            background-image: url('<?php echo get_theme_file_uri('src/images/slider/3_d.webp'); ?>');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

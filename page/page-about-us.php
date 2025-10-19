@@ -13,7 +13,7 @@
 <section class="bg-white">
     <div class="container md:py-20 py-4 flex flex-col md:flex-row gap-4 items-center">
         <div class="w-full md:w-[60%]">
-            <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/about_us.webp" alt="About Us" 
+            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/about_us.webp" alt="About Us" 
             class="w-full object-cover rounded-lg aspect-video scroll_animate" data-animate="animate__fadeIn">
         </div>
         <div class="w-full md:w-[40%] flex flex-col gap-4 md:order-first">
@@ -29,7 +29,7 @@
 <section class="bg-[#F5F5F5]">
     <div class="container md:py-20 py-4 flex flex-col md:flex-row gap-4 items-center">
         <div class="w-full md:w-[60%]">
-           <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/trust_alt.webp" alt="Our Mission" 
+           <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/trust_alt.webp" alt="Our Mission" 
             class="w-full object-contain rounded-lg scroll_animate" data-animate="animate__fadeIn"> 
         </div>
         <div class="w-full md:w-[40%] flex flex-col gap-4">
@@ -84,27 +84,27 @@
         <h2 class="text-2nd-heading text-black text-center mb-5 scroll_animate" data-animate="animate__flipInX">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.1s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/residential_development.webp" alt="Residential Development" class="mb-2 w-full object-cover rounded-lg">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/residential_development.webp" alt="Residential Development" class="mb-2 w-full object-cover rounded-lg">
                 <h3 class="text-4th-heading leading-none text-black">Residential Development</h3>
                 <p>Premium apartments and luxury homes tailored for modern lifestyles.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.2s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/commercial_spaces.webp" alt="Commercial Spaces" class="mb-2 w-full object-cover rounded-lg">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/commercial_spaces.webp" alt="Commercial Spaces" class="mb-2 w-full object-cover rounded-lg">
                 <h3 class="text-4th-heading leading-none text-black">Commercial Spaces</h3>
                 <p>Smart office spaces and retail properties for business growth.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.3s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/land_development_&_joint_ventures.webp" alt="Land Development & Joint Ventures" class="mb-2 w-full object-cover rounded-lg">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/land_development_&_joint_ventures.webp" alt="Land Development & Joint Ventures" class="mb-2 w-full object-cover rounded-lg">
                 <h3 class="text-4th-heading leading-none text-black">Land Development & Joint Ventures</h3>
                 <p>Partnering with landowners to maximize property value through development.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.4s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/property_management.webp" alt="Property Management" class="mb-2 w-full object-cover rounded-lg ">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/property_management.webp" alt="Property Management" class="mb-2 w-full object-cover rounded-lg ">
                 <h3 class="text-4th-heading leading-none text-black">Property Management</h3>
                 <p>Professional maintenance and after-sales support for long-term value.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.5s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/about/interior_&_customization.webp" alt="Interior & Customization" class="mb-2 w-full object-cover rounded-lg">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/interior_&_customization.webp" alt="Interior & Customization" class="mb-2 w-full object-cover rounded-lg">
                 <h3 class="text-4th-heading leading-none text-black">Interior & Customization</h3>
                 <p>Personalization of tiles, fittings, and finishes to suit your taste.</p>
             </div>

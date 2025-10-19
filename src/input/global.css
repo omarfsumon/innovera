@@ -293,4 +293,55 @@
     @apply w-full px-4 py-2 bg-secondary-50 border-b border-gray-300 rounded shadow-sm focus:outline-none focus:ring-1 focus:ring-secondary-500;
   }
 
+
+/* ============ Preloader Wrapper ============ */
+.preloader-wrapper {
+  @apply fixed inset-0 z-[99999] bg-white/90 flex items-center justify-center transition-opacity duration-500 ease-in-out;
+}
+
+.preloader-wrapper.hide {
+  @apply opacity-0 invisible;
+}
+
+/* ============ Orbit Loader ============ */
+.preloader-orbit-loading {
+  @apply relative w-20 h-20;
+  perspective: 780px;
+}
+
+.cssload-inner {
+  @apply absolute w-full h-full box-border rounded-[50%];
+}
+
+.cssload-one {
+  animation: cssload-rotate-one 1.15s linear infinite;
+  border-bottom: 3px solid #ff6900; 
+}
+
+.cssload-two {
+  animation: cssload-rotate-two 1.15s linear infinite;
+  border-right: 3px solid #ff6900;
+}
+
+.cssload-three {
+  animation: cssload-rotate-three 1.15s linear infinite;
+  border-top: 3px solid #ff6900;
+}
+
+/* ============ Animations ============ */
+@keyframes cssload-rotate-one {
+  0% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg); }
+  100% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg); }
+}
+
+@keyframes cssload-rotate-two {
+  0% { transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg); }
+  100% { transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg); }
+}
+
+@keyframes cssload-rotate-three {
+  0% { transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg); }
+  100% { transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg); }
+}
+
 }

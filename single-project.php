@@ -46,7 +46,12 @@
 <section id="project-details" class="py-5 md:py-20 overflow-hidden">
     <div class="container flex flex-col md:flex-row gap-2 lg:gap-20">
         <div class="feature-image w-full md:w-[50%]">
-            <img src="<?php echo esc_url(get_the_post_thumbnail_url()); ?>" alt="" class="w-auto h-full object-cover rounded-lg scroll_animate" data-animate="animate__fadeIn" />
+            <?php if (has_post_thumbnail()): ?>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_the_post_thumbnail_url()); ?>">
+                    <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo esc_url(get_the_post_thumbnail_url()); ?>" alt="" class="w-auto h-full object-cover rounded-lg scroll_animate" data-animate="animate__fadeIn" />
+                </picture>
+            <?php endif; ?>
         </div>
         <div class="w-full md:w-[50%]">
             <h3 class="text-2nd-heading leading-[1] font-normal mt-2 mb-2 scroll_animate">At a Glance</h3>
@@ -232,15 +237,11 @@
                 <div id="gallery-masonry" class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
                     <?php foreach ($gallery as $image): ?>
                         <div class="break-inside-avoid overflow-hidden rounded-xl group">
-                            <a href="<?php echo esc_url($image['url']); ?>"
-                            class="image-popup block relative rounded-xl overflow-hidden"
-                            data-glightbox="title: <?php echo esc_attr($image['alt']); ?>">
+                            <a href="<?php echo esc_url($image['url']); ?>" class="image-popup block relative rounded-xl overflow-hidden"
+                                data-glightbox="title: <?php echo esc_attr($image['alt']); ?>">
                                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 z-10"></div>
-                                <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition duration-300 z-20">
-                                    View
-                                </div>
-                                <img src="<?php echo esc_url($image['url']); ?>"
-                                    alt="<?php echo esc_attr($image['alt']); ?>"
+                                <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition duration-300 z-20">View</div>
+                                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"
                                     class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-xl scroll_animate" data-animate="animate__fadeIn"/>
                             </a>
                         </div>

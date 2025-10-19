@@ -14,6 +14,16 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php add_action('wp_body_open', function(){ ?>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader-wrapper">
+        <div class="preloader-orbit-loading">
+            <div class="cssload-inner cssload-one"></div>
+            <div class="cssload-inner cssload-two"></div>
+            <div class="cssload-inner cssload-three"></div>
+        </div>
+    </div>
+<?php }); ?>
 <?php wp_body_open(); ?>
     <header id="header" class="my-sticky-header sticky top-0 lg:top-6 -mb-[100px] w-full z-50 transparent">
         <div class="inner-header container flex justify-between items-center w-full px-5 h-20 lg:rounded-lg lg:mt-5 bg-white shadow-md">

@@ -12,7 +12,7 @@
 <section class=" py-5 md:py-15 px-4 overflow-hidden">
     <div class="container flex flex-col md:flex-row items-center justify-between md:gap-20 gap-5">
         <div class="max-w-full md:max-w-[50%] md:order-last">
-            <img src="<?php echo get_template_directory_uri(); ?>/src/images/nrb/nrb_corner.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
+            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/nrb/nrb_corner.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
         </div>
         <div class="max-w-full md:max-w-[50%]">
             <h2 class="text-3rd-heading leading-[1.6] font-semibold scroll_animate" data-animate="animate__fadeInLeft">For Our NRB Customers & Landowners</h2>
@@ -77,7 +77,7 @@
     <div class="container">
         <div class="flex flex-col md:flex-row items-center justify-center gap-15">
             <div class="max-w-full md:max-w-[50%]">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/nrb/nrb_landowners.webp" alt="NRB Landowner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
+                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/nrb/nrb_landowners.webp" alt="NRB Landowner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
             </div>
             <div class="max-w-full md:max-w-[50%]">
                 <h2 class="text-3rd-heading font-semibold scroll_animate" data-animate="animate__fadeInRight">For NRB Landowners</h2>

@@ -13,7 +13,7 @@
 <section class=" py-5 md:py-15 overflow-hidden">
     <div class="container flex flex-col md:flex-row items-center justify-between md:gap-20 gap-5">
         <div class="max-w-[100%] md:max-w-[50%] md:order-last">
-            <img src="<?php echo get_template_directory_uri(); ?>/src/images/service/home_loan.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
+            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/service/home_loan.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn">
         </div>
         <div class="max-w-[100%] md:max-w-[50%] space-y-5">
             <h2 class="text-2nd-heading font-normal leading-[1.5] scroll_animate" data-animate="animate__fadeInUp">Easy Home Loan Support</h2>
@@ -152,7 +152,7 @@
 <section class=" py-5 md:py-20 overflow-hidden">
     <div class="container flex flex-col md:flex-row items-center justify-between md:gap-20 gap-5">
         <div class="max-w-[100%] md:max-w-[50%]">
-            <img src="<?php echo get_template_directory_uri(); ?>/src/images/service/property_management.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
+            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/service/property_management.webp" alt="NRB Corner" class="w-full rounded-lg scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
         </div>
         <div class="max-w-[100%] md:max-w-[50%] space-y-4">
             <h2 class="text-2nd-heading font-normal leading-[1.2] scroll_animate">Property Management</h2>

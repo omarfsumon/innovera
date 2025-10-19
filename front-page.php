@@ -4,10 +4,9 @@
         <div class="swiper w-full h-full">
             <div class="swiper-wrapper">
                 <div class="swiper-slide relative overflow-hidden">
-                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/1.webp');"></div>
                     <picture>
-                        <source media="(max-width: 768px)" width="400px" height="auto" class="self-center" srcset="<?php echo INNOVERA_URI . '/src/images/slider/1_m.webp' ?>" type="image/webp">
-                        <img width="1920px" height="1080px" src="<?php echo INNOVERA_URI . '/src/images/slider/1_d.webp'?>" class="absolute inset-0 w-full h-full object-cover hidden md:block" alt="Hero Image" loading="lazy" decoding="async">
+                        <source media="(max-width: 768px)" width="768" height="auto" srcset="<?php echo INNOVERA_URI . '/src/images/slider/1_m.webp' ?>" type="image/webp">
+                        <img fetchpriority="high" width="1920" height="auto" src="<?php echo INNOVERA_URI . '/src/images/slider/1_d.webp'?>" class="absolute inset-0 w-full h-full object-cover" alt="Hero Slide 1" loading="lazy" decoding="async">
                     </picture>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
@@ -26,7 +25,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide relative overflow-hidden">
-                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/2.webp');"></div>
+                    <picture>
+                        <source media="(max-width: 768px)" width="768" height="auto" srcset="<?php echo INNOVERA_URI . '/src/images/slider/2_m.webp' ?>" type="image/webp">
+                        <img fetchpriority="high" width="1920" height="auto" src="<?php echo INNOVERA_URI . '/src/images/slider/2_d.webp'?>" class="absolute inset-0 w-full h-full object-cover" alt="Hero Slide 1" loading="lazy" decoding="async">
+                    </picture>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
@@ -44,7 +46,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide relative overflow-hidden">
-                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/3.webp');"></div>
+                    <picture>
+                        <source media="(max-width: 768px)" width="768" height="auto" srcset="<?php echo INNOVERA_URI . '/src/images/slider/3_m.webp' ?>" type="image/webp">
+                        <img fetchpriority="high" width="1920" height="auto" src="<?php echo INNOVERA_URI . '/src/images/slider/3_d.webp'?>" class="absolute inset-0 w-full h-full object-cover" alt="Hero Slide 1" loading="lazy" decoding="async">
+                    </picture>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
@@ -64,7 +69,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide relative overflow-hidden">
-                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/src/images/slider/4.webp');"></div>
+                    <picture>
+                        <source media="(max-width: 768px)" width="768" height="auto" srcset="<?php echo INNOVERA_URI . '/src/images/slider/4_m.webp' ?>" type="image/webp">
+                        <img fetchpriority="high" width="1920" height="auto" src="<?php echo INNOVERA_URI . '/src/images/slider/4_d.webp'?>" class="absolute inset-0 w-full h-full object-cover" alt="Hero Slide 1" loading="lazy" decoding="async">
+                    </picture>
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="relative z-20 container mx-auto px-4 h-full flex items-center justify-center">
                         <div class="text-center text-white mt-16 md:mt-5">
@@ -253,12 +261,12 @@
             <h2 class="text-2nd-heading scroll_animate" data-animate="animate__flipInX">Our Services</h2>
         </div>
         <div id="gallery" class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
-            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_1.webp' ?>" alt="What We Do"
-                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
-            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_2.webp' ?>" alt="What We Do"
-                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.2s;">
-            <img width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_3.webp' ?>" alt="What We Do"
-                class=" w-[408] h-auto aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.3s;">
+            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_1.webp' ?>" alt="What We Do"
+                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
+            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_2.webp' ?>" alt="What We Do"
+                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.2s;">
+            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_3.webp' ?>" alt="What We Do"
+                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.3s;">
         </div>
     </div>
 </section>
@@ -274,8 +282,8 @@
         <div class="flex flex-col lg:flex-row gap-5">
             <div class="w-full lg:w-1/2 lg:order-last">
                 <picture class="flex flex-col items-center">
-                    <source media="(max-width: 768px)" width="400px" height="auto" class="self-center" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/why_innovera_p.webp' ?>" type="image/webp">
-                    <img width="650px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/apartment/why_innovera_d.webp'?>" class="object-cover rounded-2xl scroll_animate" data-animate="animate__fadeIn" alt="Discover" loading="lazy" decoding="async">
+                    <source media="(max-width: 768px)" srcset="<?php echo INNOVERA_URI . '/src/images/home/why_innovera_p.webp' ?>" type="image/webp">
+                    <img fetchpriority="high" loading="lazy" decoding="async" width="650" height="auto" src="<?php echo INNOVERA_URI . '/src/images/home/why_innovera_d.webp'?>" class="object-cover rounded-2xl scroll_animate" data-animate="animate__fadeIn" alt="Discover">
                 </picture>
             </div>
             <div class="icon-list w-full lg:w-1/2">
@@ -383,7 +391,7 @@
                         <div class="overflow-hidden relative rounded-1 text-light text-center">
                             <div class="overflow-hidden rounded-xl">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <img width="400px" height="auto" src="<?php the_post_thumbnail_url('full'); ?>" class="aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>" loading="lazy" decoding="async">
+                                    <img fetchpriority="high" width="400" height="auto" src="<?php the_post_thumbnail_url('full'); ?>" class="aspect-[3/2] rounded-xl object-cover" alt="<?php the_title_attribute(); ?>" loading="lazy" decoding="async">
                                 <?php endif; ?>
                             </div>
                             <div class="absolute z-10 p-5 w-full h-full bottom-0 bg-gradient-to-t from-secondary-400/70 to-transparent text-white flex flex-col justify-end rounded-xl">
@@ -405,7 +413,7 @@
 <section id="video" class="p-0 z-0">
     <div class="flex items-center w-full">
         <a class="block popup-youtube group w-full" href="https://www.youtube.com/watch?v=C6rf51uHWJg">
-            <div class="relative overflow-hidden h-[50vh] lg:h-[70vh]">
+            <div class="relative overflow-hidden h-[300px] md:h-[400px] lg:h-[600px]">
                 <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                     <div class="w-20 h-20 rounded-full bg-white/5 hover:bg-orange-500 transition-all duration-300 flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px" fill="#FFFFFF">
@@ -414,7 +422,10 @@
                     </div>
                 </div>
                 <div class="absolute w-full h-full top-0 bg-black/40 group-hover:bg-black/50 transition-all duration-500 z-0"></div>
-                <img src="<?php echo INNOVERA_URI . '/src/images/background/2.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="" loading="lazy" decoding="async">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="<?php echo INNOVERA_URI . '/src/images/slider/video_bg_m.webp' ?>" type="image/webp">
+                    <img fetchpriority="high" loading="lazy" decoding="async" width="1920" height="auto" src="<?php echo INNOVERA_URI . '/src/images/slider/video_bg_d.webp' ?>" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" alt="Innovera Backround">
+                </picture>
             </div>
         </a>
     </div>
@@ -428,8 +439,8 @@
     <div class="flex md:flex-row flex-col justify-center items-center lg:gap-10 gap-5 px-5 lg:px-0">
         <div class="lg:w-6/12 md:order-first">
             <picture>
-                <source media="(max-width: 768px)" width="350" height="350" srcset="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_p.webp' ?>" type="image/webp">
-                <img width="650" height="650" class="rounded-xl scroll_animate" data-animate="animate__fadeIn" src="<?php echo INNOVERA_URI . '/src/images/apartment/schedule_meeting_d.webp' ?>" alt="Phone" loading="lazy" decoding="async">
+                <source media="(max-width: 768px)" width="350" height="350" srcset="<?php echo INNOVERA_URI . '/src/images/home/schedule_meeting_p.webp' ?>" type="image/webp">
+                <img width="650" height="650" class="rounded-xl scroll_animate" data-animate="animate__fadeIn" src="<?php echo INNOVERA_URI . '/src/images/home/schedule_meeting_d.webp' ?>" alt="Phone" loading="lazy" decoding="async">
             </picture>
         </div>
         <div id="home_form" class="flex flex-col lg:w-6/12 w-full">

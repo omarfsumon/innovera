@@ -25,7 +25,7 @@
                                 <div class="absolute inset-0 flex items-center justify-center text-white text-base font-semibold opacity-0 group-hover:opacity-100 transition duration-300 z-20">
                                     View
                                 </div>
-                                <img src="<?php echo esc_url($image['url']);?>" alt="<?php echo esc_attr($image['alt']);?>"
+                                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo esc_url($image['url']);?>" alt="<?php echo esc_attr($image['alt']);?>"
                                     class="w-full h-auto object-cover group-hover:scale-110 transition duration-300 rounded-xl"/>
                             </a>
                         </div>
