@@ -4490,6 +4490,11 @@ button.jet-form-builder__submit:focus {
   background-color: rgb(230 147 57 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-secondary-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 83 27 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-\[\#e69339\]:hover {
   --tw-text-opacity: 1;
   color: rgb(230 147 57 / var(--tw-text-opacity, 1));
