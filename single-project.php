@@ -5,8 +5,6 @@
     } else {
         $banner_image = INNOVERA_URI . '/src/images/slider/breadcrumb.webp';
     }
-    // $progress = get_field('project_progress');
-    // $progress = is_numeric($progress) ? intval($progress) : 0;
     $plot_address = get_field('plot_address');
     $rajuk_approval_no = get_field('rajuk_approval_no');
     $area_of_land = get_field('area_of_land');
@@ -151,29 +149,6 @@
     </div>
 </section>
 
-<!-- <section id="project-progress" class="bg-[#003333] text-white py-10 md:py-15">
-    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-      <div class="w-full md:w-1/3 text-center md:text-left">
-        <h2 class="text-2nd-heading text-white font-normal leading-tight" data-aos="flip-up" data-aos-duration="1000">Project Progress</h2>
-      </div>
-      <div class="w-full md:w-2/3 relative" data-aos="fade-in" data-aos-duration="1000">
-          <div class="flex justify-between mb-2 text-sm font-medium">
-            <span>Project Start</span>
-            <span>Completed</span>
-          </div>
-          
-          <div class="relative w-full h-3 rounded-full bg-white/20 overflow-hidden">
-            <div class="absolute top-0 left-0 h-full bg-white transition-all duration-700 ease-in-out" style="width: <?php echo $progress; ?>%;"></div>
-          </div>
-          
-          <div class="flex justify-between mt-2 text-sm">
-            <span>0%</span>
-            <span><?php echo $progress; ?>%</span>
-          </div>
-      </div>
-    </div>
-</section> -->
-
 <section id="project-amenities" class="bg-secondary-50 py-5 md:py-20 overflow-hidden">
     <div class="container">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6">Project Amenities</h2>
@@ -254,7 +229,7 @@
 <section class="py-5 md:py-20 bg-[#003333] overflow-hidden">
     <div class="container md:max-w-[600px]">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 text-white scroll_animate">Contact us</h2>
-        <?php echo do_shortcode('[jet_fb_form form_id="155" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
+        <?php echo do_shortcode('[jet_fb_form form_id="155" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="div" enable_progress="" clear="1"]'); ?>
     </div>
 </section>
 

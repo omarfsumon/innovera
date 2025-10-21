@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="page-banner h-[250px] md:h-[400px] lg:h-[600px]" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="page-banner h-[250px] md:h-[400px] lg:h-[600px] overflow-hidden" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container pt-20">
             <h1 class="text-2nd-heading font-normal text-center text-white scroll_animate">
@@ -9,13 +9,13 @@
     </div>
 </section>
 
-<section class="py-15 z-0">
+<section class="py-15 z-0 overflow-hidden">
     <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <?php
             $projects = new WP_Query([
                 'post_type' => 'project',
-                'posts_per_page' => 6,
+                'posts_per_page' => 9,
             ]);
 
             if ($projects->have_posts()):

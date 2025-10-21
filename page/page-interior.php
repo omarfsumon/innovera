@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="page-banner h-[400px] lg:h-[600px]" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="page-banner h-[400px] lg:h-[600px] overflow-hidden" style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container pt-10">
             <h1 class="text-2nd-heading font-normal text-center text-white pt-10 italic scroll_animate">Transforming Spaces into Homes</h1>
@@ -10,7 +10,7 @@
     </div>
 </section>
 
-<section class="md:py-16 py-4 bg-[#fefefc]">
+<section class="md:py-16 py-4 bg-[#fefefc] overflow-hidden">
     <div class="container flex md:flex-row flex-col items-center gap-10">
         <div class="md:w-[45%] w-full md:order-last">
             <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo INNOVERA_URI . '/src/images/landowner/landowner2.webp' ?>" alt="Landowner" class="w-full h-auto rounded-xl scroll_animate" data-animate="animate__fadeIn">
@@ -26,7 +26,7 @@
     </div>
 </section>
 
-<section class="md:py-16 py-10 bg-secondary-50">
+<section class="md:py-16 py-10 bg-secondary-50 overflow-hidden">
     <div class="container">
         <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center scroll_animate" data-animate="animate__flipInX">
             Our Customization Options:</h2>
@@ -89,7 +89,7 @@
     </div>
 </section>
 
-<section class="md:py-16 py-10 bg-white">
+<section class="md:py-16 py-10 bg-white overflow-hidden">
     <div class="container">
         <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center scroll_animate" data-animate="animate__flipInX">How It Works</h2>
         <div class="flex flex-col md:flex-row items-center gap-10 mt-10">
@@ -179,4 +179,6 @@
         </div>
     </div>
 </section>
+
+<?php get_template_part('template-parts/cta_section');?>
 <?php get_footer(); ?>

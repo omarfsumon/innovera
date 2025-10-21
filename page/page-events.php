@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/banner'); ?>
 
-<section id="latest_update" class="py-24 z-0">
+<section id="latest_update" class="py-24 z-0 overflow-hidden">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
             <h2 class="  text-2nd-heading" data-aos="flip-up" data-aos-delay="100">All Media & Events</h2>
@@ -40,4 +40,5 @@
     </div>
 </section>
 
+<?php get_template_part('template-parts/cta_section');?>
 <?php get_footer(); ?>

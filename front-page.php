@@ -175,8 +175,8 @@
                             </div>
                             <div class="lg:w-2/3">
                                 <picture>
-                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/premium_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/premium_d.webp'?>" class="w-100 rounded-2xl" alt="Premium" loading="lazy" decoding="async">
+                                    <source media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/premium_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/premium_d.webp'?>" class="w-100 rounded-2xl" alt="Premium" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -196,8 +196,8 @@
                             </div>
                             <div class="lg:w-2/3">
                                 <picture>
-                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_d.webp'?>" class="w-100 rounded-2xl" alt="Exclusive" loading="lazy" decoding="async">
+                                    <source media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/exclusive_d.webp'?>" class="w-100 rounded-2xl" alt="Exclusive" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -218,8 +218,8 @@
 
                             <div class="lg:w-2/3">
                                 <picture>
-                                    <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/standard_p.webp'?>" loading="lazy" decoding="async">
-                                    <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/standard_d.webp'?>" class="w-100 rounded-2xl" alt="Standard" loading="lazy" decoding="async">
+                                    <source media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/standard_p.webp'?>" loading="lazy" decoding="async">
+                                    <img width="820" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/standard_d.webp'?>" class="w-100 rounded-2xl" alt="Standard" loading="lazy" decoding="async">
                                 </picture>
                             </div>
                         </div>
@@ -242,8 +242,8 @@
                             <div class="lg:w-2/3">
                                 <div class="relative">
                                     <picture>
-                                        <source width="400px" height="auto" media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/interior_p.webp'?>" loading="lazy" decoding="async">
-                                        <img width="820px" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/interior_d.webp'?>" class="w-100 rounded-2xl" alt="interior" loading="lazy" decoding="async">
+                                        <source media="(max-width: 425px)" srcset="<?php echo INNOVERA_URI . '/src/images/projects/interior_p.webp'?>" loading="lazy" decoding="async">
+                                        <img width="820" height="auto" src="<?php echo INNOVERA_URI . '/src/images/projects/interior_d.webp'?>" class="w-100 rounded-2xl" alt="interior" loading="lazy" decoding="async">
                                     </picture>
                                 </div>
                             </div>
@@ -270,7 +270,7 @@
         </div>
     </div>
 </section>
-<section id="why_innovera" class="bg-[#003333] text-white md:py-24 py-12 z-0 rounded-3xl">
+<section id="why_innovera" class="bg-[#003333] text-white md:py-24 py-12 z-0 rounded-3xl overflow-hidden">
     <div class="container flex flex-col gap-10 items-center justify-center lg:justify-between">
         <div class="w-full flex flex-col items-center text-center">
             <span class="subtitletext-secondary-100 text-sm font-normal uppercase tracking-wider py-1 px-2 bg-[#1E4645] rounded scroll_animate">Discover</span>
@@ -368,7 +368,7 @@
         </div>
     </div>
 </section>
-<section id="latest_update" class="py-8 md:py-24 z-0">
+<section id="latest_update" class="py-8 md:py-24 z-0 overflow-hidden">
     <div class="container ">
         <div class="flex flex-col justify-center text-center mb-5">
             <div class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 rounded scroll_animate">Latest Update</div>
@@ -410,7 +410,7 @@
         </div>
     </div>
 </section>
-<section id="video" class="p-0 z-0">
+<section id="video" class="p-0 z-0 overflow-hidden">
     <div class="flex items-center w-full">
         <a class="block popup-youtube group w-full" href="https://youtu.be/LwLt4BT0w6o?si=82fUPRPcXvUz3iVh">
             <div class="relative overflow-hidden h-[300px] md:h-[400px] lg:h-[600px]">
@@ -430,7 +430,7 @@
         </a>
     </div>
 </section>
-<section id="contact" class="container md:py-24 py-12 z-0">
+<section id="contact" class="container md:py-24 py-12 z-0 overflow-hidden">
     <div class="flex flex-col justify-center mb-5 text-center gap-2">
         <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 rounded scroll_animate">Schedule a Meeting</span>
         <h2 class="text-2nd-heading md:leading-1 leading-none scroll_animate animate__fadeIn">Your Dreem Home is Just a Visit Away</h2>
@@ -466,7 +466,7 @@
                     <p class="lg:text-lg text-base font-normal text-black/50">+88 02226617206</p>
                 </div>
             </a>
-            <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="fieldset" enable_progress="" clear="1"]'); ?>
+            <?php echo do_shortcode('[jet_fb_form form_id="57" submit_type="ajax" required_mark="*" fields_layout="column" fields_label_tag="label" markup_type="div" enable_progress="" clear="1"]'); ?>
         </div>
     </div>
 </section>

@@ -1,5 +1,5 @@
 <?php get_header();?>
-<section class="page-banner h-[400px] lg:h-[600px]" 
+<section class="page-banner h-[400px] lg:h-[600px] overflow-hidden" 
     style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container pt-10">
@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
-<section class="bg-white">
+<section class="bg-white overflow-hidden">
     <div class="container md:py-20 py-4 flex flex-col md:flex-row gap-4 items-center">
         <div class="w-full md:w-[60%]">
             <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/about_us.webp" alt="About Us" 
@@ -26,7 +26,7 @@
         </div>
     </div>
 </section>
-<section class="bg-[#F5F5F5]">
+<section class="bg-[#F5F5F5] overflow-hidden">
     <div class="container md:py-20 py-4 flex flex-col md:flex-row gap-4 items-center">
         <div class="w-full md:w-[60%]">
            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/trust_alt.webp" alt="Our Mission" 
@@ -111,4 +111,6 @@
         </div>
     </div>
 </section>
+
+<?php get_template_part('template-parts/cta_section');?>
 <?php get_footer(); ?>
