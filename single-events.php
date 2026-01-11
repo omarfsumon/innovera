@@ -1,6 +1,6 @@
 <?php get_header();?>
 <?php get_template_part('template-parts/banner'); ?>
-<section class="bg-secondary-50 py-10 md:py-20">
+<!-- <section class="bg-secondary-50 py-10 md:py-20">
     <div class="container">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 animate__animated animate__fadeInUp">About <?php the_title(); ?> Event</h2>
         <?php if (get_field('about_event')): ?>
@@ -9,7 +9,7 @@
             </div>
         <?php endif; ?>
     </div>
-</section>
+</section> -->
 <section id="event_gallery" class=" bg-white py-10 md:py-20">
     <div class="container">
         <h2 class="text-2nd-heading font-normal leading-tight text-center mb-6 animate__animated animate__fadeInUp">Event Gallery</h2>

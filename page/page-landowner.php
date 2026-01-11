@@ -70,7 +70,7 @@
     </div>
 </section>
 
-<section class="md:py-16 py-10 bg-white overflow-hidden">
+<section id="wanted" class="md:py-16 py-10 bg-white overflow-hidden">
     <div class="container">
         <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] text-center scroll_animate" data-animate="animate__flipInX">How Our Joint Venture Works</h2>
         <div class="flex flex-col md:flex-row items-center gap-5 mt-5">

@@ -3,7 +3,7 @@
     style="background-image: url('<?php echo INNOVERA_URI . '/src/images/slider/breadcrumb.webp' ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="bg-black/55 h-full w-full flex flex-col justify-center py-5 md:py-10">
         <div class="container pt-10">
-            <h1 class="text-2nd-heading font-normal leading-relaxed text-center text-white pt-15 scroll_animate" data-animate="animate__fadeInUp">What Sets Us Apart</h1>
+            <h1 class="text-2nd-heading font-normal leading-relaxed text-center text-white pt-15 scroll_animate" data-animate="animate__fadeInUp">About us</h1>
             <p class="text-center md:text-lg text-base leading-relaxed italic text-white scroll_animate" data-animate="animate__fadeInUp">
                 Innovera is committed to creating a <strong>lifestyle experience.</strong>
                 From premium construction and interior customization to property management and after-sales service—we are with you at every step.</p>
@@ -80,33 +80,22 @@
 </section>
 <section class="bg-[#F5F5F5] md:py-20 py-10 overflow-hidden">
     <div class="container flex flex-col gap-2 justify-center">
-        <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-100 rounded scroll_animate">Services</span>
-        <h2 class="text-2nd-heading text-black text-center mb-5 scroll_animate" data-animate="animate__flipInX">Our Services</h2>
+        <h2 class="text-2nd-heading text-black text-center mb-5 scroll_animate" data-animate="animate__flipInX">What Sets Us Apart</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.1s;">
                 <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/residential_development.webp" alt="Residential Development" class="mb-2 w-full object-cover rounded-lg">
-                <h3 class="text-4th-heading leading-none text-black">Residential Development</h3>
-                <p>Premium apartments and luxury homes tailored for modern lifestyles.</p>
+                <h3 class="text-4th-heading leading-none font-medium text-black">Where Function Meets Beauty</h3>
+                <p>We believe that a home should be more than just walls and ceilings&mdash;it should be <strong>practical, comfortable, and visually inspiring</strong>. Our approach to design seamlessly blends <strong>functionality with aesthetics</strong>, ensuring that every space is <strong>efficient, livable, and beautiful</strong>.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.2s;">
                 <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/commercial_spaces.webp" alt="Commercial Spaces" class="mb-2 w-full object-cover rounded-lg">
-                <h3 class="text-4th-heading leading-none text-black">Commercial Spaces</h3>
-                <p>Smart office spaces and retail properties for business growth.</p>
+                <h3 class="text-4th-heading leading-none font-medium text-black">Our Promise</h3>
+                <p>With <strong>Innovera Holdings Ltd.</strong>, you don&rsquo;t just get a home&mdash;you get a <strong>space that works for you and inspires you</strong>. Each project combines <strong>practical design, elegant aesthetics, and long-term value</strong>, making your investment truly worthwhile.</p>
             </div>
             <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.3s;">
                 <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/land_development_&_joint_ventures.webp" alt="Land Development & Joint Ventures" class="mb-2 w-full object-cover rounded-lg">
-                <h3 class="text-4th-heading leading-none text-black">Land Development & Joint Ventures</h3>
-                <p>Partnering with landowners to maximize property value through development.</p>
-            </div>
-            <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.4s;">
-                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/property_management.webp" alt="Property Management" class="mb-2 w-full object-cover rounded-lg ">
-                <h3 class="text-4th-heading leading-none text-black">Property Management</h3>
-                <p>Professional maintenance and after-sales support for long-term value.</p>
-            </div>
-            <div class="flex flex-col gap-2 p-5 border border-[#E5E7EB] rounded-xl bg-white shadow hover:shadow-xl transition duration-300 scroll_animate" data-animate="animate__fadeInUp" style="animation-delay: 0.5s;">
-                <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/src/images/about/interior_&_customization.webp" alt="Interior & Customization" class="mb-2 w-full object-cover rounded-lg">
-                <h3 class="text-4th-heading leading-none text-black">Interior & Customization</h3>
-                <p>Personalization of tiles, fittings, and finishes to suit your taste.</p>
+                <h3 class="text-4th-heading leading-none font-medium text-black">Quality That Last a Lifetime</h3>
+                <p>At <strong>Innovera Holdings Ltd.</strong>, quality is the foundation of everything we do. From planning to execution, we ensure that every project meets <strong>international construction standards</strong> while maintaining the highest level of <strong>safety, durability, and aesthetics</strong>.</p>
             </div>
         </div>
     </div>

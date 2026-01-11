@@ -248,44 +248,53 @@
     <div class="container">
         <h2 class="text-3rd-heading pb-5 font-normal text-center scroll_animate" data-animate="animate__flipInX">Why Choose Innovera Property Management?</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.1s;">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.1s;">
                 <span class="block">
                 <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
                     <path d="M480-122.31q-24.08 0-42.58-12.69-18.5-12.7-25.88-33.31H400q-24.54 0-42.27-17.73Q340-203.77 340-228.31v-131.23q-60.54-36.69-95.27-98.38Q210-519.62 210-590q0-112.92 78.54-191.46T480-860q112.92 0 191.46 78.54T750-590q0 71.61-34.73 132.69T620-359.54v131.23q0 24.54-17.73 42.27-17.73 17.73-42.27 17.73h-11.54q-7.38 20.61-25.88 33.31-18.5 12.69-42.58 12.69Zm-80-106h160v-37.54H400v37.54Zm0-72.92h160V-340H400v38.77ZM392-400h64.15v-116.46l-85.69-85.69L404-635.69l76 76 76-76 33.54 33.54-85.69 85.69V-400H568q54-26 88-76.5T690-590q0-88-61-149t-149-61q-88 0-149 61t-61 149q0 63 34 113.5t88 76.5Zm88-159.69Zm0-40.31Z"/></svg>
                 </span>
-                <h4 class="leading-[1.2] text-xl">One-Stop Solution</h4>
+                <h4 class="leading-[1.2] text-xl mt-5">One-Stop Solution</h4>
                 <p>From minor repairs to full facility operations, we manage it all.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.2s;">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.2s;">
                 <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
                     <path d="M172.31-140Q142-140 121-161q-21-21-21-51.31v-415.38Q100-658 121-679q21-21 51.31-21H340v-67.69Q340-798 361-819q21-21 51.31-21h135.38Q578-840 599-819q21 21 21 51.31V-700h167.69Q818-700 839-679q21 21 21 51.31v415.38Q860-182 839-161q-21 21-51.31 21H172.31ZM400-700h160v-67.69q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H412.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46V-700Zm400 330H580v70H380v-70H160v157.69q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85h615.38q4.62 0 8.46-3.85 3.85-3.84 3.85-8.46V-370Zm-360 10h80v-80h-80v80Zm-280-70h220v-70h200v70h220v-197.69q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H172.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46V-430Zm320 30Z"/></svg>
                 </span>
-                <h4 class="text-xl leading-[1.2]">Professional Expertise</h4>
+                <h4 class="text-xl leading-[1.2] mt-5">Professional Expertise</h4>
                 <p>Experienced managers and technical teams.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.3s;">
-                <span class="block"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.3s;">
+                <span class="block"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
                     <path d="m548.92-602.54 206.31-205.3q8.31-8.31 20.38-8.43 12.08-.11 21 8.81 8.31 8.31 8.31 20.88 0 12.58-8.31 20.89L574.23-543.31q-10.85 10.85-25.31 10.85-14.46 0-25.31-10.85L414.23-652.69q-8.92-8.92-8.81-21.08.12-12.15 9.43-21.07 8.92-8.31 21.07-8.43 12.16-.11 21.08 8.81l91.92 91.92Zm37.93 466.62q1.92.77 3.46.77t3.46-.77l235.31-72.85q-3.08-13.61-12.77-20.88-9.7-7.27-21.7-7.27H598.77q-26.23 0-44.54-2t-37.62-8.77l-62.76-20.54q-12.16-3.85-17.43-15.38-5.27-11.54-1.42-23.7 3.85-11.77 14.88-17.34 11.04-5.58 23.2-1.73l52 18.23q18.15 5.77 40.61 8.19t58.31 3.04h10.61q0-14.85-6.69-25.62-6.69-10.77-17.61-14.54l-232.08-85.23q-1.15-.38-2.12-.57-.96-.2-2.11-.2h-74v206.16l286.85 81Zm-15.62 58.77L300-154.92q-6.85 24.84-27.85 39.88-21 15.04-44.46 15.04h-55.38q-29.92 0-51.12-21.19Q100-142.39 100-172.31v-238.46q0-29.92 21.19-51.11 21.2-21.19 51.12-21.19h201.3q6.24 0 12.66 1.3 6.42 1.31 12.04 3.31l233.07 85.85q27.23 10.07 45.23 35.65 18 25.58 18 60.04h100q43.08 0 70.2 27.81 27.11 27.8 27.11 72.19 0 17-9 27.38-9 10.39-27.23 16.46L613-77.77q-9.85 3.23-20.69 3.42-10.85.2-21.08-2.8ZM160-172.31q0 5.39 3.46 8.85t8.85 3.46h55.38q5.39 0 8.85-2.88 3.46-2.89 3.46-9.43v-250.77h-67.69q-5.39 0-8.85 3.47-3.46 3.46-3.46 8.84v238.46Z"/></svg>
                 </span>
-                <h4 class="text-xl leading-[1.2]">Trust & Transparency</h4>
+                <h4 class="text-xl leading-[1.2] mt-5">Trust & Transparency</h4>
                 <p>Clear communication and honest reporting.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.4s;">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.4s;">
                 <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
                     <path d="m438-397.38-64.31-64.31q-8.92-8.92-20.88-9.12-11.96-.19-21.27 9.12-9.31 9.31-9.31 21.38 0 12.08 9.31 21.39l81.15 81.77q10.85 10.84 25.31 10.84 14.46 0 25.31-10.84l165.77-165.77q8.92-8.93 9.11-21.2.19-12.26-9.11-21.57-9.31-9.31-21.39-9.31-12.07 0-21.38 9.31L438-397.38ZM480-100q-70.77 0-132.61-26.77-61.85-26.77-107.85-72.77-46-46-72.77-107.85Q140-369.23 140-440q0-70.77 26.77-132.61 26.77-61.85 72.77-107.85 46-46 107.85-72.77Q409.23-780 480-780q70.77 0 132.61 26.77 61.85 26.77 107.85 72.77 46 46 72.77 107.85Q820-510.77 820-440q0 70.77-26.77 132.61-26.77 61.85-72.77 107.85-46 46-107.85 72.77Q550.77-100 480-100Zm0-340ZM96.62-668.77q-8.7-8.69-8.7-21.08 0-12.38 8.7-21.07l112.46-112.46q8.31-8.31 20.88-8.5 12.58-.2 21.27 8.5 8.69 8.69 8.69 21.07 0 12.39-8.69 21.08L138.77-668.77q-8.31 8.31-20.88 8.5-12.58.19-21.27-8.5Zm766.76 0q-8.69 8.69-21.07 8.69-12.39 0-21.08-8.69L708.77-781.23q-8.31-8.31-8.5-20.88-.19-12.58 8.5-21.27 8.69-8.7 21.08-8.7 12.38 0 21.07 8.7l112.46 112.46q8.31 8.31 8.5 20.88.2 12.58-8.5 21.27ZM480-160q116.62 0 198.31-81.69T760-440q0-116.62-81.69-198.31T480-720q-116.62 0-198.31 81.69T200-440q0 116.62 81.69 198.31T480-160Z"/></svg>
                 </span>
-                <h4 class="text-xl leading-[1.2]">Time-Saving</h4>
+                <h4 class="text-xl leading-[1.2] mt-5">Time-Saving</h4>
                 <p>We handle the hassles so you can focus on your life or business.</p>
             </div>
-            <div class="flex flex-col p-5 rounded-lg gap-2 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.5s;">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.5s;">
                 <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
                     <path d="M470-532.15V-680q0-12.75-8.63-21.37-8.63-8.63-21.38-8.63-12.76 0-21.37 8.63Q410-692.75 410-680v157.31q0 7.16 2.62 13.42 2.61 6.27 8.23 11.88l78.07 78.47q9.07 8.92 21.15 8.92 12.08 0 21.01-8.92 8.92-8.93 8.92-21.01 0-12.08-8.92-21.15L470-532.15Zm-82 286.23q14.46-40.69 49.38-67.39Q472.3-340 518-340h133.92Q684-375.54 702-421.61q18-46.08 18-98.39 0-117-81.5-198.5T440-800q-117 0-198.5 81.5T160-520q0 103.39 65.04 179.81T388-245.92ZM520-60q-54.54 0-93.92-36.5-39.39-36.5-43.85-88.81-120.46-20.23-201.34-114.19Q100-393.46 100-520q0-141.67 99.14-240.83Q298.28-860 439.91-860t240.86 99.17Q780-661.67 780-520q0 50.31-14.69 96-14.7 45.69-40.77 84h38.08q57.75 0 97.56 41.13Q900-257.75 900-200q0 57.75-41.13 98.87Q817.75-60 760-60H520Zm-80-463.08ZM640-200Zm-120 80h240q33 0 56.5-23.5T840-200q0-33-23.5-56.5T760-280H520q-33 0-56.5 23.5T440-200q0 33 23.5 56.5T520-120Zm.01-45.39q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Zm120 0q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Zm120 0q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Z"/></svg>
                 </span>
-                <h4 class="text-xl leading-[1.2]">Long-Term Value</h4>
+                <h4 class="text-xl leading-[1.2] mt-5">Long-Term Value</h4>
                 <p>Well-maintained properties retain higher resale and rental values.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.5s;">
+                <span class="block">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" width="40px" fill="currentColor" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path d="M21.5,0H2.5C1.121,0,0,1.122,0,2.5V24H24V2.5c0-1.378-1.121-2.5-2.5-2.5ZM2.5,1H21.5c.827,0,1.5,.673,1.5,1.5v1.5H1v-1.5c0-.827,.673-1.5,1.5-1.5ZM1,23V5H23V23H1ZM9,9H4v-1h5v1Zm-2,4h7v1H7v-1Zm-3,5H14v1H4v-1Zm15-1.429V8h-4.071c-.224-.86-1-1.5-1.929-1.5-1.103,0-2,.897-2,2s.897,2,2,2c.929,0,1.705-.64,1.929-1.5h3.071v7.571c-.86,.224-1.5,1-1.5,1.929,0,1.103,.897,2,2,2s2-.897,2-2c0-.929-.64-1.705-1.5-1.929Zm-6-7.071c-.552,0-1-.449-1-1s.448-1,1-1,1,.449,1,1-.448,1-1,1Zm5.5,10c-.552,0-1-.448-1-1s.448-1,1-1,1,.448,1,1-.448,1-1,1Z"/>
+                    </svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Customized Management Plans</h4>
+                <p>Tailored services designed to match your property’s unique needs and owner priorities.</p>
             </div>
         </div>
     </div>
@@ -311,6 +320,62 @@
             <div class="flex flex-col p-5 rounded-lg gap-2 shadow hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.4s;">
                 <span class="block"><?php get_template_part('src/svg/check', 'check'); ?></span>
                 <h4 class="text-lg">Investors who want hassle-free returns</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="md:py-16 py-10 bg-secondary-50 overflow-hidden">
+    <div class="container">
+        <h2 class="text-3rd-heading pb-5 font-normal text-center scroll_animate" data-animate="animate__flipInX">Why Choose Innovera Property Management?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.1s;">
+                <span class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="currentColor">
+                    <path d="M480-122.31q-24.08 0-42.58-12.69-18.5-12.7-25.88-33.31H400q-24.54 0-42.27-17.73Q340-203.77 340-228.31v-131.23q-60.54-36.69-95.27-98.38Q210-519.62 210-590q0-112.92 78.54-191.46T480-860q112.92 0 191.46 78.54T750-590q0 71.61-34.73 132.69T620-359.54v131.23q0 24.54-17.73 42.27-17.73 17.73-42.27 17.73h-11.54q-7.38 20.61-25.88 33.31-18.5 12.69-42.58 12.69Zm-80-106h160v-37.54H400v37.54Zm0-72.92h160V-340H400v38.77ZM392-400h64.15v-116.46l-85.69-85.69L404-635.69l76 76 76-76 33.54 33.54-85.69 85.69V-400H568q54-26 88-76.5T690-590q0-88-61-149t-149-61q-88 0-149 61t-61 149q0 63 34 113.5t88 76.5Zm88-159.69Zm0-40.31Z"/></svg>
+                </span>
+                <h4 class="leading-[1.2] text-xl mt-5">One-Stop Solution</h4>
+                <p>From minor repairs to full facility operations, we manage it all.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.2s;">
+                <span class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
+                    <path d="M172.31-140Q142-140 121-161q-21-21-21-51.31v-415.38Q100-658 121-679q21-21 51.31-21H340v-67.69Q340-798 361-819q21-21 51.31-21h135.38Q578-840 599-819q21 21 21 51.31V-700h167.69Q818-700 839-679q21 21 21 51.31v415.38Q860-182 839-161q-21 21-51.31 21H172.31ZM400-700h160v-67.69q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H412.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46V-700Zm400 330H580v70H380v-70H160v157.69q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85h615.38q4.62 0 8.46-3.85 3.85-3.84 3.85-8.46V-370Zm-360 10h80v-80h-80v80Zm-280-70h220v-70h200v70h220v-197.69q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H172.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46V-430Zm320 30Z"/></svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Professional Expertise</h4>
+                <p>Experienced managers and technical teams.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.3s;">
+                <span class="block"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
+                    <path d="m548.92-602.54 206.31-205.3q8.31-8.31 20.38-8.43 12.08-.11 21 8.81 8.31 8.31 8.31 20.88 0 12.58-8.31 20.89L574.23-543.31q-10.85 10.85-25.31 10.85-14.46 0-25.31-10.85L414.23-652.69q-8.92-8.92-8.81-21.08.12-12.15 9.43-21.07 8.92-8.31 21.07-8.43 12.16-.11 21.08 8.81l91.92 91.92Zm37.93 466.62q1.92.77 3.46.77t3.46-.77l235.31-72.85q-3.08-13.61-12.77-20.88-9.7-7.27-21.7-7.27H598.77q-26.23 0-44.54-2t-37.62-8.77l-62.76-20.54q-12.16-3.85-17.43-15.38-5.27-11.54-1.42-23.7 3.85-11.77 14.88-17.34 11.04-5.58 23.2-1.73l52 18.23q18.15 5.77 40.61 8.19t58.31 3.04h10.61q0-14.85-6.69-25.62-6.69-10.77-17.61-14.54l-232.08-85.23q-1.15-.38-2.12-.57-.96-.2-2.11-.2h-74v206.16l286.85 81Zm-15.62 58.77L300-154.92q-6.85 24.84-27.85 39.88-21 15.04-44.46 15.04h-55.38q-29.92 0-51.12-21.19Q100-142.39 100-172.31v-238.46q0-29.92 21.19-51.11 21.2-21.19 51.12-21.19h201.3q6.24 0 12.66 1.3 6.42 1.31 12.04 3.31l233.07 85.85q27.23 10.07 45.23 35.65 18 25.58 18 60.04h100q43.08 0 70.2 27.81 27.11 27.8 27.11 72.19 0 17-9 27.38-9 10.39-27.23 16.46L613-77.77q-9.85 3.23-20.69 3.42-10.85.2-21.08-2.8ZM160-172.31q0 5.39 3.46 8.85t8.85 3.46h55.38q5.39 0 8.85-2.88 3.46-2.89 3.46-9.43v-250.77h-67.69q-5.39 0-8.85 3.47-3.46 3.46-3.46 8.84v238.46Z"/></svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Trust & Transparency</h4>
+                <p>Clear communication and honest reporting.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.4s;">
+                <span class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
+                    <path d="m438-397.38-64.31-64.31q-8.92-8.92-20.88-9.12-11.96-.19-21.27 9.12-9.31 9.31-9.31 21.38 0 12.08 9.31 21.39l81.15 81.77q10.85 10.84 25.31 10.84 14.46 0 25.31-10.84l165.77-165.77q8.92-8.93 9.11-21.2.19-12.26-9.11-21.57-9.31-9.31-21.39-9.31-12.07 0-21.38 9.31L438-397.38ZM480-100q-70.77 0-132.61-26.77-61.85-26.77-107.85-72.77-46-46-72.77-107.85Q140-369.23 140-440q0-70.77 26.77-132.61 26.77-61.85 72.77-107.85 46-46 107.85-72.77Q409.23-780 480-780q70.77 0 132.61 26.77 61.85 26.77 107.85 72.77 46 46 72.77 107.85Q820-510.77 820-440q0 70.77-26.77 132.61-26.77 61.85-72.77 107.85-46 46-107.85 72.77Q550.77-100 480-100Zm0-340ZM96.62-668.77q-8.7-8.69-8.7-21.08 0-12.38 8.7-21.07l112.46-112.46q8.31-8.31 20.88-8.5 12.58-.2 21.27 8.5 8.69 8.69 8.69 21.07 0 12.39-8.69 21.08L138.77-668.77q-8.31 8.31-20.88 8.5-12.58.19-21.27-8.5Zm766.76 0q-8.69 8.69-21.07 8.69-12.39 0-21.08-8.69L708.77-781.23q-8.31-8.31-8.5-20.88-.19-12.58 8.5-21.27 8.69-8.7 21.08-8.7 12.38 0 21.07 8.7l112.46 112.46q8.31 8.31 8.5 20.88.2 12.58-8.5 21.27ZM480-160q116.62 0 198.31-81.69T760-440q0-116.62-81.69-198.31T480-720q-116.62 0-198.31 81.69T200-440q0 116.62 81.69 198.31T480-160Z"/></svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Time-Saving</h4>
+                <p>We handle the hassles so you can focus on your life or business.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.5s;">
+                <span class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="currentColor">
+                    <path d="M470-532.15V-680q0-12.75-8.63-21.37-8.63-8.63-21.38-8.63-12.76 0-21.37 8.63Q410-692.75 410-680v157.31q0 7.16 2.62 13.42 2.61 6.27 8.23 11.88l78.07 78.47q9.07 8.92 21.15 8.92 12.08 0 21.01-8.92 8.92-8.93 8.92-21.01 0-12.08-8.92-21.15L470-532.15Zm-82 286.23q14.46-40.69 49.38-67.39Q472.3-340 518-340h133.92Q684-375.54 702-421.61q18-46.08 18-98.39 0-117-81.5-198.5T440-800q-117 0-198.5 81.5T160-520q0 103.39 65.04 179.81T388-245.92ZM520-60q-54.54 0-93.92-36.5-39.39-36.5-43.85-88.81-120.46-20.23-201.34-114.19Q100-393.46 100-520q0-141.67 99.14-240.83Q298.28-860 439.91-860t240.86 99.17Q780-661.67 780-520q0 50.31-14.69 96-14.7 45.69-40.77 84h38.08q57.75 0 97.56 41.13Q900-257.75 900-200q0 57.75-41.13 98.87Q817.75-60 760-60H520Zm-80-463.08ZM640-200Zm-120 80h240q33 0 56.5-23.5T840-200q0-33-23.5-56.5T760-280H520q-33 0-56.5 23.5T440-200q0 33 23.5 56.5T520-120Zm.01-45.39q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Zm120 0q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Zm120 0q-14.7 0-24.66-9.94-9.96-9.95-9.96-24.66 0-14.7 9.94-24.66 9.95-9.96 24.66-9.96 14.7 0 24.66 9.94 9.96 9.95 9.96 24.66 0 14.7-9.94 24.66-9.95 9.96-24.66 9.96Z"/></svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Long-Term Value</h4>
+                <p>Well-maintained properties retain higher resale and rental values.</p>
+            </div>
+            <div class="flex flex-col p-5 rounded-lg gap-3 shadow  hover:shadow-lg transition duration-300 bg-white scroll_animate" style="animation-delay: 0.5s;">
+                <span class="block">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" width="40px" fill="currentColor" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path d="M21.5,0H2.5C1.121,0,0,1.122,0,2.5V24H24V2.5c0-1.378-1.121-2.5-2.5-2.5ZM2.5,1H21.5c.827,0,1.5,.673,1.5,1.5v1.5H1v-1.5c0-.827,.673-1.5,1.5-1.5ZM1,23V5H23V23H1ZM9,9H4v-1h5v1Zm-2,4h7v1H7v-1Zm-3,5H14v1H4v-1Zm15-1.429V8h-4.071c-.224-.86-1-1.5-1.929-1.5-1.103,0-2,.897-2,2s.897,2,2,2c.929,0,1.705-.64,1.929-1.5h3.071v7.571c-.86,.224-1.5,1-1.5,1.929,0,1.103,.897,2,2,2s2-.897,2-2c0-.929-.64-1.705-1.5-1.929Zm-6-7.071c-.552,0-1-.449-1-1s.448-1,1-1,1,.449,1,1-.448,1-1,1Zm5.5,10c-.552,0-1-.448-1-1s.448-1,1-1,1,.448,1,1-.448,1-1,1Z"/>
+                    </svg>
+                </span>
+                <h4 class="text-xl leading-[1.2] mt-5">Customized Management Plans</h4>
+                <p>Tailored services designed to match your property’s unique needs and owner priorities.</p>
             </div>
         </div>
     </div>

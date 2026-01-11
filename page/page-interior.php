@@ -13,7 +13,7 @@
 <section class="md:py-16 py-4 bg-[#fefefc] overflow-hidden">
     <div class="container flex md:flex-row flex-col items-center gap-10">
         <div class="md:w-[45%] w-full md:order-last">
-            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo INNOVERA_URI . '/src/images/landowner/landowner2.webp' ?>" alt="Landowner" class="w-full h-auto rounded-xl scroll_animate" data-animate="animate__fadeIn">
+            <img fetchpriority="high" loading="lazy" decoding="async" src="<?php echo INNOVERA_URI . '/src/images/landowner/kitchen_wide.webp' ?>" alt="Landowner" class="w-full h-auto rounded-xl scroll_animate" data-animate="animate__fadeIn">
         </div>
         <div class="md:w-[55%] w-full">
             <h2 class="text-2nd-heading leading-[1.2] mb-2 font-[400] scroll_animate" data-animate="animate__fadeInLeft">Interior & Customization</h2>

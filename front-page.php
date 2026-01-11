@@ -257,16 +257,25 @@
 <section id="what_we_do" class=" py-8 md:py-24 z-0 overflow-hidden">
     <div class="container">
         <div class="flex flex-col items-center mb-5">
-            <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 scroll_animate">What We Do</span>
-            <h2 class="text-2nd-heading scroll_animate" data-animate="animate__flipInX">Our Services</h2>
+            <!-- <span class="subtitle text-secondary-900 text-sm font-normal uppercase tracking-wider py-1 px-2 self-center bg-secondary-50 scroll_animate">What We Do</span> -->
+            <h2 class="text-2nd-heading scroll_animate" data-animate="animate__flipInX">What we do</h2>
         </div>
         <div id="gallery" class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
-            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_1.webp' ?>" alt="What We Do"
-                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
-            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_2.webp' ?>" alt="What We Do"
-                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.2s;">
-            <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_3.webp' ?>" alt="What We Do"
-                class=" w-[408] h-[272] aspect-[3/2] object-cover rounded-xl hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.3s;">
+            <a href="/landowner/#wanted" class="relative overflow-hidden rounded-xl">
+                <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_1.webp' ?>" alt="What We Do"
+                    class=" w-[408] h-[272] aspect-[3/2] object-cover hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.1s;">
+                    <span class="absolute bottom-0 w-full bg-black/70 text-white text-center py-2 text-4th-heading uppercase">Land Wanted</span>
+            </a>
+            <a href="/project/" class="relative overflow-hidden rounded-xl">
+                <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_2.webp' ?>" alt="What We Do"
+                    class=" w-[408] h-[272] aspect-[3/2] object-cover hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.2s;">
+                    <span class="absolute bottom-0 w-full bg-black/70 text-white text-center py-2 text-4th-heading uppercase">Projects</span>
+            </a>
+            <a href="/interior/" class="relative overflow-hidden rounded-xl">
+                <img fetchpriority="high" loading="lazy" decoding="async" width="408" height="272" src="<?php echo INNOVERA_URI . '/src/images/gallery/what_we_do_3.webp' ?>" alt="What We Do"
+                    class=" w-[408] h-[272] aspect-[3/2] object-cover hover:scale-105 transition duration-300 scroll_animate" data-animate="animate__fadeIn" style="animation-delay: 0.3s;">
+                    <span class="absolute bottom-0 w-full bg-black/70 text-white text-center py-2 text-4th-heading uppercase">Interior</span>
+            </a>
         </div>
     </div>
 </section>
