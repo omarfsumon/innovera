@@ -13,9 +13,9 @@
             <div id="footer_link" class="flex flex-col items-center md:items-start mb-2 lg:pr-15 ">
                 <h4 class="text-left text-xl font-bold text-black pb-1 mb-1">Quick Links</h4>
                 <ul class="flex flex-col text-center md:text-left">
-                    <li><a class="hover:underline" href="#">Home Loan Support</a></li>
-                    <li><a class="hover:underline" href="#">Property Management</a></li>
-                    <li><a class="hover:underline" href="#">After Sales Service</a></li>
+                    <li><a class="hover:underline" href="/services/#home_loan">Home Loan Support</a></li>
+                    <li><a class="hover:underline" href="/services/#property_management">Property Management</a></li>
+                    <li><a class="hover:underline" href="https://www.rehab-bd.org/index.php?page=member_details&companyID=2672" target="_blank">REHAB Membership</a></li>
                     <li><a class="hover:underline" href="/privacy-policy/">Privacy Policy</a></li>
                 </ul>
             </div>
